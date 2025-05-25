@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="171e-7ef2-7e89-abdf" name="Warhammer Fantasy: The End Times" revision="6" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="171e-7ef2-7e89-abdf" name="Warhammer Fantasy: The End Times" revision="7" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="b8e3-33ff-ba55-d8c1" name="Core Rules"/>
   </publications>
@@ -2544,6 +2544,9 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
     </rule>
     <rule id="f9b6-fbc5-69cf-6499" name="Improved Spellcasting" hidden="false">
       <description>If the CHARACTER mounted on this Mount has the Caster(X) rule, it does not gain access to this Mount&apos;s spell lore, but does count as having +1 to its Caster(X) rule instead.</description>
+    </rule>
+    <rule id="56fd-ec05-299a-792a" name="Trample" hidden="false">
+      <description>This model and its unit gain Impact(1).</description>
     </rule>
   </sharedRules>
 </gameSystem>
