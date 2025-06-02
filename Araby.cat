@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="41d8-4d3d-4c41-36d6" name="Araby" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="41d8-4d3d-4c41-36d6" name="Araby" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d8a2-2d10-8be8-e3e9" name="Camel Riders" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -888,7 +888,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Devout</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="4c1c-bc43-e6b5-0943" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -900,6 +900,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="db64-0319-391c-992d" name="Devout" hidden="false" targetId="d9ff-1f7d-8bc6-0f3f" type="rule"/>
+                  </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="669d-f627-a45a-1241" name="Shields" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
@@ -970,7 +973,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="12.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -995,7 +998,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Devout</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="c008-b5c8-836a-af11" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1007,6 +1010,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="3248-bfcc-3c75-5ce9" name="Devout" hidden="false" targetId="d9ff-1f7d-8bc6-0f3f" type="rule"/>
+                  </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="9fcc-35d9-8255-ca01" name="Shields" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
@@ -1077,7 +1083,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="12.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2346,78 +2352,35 @@
                     <infoLink id="62b3-4205-2422-f2e0" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="ff5d-6ee1-86fa-b083" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="cd21-2822-4a8a-899b">
+                    <selectionEntryGroup id="ff5d-6ee1-86fa-b083" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="367b-fb41-0100-ecc6">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2be1-728f-db22-5117" type="max"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62f7-af54-6aa4-6be7" type="min"/>
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry id="cd21-2822-4a8a-899b" name="Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="196e-2d65-a9a1-bc40" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="4013-779b-7abd-ff3c" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="e1b7-fa36-25e9-0815" name="Longbow &amp; Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0463-a175-415c-5836" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="8e95-859a-b50c-b89e" name="Longbow" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">30&quot;</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                            <profile id="31d7-3fb2-f862-629a" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="9.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="e36e-9aaf-37ac-858e" name="Halberd" hidden="false" collective="true" import="true" type="upgrade">
+                        <selectionEntry id="e36e-9aaf-37ac-858e" name="Heavy Halberd" hidden="false" collective="true" import="true" type="upgrade">
                           <constraints>
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5072-e9e6-8ceb-873f" type="max"/>
                           </constraints>
                           <profiles>
-                            <profile id="c20d-4735-f85e-cee6" name="Halberd" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                            <profile id="c20d-4735-f85e-cee6" name="Heavy Halberd" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                               <characteristics>
                                 <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                                 <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
                                 <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
                           <infoLinks>
                             <infoLink id="2046-c6b1-c162-c987" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                            <infoLink id="520e-3e55-02fa-a164" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="3.0"/>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="2.0"/>
                           </costs>
                         </selectionEntry>
-                        <selectionEntry id="367b-fb41-0100-ecc6" name="Handgun &amp; Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                        <selectionEntry id="367b-fb41-0100-ecc6" name="Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
                           <constraints>
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e9b-f487-785a-118e" type="max"/>
                           </constraints>
@@ -2443,7 +2406,7 @@
                             <infoLink id="9a4f-11ad-b744-31fe" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="9.0"/>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -2491,9 +2454,55 @@
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
+                    <selectionEntryGroup id="cb95-80e4-5303-764c" name="Ranged Weapon" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="154b-0822-aedf-b59f" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="27d0-8114-e751-2cee" name="Handgun" hidden="false" collective="true" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ef7-2f48-5faa-9b6f" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="7b6e-f036-7dd8-2dd6" name="Handgun" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="cdbb-56ef-a501-1a6e" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="9.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="a1b5-ac21-9cf4-906c" name="Longbow" hidden="false" collective="true" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbe7-aad5-61e4-d4a1" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="c2a2-7639-974d-8efd" name="Longbow" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">30&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="9.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="12.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2501,18 +2510,18 @@
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c15c-9c1c-08af-3361" name="10 Janissaries" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="17e2-d800-60fd-e6ac" name="10 Janissaries" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e24c-3e1c-413e-46c6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fca9-4fc3-6e9c-d24d" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="8f09-1f76-68ef-bb21" name="Janissary" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="8f0f-c439-0f55-b224" name="Janissary" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f609-1a6d-b027-dba6" type="max"/>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d475-1725-a238-30ac" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2b3-5a6d-f05d-6038" type="max"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa38-daf4-8dcb-b7e0" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="b023-b4ca-5387-4c4f" name="Janissary" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                    <profile id="a400-0047-2527-3c60" name="Janissary" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
                       <characteristics>
                         <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
@@ -2523,86 +2532,43 @@
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="c793-ce33-43a6-840d" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="64e1-d34c-19cc-baf9" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="87ee-d0b4-7aa1-718e" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="cfac-4177-475d-0957">
+                    <selectionEntryGroup id="1f10-19a9-f06b-49ad" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="700f-36eb-0fe6-fffe">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7119-1a5d-c05e-f654" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7461-bffc-6e80-491e" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b103-71bb-c68f-7bcf" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5d9-373c-dfa2-062f" type="min"/>
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry id="cfac-4177-475d-0957" name="Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                        <selectionEntry id="54b2-9e35-a12b-bbf9" name="Heavy Halberd" hidden="false" collective="true" import="true" type="upgrade">
                           <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f57d-9830-9139-0a4c" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f2e-07b1-6fcf-562b" type="max"/>
                           </constraints>
                           <profiles>
-                            <profile id="459c-663c-faaa-265e" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                            <profile id="8e7f-a18e-0c73-c750" name="Heavy Halberd" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                               <characteristics>
                                 <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                                 <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="c368-c94f-2d9a-ef35" name="Longbow &amp; Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9af-d113-80a4-0c59" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="90e4-e8ed-9c32-f2ca" name="Longbow" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">30&quot;</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                            <profile id="2f9a-b08c-c069-cf7b" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="9.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="aef7-0037-5ccf-d12a" name="Halberd" hidden="false" collective="true" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8132-dcb4-f8a4-d554" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="87bf-4e7b-c5da-0cef" name="Halberd" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
                                 <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
                           <infoLinks>
-                            <infoLink id="cd66-bf6a-463b-c1bf" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                            <infoLink id="0b3d-2091-c8d2-8702" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                            <infoLink id="ebb2-4dc2-9373-ba11" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="3.0"/>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="2.0"/>
                           </costs>
                         </selectionEntry>
-                        <selectionEntry id="d6e3-3d1e-f527-9983" name="Handgun &amp; Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                        <selectionEntry id="700f-36eb-0fe6-fffe" name="Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
                           <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c69c-c363-1e9f-ba3e" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28ef-d926-c083-fa57" type="max"/>
                           </constraints>
                           <profiles>
-                            <profile id="3e14-352d-c025-0fa2" name="Handgun" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                            <profile id="3418-dcf1-7604-f976" name="Handgun" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                               <characteristics>
                                 <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
                                 <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
@@ -2610,7 +2576,7 @@
                                 <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
                               </characteristics>
                             </profile>
-                            <profile id="85fb-9284-37c8-beac" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                            <profile id="caec-80b1-7e4e-216b" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                               <characteristics>
                                 <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                                 <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
@@ -2620,50 +2586,50 @@
                             </profile>
                           </profiles>
                           <infoLinks>
-                            <infoLink id="548f-21f4-7b97-fe97" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                            <infoLink id="f63b-a9de-5209-7ce2" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="9.0"/>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
-                    <selectionEntryGroup id="8db6-fbba-d615-174a" name="Fervent Selection" hidden="false" collective="false" import="true">
+                    <selectionEntryGroup id="5a45-99c0-2745-dfb6" name="Fervent Selection" hidden="false" collective="false" import="true">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9891-af3c-951d-01d8" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43d1-49b5-e9d4-e2c9" type="max"/>
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry id="b071-8f85-7e98-0191" name="Devout" hidden="false" collective="true" import="true" type="upgrade">
+                        <selectionEntry id="d298-981d-af5d-3c53" name="Devout" hidden="false" collective="true" import="true" type="upgrade">
                           <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba2e-bd2d-2350-c00e" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c69c-52a2-08b5-fda1" type="max"/>
                           </constraints>
                           <profiles>
-                            <profile id="3843-e1cb-9a90-d65a" name="Devout" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                            <profile id="e269-b12a-4305-ef78" name="Devout" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
                               <characteristics>
                                 <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Devout</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
                           <infoLinks>
-                            <infoLink id="8f09-16e4-c33f-ddba" name="Devout" hidden="false" targetId="d9ff-1f7d-8bc6-0f3f" type="rule"/>
+                            <infoLink id="65b3-e61b-24f1-230c" name="Devout" hidden="false" targetId="d9ff-1f7d-8bc6-0f3f" type="rule"/>
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="1.0"/>
                           </costs>
                         </selectionEntry>
-                        <selectionEntry id="c3fa-e6b9-af10-dd3c" name="Zealotry" hidden="false" collective="true" import="true" type="upgrade">
+                        <selectionEntry id="0e8c-3169-4dc1-7d4d" name="Zealotry" hidden="false" collective="true" import="true" type="upgrade">
                           <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ec2-3440-546b-3aef" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dbe-1412-a126-4f11" type="max"/>
                           </constraints>
                           <profiles>
-                            <profile id="b59c-0fbe-6a14-e237" name="Zealotry" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                            <profile id="a908-4dd3-19d3-24e2" name="Zealotry" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
                               <characteristics>
                                 <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Zealotry</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
                           <infoLinks>
-                            <infoLink id="a039-b27b-66bd-88e1" name="Zealotry" hidden="false" targetId="0318-9e28-792c-5abc" type="rule"/>
+                            <infoLink id="c634-aebb-a9d5-af30" name="Zealotry" hidden="false" targetId="0318-9e28-792c-5abc" type="rule"/>
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="1.0"/>
@@ -2671,9 +2637,55 @@
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
+                    <selectionEntryGroup id="d0b2-36b1-21d5-ad48" name="Ranged Weapon" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5252-bdce-4a67-fd79" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="5bfa-75e1-bc3c-991b" name="Handgun" hidden="false" collective="true" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e06-0844-9868-3602" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="a69e-2ec4-001c-4ef1" name="Handgun" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="0010-3bf2-3ed3-5b60" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="9.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="b744-aa43-a1af-5377" name="Longbow" hidden="false" collective="true" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec01-1280-46a3-3107" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="1733-b597-0c65-c838" name="Longbow" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">30&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="9.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="12.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3110,7 +3122,7 @@
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f434-670d-4832-a1c5" name="Nomad Jezzails" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f434-670d-4832-a1c5" name="Nomad Scouts" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="9399-420e-c870-bf01" name="New CategoryLink" hidden="false" targetId="b17f-cb95-65c6-c703" primary="true"/>
       </categoryLinks>
@@ -3121,24 +3133,24 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0226-1117-16aa-186b" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="5909-6d01-a891-3d90" name="3 Nomad Jezzails" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5909-6d01-a891-3d90" name="3 Nomad Scouts" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e01b-dcc3-89e3-a8c9" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="3f28-3492-1ed7-6bc5" name="Nomad Jezzail" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="3f28-3492-1ed7-6bc5" name="Nomad Scout" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fff7-8c8b-d9b6-f4c1" type="max"/>
                     <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dffb-8f22-688c-2675" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="8cef-cced-89f1-b20a" name="Nomad Jezzail" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                    <profile id="8cef-cced-89f1-b20a" name="Nomad Scout" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
                       <characteristics>
                         <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scout, Slow</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="46ff-e01c-71da-e53d" name="Jezzail" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3162,6 +3174,7 @@
                     <infoLink id="c5fb-b899-77ac-08cd" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
                     <infoLink id="61e8-f4b8-7bf8-099a" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="6fa6-661e-852f-b827" name="Sniper" hidden="false" targetId="868d-8e83-5a37-29b3" type="rule"/>
+                    <infoLink id="96fb-2496-d5ef-2ce4" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -3169,27 +3182,27 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="105.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="110.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ea44-d3d2-a4e0-8ebe" name="6 Nomad Jezzails" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ea44-d3d2-a4e0-8ebe" name="6 Nomad Scouts" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be44-593a-9101-26f3" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="c538-00ba-c16f-c89d" name="Nomad Jezzail" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="c538-00ba-c16f-c89d" name="Nomad Scout" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a236-5152-aed0-7fe4" type="max"/>
                     <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de62-39a4-a8ca-4fd2" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="60a6-7471-16e2-8fb8" name="Nomad Jezzail" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                    <profile id="60a6-7471-16e2-8fb8" name="Nomad Scout" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
                       <characteristics>
                         <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scout, Slow</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="35c5-6680-2f3f-bf92" name="Jezzail" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3213,6 +3226,7 @@
                     <infoLink id="f99a-7c9a-6cc7-4727" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
                     <infoLink id="954e-dc13-8190-9d82" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="43f8-72bb-bcb1-4d6e" name="Sniper" hidden="false" targetId="868d-8e83-5a37-29b3" type="rule"/>
+                    <infoLink id="7547-fda7-8fdb-4aa2" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -3220,7 +3234,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="210.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="220.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6009,6 +6023,31 @@
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="245.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="53a7-0380-5ae5-e785" name="Armored Bull Camel" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f51-73d5-ab02-f305" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="53fb-06d6-6226-2df4" name="Armored Bull Camel" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                  <characteristics>
+                    <characteristic name="Quality" typeId="d469-f059-193c-f740">-</characteristic>
+                    <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">-</characteristic>
+                    <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">-</characteristic>
+                    <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Impact(1), Shield Wall, Strider</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="fa73-d548-f8c8-c446" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
+                <infoLink id="11f6-22e5-4748-f8ca" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                <infoLink id="7948-e756-9b6b-1acf" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
+                <infoLink id="214c-621b-aa75-290e" name="Shield Wall" hidden="false" targetId="20ae-dbc1-6454-9bb6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="25.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -6305,6 +6344,156 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e7eb-73a1-b510-0cb1" name="Camel Cataphracts" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="03a3-bed1-2f98-0061" name="New CategoryLink" hidden="false" targetId="b17f-cb95-65c6-c703" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7adf-fc94-7b1f-2234" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="98b1-3069-8036-7ff2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="555e-4647-4a1c-22e8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0294-8543-3d77-f755" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="98b1-3069-8036-7ff2" name="5 Camel Cataphracts" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fcd-338c-ae9a-ff99" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="54e1-bf9a-2eda-756e" name="Camel Cataphract" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="825b-6d94-90f7-ba1f" type="max"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f9e-8216-be19-7d24" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="5ed2-8425-f972-0de6" name="Camel Cataphract" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Impact(1), Shield Wall, Strider, Zealotry</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="ee37-4c04-2c23-44c4" name="Breaker Mace" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Crushing Blow</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="cddb-c347-7114-9436" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
+                    <infoLink id="0f55-0a1a-bf0b-35cd" name="Shield Wall" hidden="false" targetId="20ae-dbc1-6454-9bb6" type="rule"/>
+                    <infoLink id="a895-c6e6-bc72-450c" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="2d8c-1217-8ec6-8f8f" name="Zealotry" hidden="false" targetId="0318-9e28-792c-5abc" type="rule"/>
+                    <infoLink id="1061-c875-7bff-128b" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="88ff-5c11-8199-1efb" name="Crushing Blow" hidden="false" targetId="53ed-9697-175a-fca2" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="56d3-027b-8de6-b2bb" name="0-1 Bull Camels" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a8c-e638-3498-94cc" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="9824-6fed-8bae-ddb5" name="Bull Camel" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                      <characteristics>
+                        <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Bull Camels</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="a6a7-8392-9d45-ed92" name="Bull Camels" hidden="false">
+                      <description>The unit counts as having dealt +1 wounds when checking who won melee.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dd0d-16cf-1b99-c30a" name="10 Camel Cataphracts" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb0-da6a-36b7-441b" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="3a28-7131-2bf9-c56a" name="Camel Cataphract" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c1d-c74e-d773-335a" type="max"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9298-45f9-5fb6-337a" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="a2be-6df7-20d4-3735" name="Camel Cataphract" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Impact(1), Shield Wall, Strider, Zealotry</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="561e-cae6-2565-f5b3" name="Breaker Mace" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Crushing Blow</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="2c00-ba88-858c-884e" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
+                    <infoLink id="1302-b772-026f-1282" name="Shield Wall" hidden="false" targetId="20ae-dbc1-6454-9bb6" type="rule"/>
+                    <infoLink id="9354-86d3-3a6d-1fe9" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="7822-1509-de93-755d" name="Zealotry" hidden="false" targetId="0318-9e28-792c-5abc" type="rule"/>
+                    <infoLink id="c6a4-1d05-ef0b-b253" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="9991-88fc-f70b-1aa5" name="Crushing Blow" hidden="false" targetId="53ed-9697-175a-fca2" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="add9-0cb7-e9ac-0bc4" name="0-2 Bull Camels" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5e9-eb55-31d8-b629" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="f2e6-4ff4-11b1-3d2f" name="Bull Camel" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                      <characteristics>
+                        <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Bull Camels</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="8f10-b513-eee3-425b" name="Bull Camels" hidden="false">
+                      <description>The unit counts as having dealt +1 wounds when checking who won melee.</description>
+                    </rule>
+                  </rules>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

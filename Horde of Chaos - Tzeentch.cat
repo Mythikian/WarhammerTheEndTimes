@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="098a-766b-93ff-7586" name="Horde of Chaos - Tzeentch" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="098a-766b-93ff-7586" name="Horde of Chaos - Tzeentch" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e8af-0448-6440-87b7" name="Doctrine Selection" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -129,7 +129,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">9</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Daemon, Fast, Fear(1), Stealth, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Daemon, Fast, Fear(1), Impact(2), Stealth, Strider</characteristic>
           </characteristics>
         </profile>
         <profile id="293d-bb16-9b76-3189" name="Scorcher" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -159,6 +159,7 @@
         <infoLink id="0017-6114-9ccc-134a" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
         <infoLink id="cbc6-2ead-afcf-4b17" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
         <infoLink id="9bc1-dda0-1750-361c" name="Reliable" hidden="false" targetId="40b6-ff14-dbfb-09d5" type="rule"/>
+        <infoLink id="27df-edff-b1be-616a" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1fab-1765-0be7-ba59" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -195,7 +196,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="320.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="330.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d92-8f4f-7b9b-e393" name="Mutalith Vortex Beast" hidden="false" collective="false" import="true" type="upgrade">
@@ -2466,205 +2467,171 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="3a88-76a4-d9aa-805a" name="5 Tzaangors" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="5bc6-aa19-ba1f-dd8c" name="Tzaangors" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="3394-06d5-5fc4-7479" name="Tzaangor" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                  <characteristics>
+                    <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                    <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
+                    <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                    <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Stealth</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="41cb-3215-c9ff-55f7" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+                <infoLink id="5536-afa0-3d1a-776a" name="Warp" hidden="false" targetId="752c-6b16-ab0f-c6a3" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="1e41-6517-05d9-3b97" name="Tzaangor Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="b965-ed0e-329b-9b5e">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dddb-0d34-882a-1e06" type="max"/>
-                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="813e-5972-2cf8-7a7b" type="min"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e9-7e9d-7adc-d9bc" type="max"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5874-fb01-8531-87d3" type="min"/>
                   </constraints>
-                  <profiles>
-                    <profile id="a87b-9bd7-f31c-577a" name="Tzaangor" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
-                      <characteristics>
-                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
-                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
-                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
-                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Stealth</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="5109-d9b6-a14b-26b6" name="Warp" hidden="false" targetId="752c-6b16-ab0f-c6a3" type="rule"/>
-                    <infoLink id="3ebe-5165-389a-b0c0" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
-                  </infoLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="fad5-89ea-d84c-9843" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="b46f-6f6a-a79a-200c">
+                  <selectionEntries>
+                    <selectionEntry id="b965-ed0e-329b-9b5e" name="Tzaangor w/ Warp Blade" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="066e-e4c1-16c9-5f76" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2b5-9144-489a-cc7b" type="max"/>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e83-3ba4-41fa-9242" type="max"/>
                       </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="1514-6153-d63f-d910" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9c5c-adee-6e14-fc9d" type="max"/>
-                            <constraint field="selections" scope="3a88-76a4-d9aa-805a" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="07e6-39b3-b5f1-6ef1" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="a1b4-79d7-a133-6b0e" name="Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <infoLinks>
-                            <infoLink id="cd57-a164-7d06-3ce2" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="e834-fdcd-24f5-7a6e" name="Dual Warp Blades" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f989-b7b8-e57d-f409" type="max"/>
-                            <constraint field="selections" scope="3a88-76a4-d9aa-805a" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e498-bfef-4463-3efd" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="2c2d-f48b-2959-c984" name="Dual Warp Blades" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="b46f-6f6a-a79a-200c" name="Warp Blade" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52c9-2186-a2ab-e832" type="max"/>
-                            <constraint field="selections" scope="3a88-76a4-d9aa-805a" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="828f-1e50-25c6-5df1" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="9dd7-f4d9-cd18-1945" name="Warp Blade" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="11.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                      <profiles>
+                        <profile id="e749-9e3d-51d1-9fe4" name="Warp Blade" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0c4e-5abf-1b63-0c3c" name="Tzaangor w/ Dual Warp Blades" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e9c-6b01-dff8-9f28" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="b5eb-636f-7582-c3e3" name="Dual Warp Blades" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8479-b462-6fd6-39b5" name="Tzaangor w/ Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cc6-d8c7-cd5f-f5b7" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3e3e-9bd5-7220-a130" name="Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="55.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c736-1fde-6893-9c3c" name="10 Tzaangors" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="f0aa-90db-2b84-363d" name="Tzaangors" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="de4e-a342-a53d-e19d" name="10 Tzaangors" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b7b4-5acb-4512-038f" name="Tzaangor" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                  <characteristics>
+                    <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                    <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
+                    <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                    <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Stealth</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="5984-2ac7-62a0-caa4" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+                <infoLink id="fc4b-188b-8f47-97e1" name="Warp" hidden="false" targetId="752c-6b16-ab0f-c6a3" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="80f2-7941-5a2d-c610" name="Tzaangor Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="94a8-7f3c-d7e3-7182">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1879-7680-c28d-b82d" type="max"/>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f09b-5641-a58c-3dae" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a940-bd17-d077-f0a7" type="max"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f95d-522c-c7be-2d72" type="min"/>
                   </constraints>
-                  <profiles>
-                    <profile id="9d1f-093f-222a-97ba" name="Tzaangor" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
-                      <characteristics>
-                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
-                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
-                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
-                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Stealth</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="80cd-a604-26b7-3a4f" name="Warp" hidden="false" targetId="752c-6b16-ab0f-c6a3" type="rule"/>
-                    <infoLink id="a7b5-7a06-44c2-f433" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
-                  </infoLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="0384-5115-793f-049d" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="16d9-0f31-e39e-83c9">
+                  <selectionEntries>
+                    <selectionEntry id="94a8-7f3c-d7e3-7182" name="Tzaangor w/ Warp Blade" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="993e-e46e-50eb-1644" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75a8-b28c-7e0e-70b8" type="max"/>
+                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="930f-9d14-1e62-579e" type="max"/>
                       </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="41da-f0e1-104a-8635" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3dfe-809c-92b4-3f88" type="max"/>
-                            <constraint field="selections" scope="c736-1fde-6893-9c3c" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="29eb-5507-2fb6-c769" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="bb98-13e8-1fe9-7d23" name="Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <infoLinks>
-                            <infoLink id="0796-b3bc-90f5-69b3" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="18f3-c896-8683-7d15" name="Dual Warp Blades" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a177-22f6-189a-c92e" type="max"/>
-                            <constraint field="selections" scope="c736-1fde-6893-9c3c" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7a43-749c-b418-5773" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="c4e3-3a5a-69d9-6ba9" name="Dual Warp Blades" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="16d9-0f31-e39e-83c9" name="Warp Blade" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c317-7169-b14d-08df" type="max"/>
-                            <constraint field="selections" scope="c736-1fde-6893-9c3c" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2eb6-8d62-71ce-f164" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="1e22-c075-f705-f109" name="Warp Blade" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="11.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                      <profiles>
+                        <profile id="f6c4-b69b-c3cb-0f00" name="Warp Blade" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="114e-b8f4-3aba-35d9" name="Tzaangor w/ Dual Warp Blades" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca77-9b32-e821-f915" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="9ff3-4e68-55ef-c361" name="Dual Warp Blades" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="21f1-9efb-dcbc-a5e5" name="Tzaangor w/ Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3360-2e1b-5db7-1e99" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="fce0-3999-ddd1-efe3" name="Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="110.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3427,8 +3394,8 @@
               <selectionEntries>
                 <selectionEntry id="ce86-592d-c157-39d0" name="Kairic Acolytes" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eb7-30cc-f1c3-3e5d" type="max"/>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d37d-b620-d0cb-4200" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eb7-30cc-f1c3-3e5d" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee9d-f7bc-99cd-4f56" type="min"/>
                   </constraints>
                   <profiles>
                     <profile id="383c-f1c2-da85-2ec9" name="Kairic Acolyte" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
@@ -3446,60 +3413,18 @@
                     <infoLink id="7f4a-3698-03e7-34e3" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="63e5-eb97-7459-e6df" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="a532-641c-3567-9bdd">
+                    <selectionEntryGroup id="a32c-67da-a449-f490" name="Kairic Acolyte Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="fbcc-e6ec-8f45-c5f3">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aee-08ec-5039-2916" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5788-48c6-41d8-1f06" type="max"/>
+                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5b3-5133-9b6f-9f83" type="max"/>
+                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c55-0e31-b11f-a097" type="min"/>
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry id="e97f-57bd-e533-8863" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                        <selectionEntry id="fbcc-e6ec-8f45-c5f3" name="Kairic Acolyte w/ Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                           <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cecc-4b6e-d921-9f26" type="max"/>
-                            <constraint field="selections" scope="e41d-cfee-3ece-4136" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="248d-c9ef-168c-ae13" type="max"/>
+                            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bd6-0988-59e4-0329" type="max"/>
                           </constraints>
                           <profiles>
-                            <profile id="483f-84a4-96fc-07d6" name="Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <infoLinks>
-                            <infoLink id="9b84-1acf-5766-7ff8" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="b616-b2bc-e664-87ea" name="Dual Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9f41-1284-0d60-e310" type="max"/>
-                            <constraint field="selections" scope="e41d-cfee-3ece-4136" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="db6e-73f2-b6ac-96a2" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="b868-b54c-dda8-447b" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="2.5"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="a532-641c-3567-9bdd" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35b8-b2c0-d557-77ef" type="max"/>
-                            <constraint field="selections" scope="e41d-cfee-3ece-4136" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f8b3-fe67-e4d7-c2cc" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="941b-ad49-2648-4c25" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                            <profile id="b8a7-509f-f1f0-c391" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                               <characteristics>
                                 <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                                 <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
@@ -3512,11 +3437,47 @@
                             <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
                           </costs>
                         </selectionEntry>
+                        <selectionEntry id="4ed6-f51d-30fa-9c57" name="Kairic Acolyte w/ Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae55-14ce-7392-b227" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="29ed-3f4e-c572-e774" name="Heavy Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="f5d1-70e9-ed80-3010" name="Kairic Acolyte w/ Dual Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2522-ae19-265c-4ec4" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="8406-ad59-5d33-36dd" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                          </costs>
+                        </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="9.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="36c8-6139-42e3-4aa8" name="0-1 Adept of Change" hidden="false" collective="false" import="true" type="upgrade">
@@ -3547,18 +3508,18 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="90.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="db4b-ec7e-d2c6-9da9" name="20 Kairic Acolytes" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="649b-a5f7-9ad4-bd18" name="20 Kairic Acolytes" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
-                <selectionEntry id="3f6e-063a-5113-0400" name="Kairic Acolytes" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="3243-56e0-7e03-8e55" name="Kairic Acolytes" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27af-84a9-86e6-b371" type="max"/>
-                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="502d-3744-5bde-3976" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d4-58e0-6815-6030" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="289c-e0bd-d980-b27b" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="3ec5-18b2-3b3b-8aad" name="Kairic Acolyte" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                    <profile id="d914-e0c6-a629-38c4" name="Kairic Acolyte" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
                       <characteristics>
                         <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
@@ -3569,64 +3530,22 @@
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="7794-6635-251c-8d79" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
-                    <infoLink id="5154-0c2d-1cce-ab6d" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
+                    <infoLink id="abcd-eb12-350e-cd76" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+                    <infoLink id="3be4-fb2d-bc03-48c3" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="430f-5fa7-141f-46b8" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="8763-3be9-062f-0dc3">
+                    <selectionEntryGroup id="e583-fef5-f8f4-0253" name="Kairic Acolyte Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="ed13-2d21-0475-b22a">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40d5-cc30-f878-ee63" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="771a-b4c6-58db-771f" type="max"/>
+                        <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e576-1e3e-7845-a826" type="max"/>
+                        <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5514-acc6-acdf-df5a" type="min"/>
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry id="2b7b-bdd5-4b84-2ca0" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                        <selectionEntry id="ed13-2d21-0475-b22a" name="Kairic Acolyte w/ Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                           <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4871-1e2f-20fb-4b02" type="max"/>
-                            <constraint field="selections" scope="db4b-ec7e-d2c6-9da9" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e810-9e08-eeec-0bac" type="max"/>
+                            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e132-14cf-2841-92e2" type="max"/>
                           </constraints>
                           <profiles>
-                            <profile id="6a04-0e1e-85c3-f48f" name="Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <infoLinks>
-                            <infoLink id="2da3-c94c-1038-fb8a" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="2213-99cd-2a71-ab05" name="Dual Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="33d1-93e0-1f6d-2d54" type="max"/>
-                            <constraint field="selections" scope="db4b-ec7e-d2c6-9da9" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="98f7-7150-d93c-63d2" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="da53-c915-0b0d-c38a" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="2.5"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="8763-3be9-062f-0dc3" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec4c-b686-4c4b-753b" type="max"/>
-                            <constraint field="selections" scope="db4b-ec7e-d2c6-9da9" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1bfa-1cca-4453-d34d" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="bacc-b231-ec76-193a" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                            <profile id="55ed-0cf4-d15f-fa5c" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                               <characteristics>
                                 <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                                 <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
@@ -3639,32 +3558,68 @@
                             <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
                           </costs>
                         </selectionEntry>
+                        <selectionEntry id="e4f5-1f59-f721-bc0b" name="Kairic Acolyte w/ Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd3b-b7df-bec9-bddd" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="ac2d-2e44-f5a9-1964" name="Heavy Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="6fa3-eee4-22dc-daa8" name="Kairic Acolyte w/ Dual Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f17-896a-6aec-c0e3" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="1749-5657-bfd8-13c6" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                          </costs>
+                        </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="9.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="1f8e-b7ec-617b-ec04" name="0-2 Adept of Change" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="720a-e652-b9ac-ddc8" name="0-2 Adept of Change" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc7f-5d98-3d5b-59cd" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c15-9c22-2905-8eb0" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="60fe-307d-595b-aefd" name="Adept of Change" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                    <profile id="09b3-330b-1416-2a45" name="Adept of Change" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
                       <characteristics>
                         <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Caster(1)</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="6657-1a12-c475-3cba" name="Lore Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="3455-5035-9f68-0923">
+                    <selectionEntryGroup id="7008-4251-91f6-0360" name="Lore Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="e8e7-d52b-cd9d-c3bd">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c59c-71cf-a717-344f" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9588-e60c-5fc0-db13" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68da-3b26-7dca-7bfd" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9a1-cb76-858d-0dbf" type="min"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink id="3455-5035-9f68-0923" name="Lore of Tzeentch" hidden="false" collective="false" import="true" targetId="4554-e612-3a4c-d18e" type="selectionEntry"/>
+                        <entryLink id="e8e7-d52b-cd9d-c3bd" name="Lore of Tzeentch" hidden="false" collective="false" import="true" targetId="4554-e612-3a4c-d18e" type="selectionEntry"/>
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -3674,7 +3629,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="180.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5915,7 +5870,7 @@
                     <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">+1</characteristic>
                     <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">+9</characteristic>
                     <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fear(1), Strider</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fear(1), Impact(2), Strider</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="cb40-aee2-92c4-afba" name="Screamers" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -5932,6 +5887,7 @@
                 <infoLink id="fd8d-d332-b6d1-9e11" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                 <infoLink id="eb18-b4c3-b543-4ef7" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
                 <infoLink id="7c13-e3a7-5f49-0841" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                <infoLink id="3c91-4096-32d3-50c5" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="f70a-a066-1202-e1c0" name="Wound Chart" hidden="false" collective="false" import="true" type="upgrade">
@@ -5965,7 +5921,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="260.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="270.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

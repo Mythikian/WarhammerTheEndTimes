@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="01a3-c410-1769-c5ab" name="Norsca" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="01a3-c410-1769-c5ab" name="Norsca" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d54d-a6fd-7e0c-7e4b" name="Bondsmen" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1015,6 +1015,26 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <selectionEntries>
+                    <selectionEntry id="8a21-ca14-33be-c3ca" name="Thrall Master" hidden="false" collective="true" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac92-65eb-9c40-079e" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="34c9-cc96-7582-8f67" name="Thrall Master" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                          <characteristics>
+                            <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Fearless</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="fef8-9c77-40fe-aa46" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="1.5"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="4.5"/>
                   </costs>
@@ -1061,6 +1081,26 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <selectionEntries>
+                    <selectionEntry id="c318-a27f-5209-12e1" name="Thrall Master" hidden="false" collective="true" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="219f-f201-1aa5-865e" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="59f7-9cb4-a762-5233" name="Thrall Master" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                          <characteristics>
+                            <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Fearless</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="018d-f74a-68d4-879d" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="1.5"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="4.5"/>
                   </costs>
@@ -4981,6 +5021,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="8729-52d7-4ca6-1f4a" name="Caster(X)" hidden="false" targetId="be0a-5475-4dc4-2e86" type="rule"/>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="449a-2a41-3928-1ca3" name="Lore Selection" hidden="false" collective="true" import="true" defaultSelectionEntryId="b7db-9778-ee9f-42a2">
                   <constraints>
@@ -5108,6 +5151,9 @@
                   <description>This model and its unit get AP(+1) in melee.</description>
                 </rule>
               </rules>
+              <infoLinks>
+                <infoLink id="87ad-347c-a74d-b7b7" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
               </costs>
@@ -5368,7 +5414,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8df5-0580-d8d9-52c0" type="max"/>
               </constraints>
               <profiles>
-                <profile id="3817-1d08-d8d7-1fe7" name="Horse" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                <profile id="3817-1d08-d8d7-1fe7" name="Warhorse" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
                   <characteristics>
                     <characteristic name="Quality" typeId="d469-f059-193c-f740">-</characteristic>
                     <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">-</characteristic>
@@ -5636,7 +5682,7 @@
               </profiles>
               <rules>
                 <rule id="607a-bca7-9ef5-52a4" name="Destined Leader" hidden="false">
-                  <description>This model and its unit move +2&quot; on Advance, and +4” on Rush/Charge.</description>
+                  <description>This model and its unit move +2&quot; on Move, and +4” on Advance/Charge.</description>
                 </rule>
               </rules>
               <costs>
@@ -5850,7 +5896,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="893f-10b5-6052-7b1d" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c1f6-73de-d77d-ca66" name="Horse" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                <profile id="c1f6-73de-d77d-ca66" name="Warhorse" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
                   <characteristics>
                     <characteristic name="Quality" typeId="d469-f059-193c-f740">-</characteristic>
                     <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">-</characteristic>

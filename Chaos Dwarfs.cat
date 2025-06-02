@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0eaf-2547-cc4e-0784" name="Chaos Dwarfs" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0eaf-2547-cc4e-0784" name="Chaos Dwarfs" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="03e5-cebf-64a3-f9b1" name="Siege Giant" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -163,7 +163,7 @@
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d3d4-a776-4ab7-e90d" name="Giant Pike" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d3d4-a776-4ab7-e90d" name="Giant Halberd" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3389-b5c8-1d0e-2bf8" type="max"/>
               </constraints>
@@ -278,7 +278,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">9</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(3) 60x60</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(2), Slow, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(2), Resolute, Slow, Strider</characteristic>
           </characteristics>
         </profile>
         <profile id="6f06-6a9b-97c5-f93f" name="Stomp" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -303,6 +303,7 @@
         <infoLink id="9c9d-d94b-867e-f421" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
         <infoLink id="6aba-7763-2ec0-740e" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
         <infoLink id="a598-a083-55ba-40de" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+        <infoLink id="f5c8-0128-f858-0d7e" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2a57-78cf-f695-5cdc" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -750,7 +751,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Regeneration, Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Regeneration, Resolute, Slow</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="2e79-6610-eab0-4b24" name="Heavy Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -766,9 +767,10 @@
                     <infoLink id="51d9-6ce4-6997-41bc" name="Regeneration" hidden="false" targetId="0e2a-a0fa-3d80-3b25" type="rule"/>
                     <infoLink id="2539-b36d-cf1f-4bc1" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="7ab6-d85c-cbea-5fce" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
+                    <infoLink id="84b1-290f-8f65-9d59" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="20.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="21.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -793,7 +795,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Regeneration, Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Regeneration, Resolute, Slow</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="e39a-cf18-1330-1b59" name="Heavy Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -809,9 +811,10 @@
                     <infoLink id="e54a-153c-3b52-ae9b" name="Regeneration" hidden="false" targetId="0e2a-a0fa-3d80-3b25" type="rule"/>
                     <infoLink id="60f6-a049-896f-25de" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="3767-da5b-bfd3-58f1" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
+                    <infoLink id="46a6-6475-a2b5-4c50" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="20.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="21.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1012,7 +1015,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">6</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Slow</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Slow, Unstable</characteristic>
           </characteristics>
         </profile>
         <profile id="792b-5d39-3874-4cb0" name="Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1045,6 +1048,7 @@
         <infoLink id="6b80-b833-4a2f-cb6c" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
         <infoLink id="9759-edcc-9401-a6f4" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
         <infoLink id="849f-960c-354e-5be4" name="Indirect(X)" hidden="false" targetId="1411-52c8-8d71-1b15" type="rule"/>
+        <infoLink id="e892-3ae0-f481-fd91" name="Unstable" hidden="false" targetId="d4d1-bb98-8943-c841" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e512-0f17-dd09-a0b4" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -1075,7 +1079,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="220.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="240.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3711-3477-5b97-f331" name="Iron Daemon War Engine" hidden="false" collective="false" import="true" type="upgrade">
@@ -1086,7 +1090,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">6</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Slow</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Slow, Unstable</characteristic>
           </characteristics>
         </profile>
         <profile id="1885-d901-8841-de52" name="Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1101,6 +1105,7 @@
       <infoLinks>
         <infoLink id="2b3c-6890-b2fd-11cd" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
         <infoLink id="3e90-fd16-6e1e-5fd3" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+        <infoLink id="3d18-678e-79d5-b9bf" name="Unstable" hidden="false" targetId="d4d1-bb98-8943-c841" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cb62-00e2-987a-847e" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -1180,7 +1185,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="135.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="155.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="62e4-4976-f5df-4af8" name="Juggernaut Siege Tower" hidden="false" collective="false" import="true" type="upgrade">
@@ -1318,7 +1323,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious, Headtaker, Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious, Headtaker, Resolute, Slow</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="7aae-1eab-aca8-a97a" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1336,6 +1341,7 @@
                     <infoLink id="323b-bcf8-a5b6-f501" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
                     <infoLink id="4788-5cce-b95e-664e" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="8394-0d87-0378-8403" name="Headtaker" hidden="false" targetId="e6ca-648d-db25-2b42" type="rule"/>
+                    <infoLink id="2bcf-12b8-a4f9-de35" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="18.0"/>
@@ -1363,7 +1369,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious, Headtaker, Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious, Headtaker, Resolute, Slow</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="eecf-e006-cf65-0daf" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1381,6 +1387,7 @@
                     <infoLink id="e989-966a-960e-aba0" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
                     <infoLink id="beb6-118a-35d6-5feb" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="b959-0ba5-484f-6b24" name="Headtaker" hidden="false" targetId="e6ca-648d-db25-2b42" type="rule"/>
+                    <infoLink id="f406-22ce-7399-66aa" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="18.0"/>
@@ -1512,7 +1519,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush, Cowardly Despoilers</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="0fcf-4ba2-dfd7-a147" name="Dual Toxin Swords" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1535,6 +1542,7 @@
                   <infoLinks>
                     <infoLink id="1e1f-70b9-2d53-eca9" name="Poison" hidden="false" targetId="da66-217e-b893-4de9" type="rule"/>
                     <infoLink id="31b0-ad78-58b6-a1ae" name="Ambush" hidden="false" targetId="7acc-70b2-480c-f22b" type="rule"/>
+                    <infoLink id="36bc-9bdd-2bc8-f3a9" name="Cowardly Despoilers" hidden="false" targetId="e124-cb28-7d86-f6b9" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="bbe3-f082-d70a-4836" name="Scout" hidden="false" collective="true" import="true" type="upgrade">
@@ -1582,7 +1590,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush, Cowardly Despoilers</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="4942-b156-a1ff-6f7f" name="Dual Toxin Swords" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1605,6 +1613,7 @@
                   <infoLinks>
                     <infoLink id="afaf-bcee-c1ca-0f73" name="Poison" hidden="false" targetId="da66-217e-b893-4de9" type="rule"/>
                     <infoLink id="5a51-b55b-fe5b-354b" name="Ambush" hidden="false" targetId="7acc-70b2-480c-f22b" type="rule"/>
+                    <infoLink id="ea9b-f3f4-7fc5-4a92" name="Cowardly Despoilers" hidden="false" targetId="e124-cb28-7d86-f6b9" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="8179-0d35-492b-3702" name="Scout" hidden="false" collective="true" import="true" type="upgrade">
@@ -2103,7 +2112,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Protected, Shield Wall, Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Protected, Resolute, Shield Wall, Slow</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2113,6 +2122,7 @@
                     <infoLink id="450d-1dc5-4aa6-a060" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="9b1e-0905-7da5-33f8" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
                     <infoLink id="e5c0-a258-412e-c8b4" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                    <infoLink id="21d6-3d3e-d94d-8691" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="f8d2-dc16-8dba-3cb5" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e24-8f10-23e6-974c">
@@ -2161,7 +2171,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="16.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2186,7 +2196,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Protected, Shield Wall, Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Protected, Resolute, Shield Wall, Slow</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2196,6 +2206,7 @@
                     <infoLink id="673c-1c47-36cb-c130" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="a3c6-b4ba-ef2a-98a8" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
                     <infoLink id="5b4a-f84e-6a23-8868" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                    <infoLink id="2617-0f0f-38e8-c31f" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="5b97-da15-5594-c258" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b19-229e-a3d2-5231">
@@ -2244,7 +2255,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="16.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2324,7 +2335,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Shield Wall, Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Resolute, Shield Wall, Slow</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2332,6 +2343,7 @@
                     <infoLink id="1064-7da9-73e5-adf5" name="Shield Wall" hidden="false" targetId="20ae-dbc1-6454-9bb6" type="rule"/>
                     <infoLink id="211c-7045-6e93-8aed" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="77bb-93c9-2847-2e07" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
+                    <infoLink id="2ca0-65a1-48c5-9c08" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="9f6a-6668-140a-1c89" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="13dd-a85d-7773-2686">
@@ -2456,7 +2468,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Shield Wall, Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Resolute, Shield Wall, Slow</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2464,6 +2476,7 @@
                     <infoLink id="716a-9520-735c-7699" name="Shield Wall" hidden="false" targetId="20ae-dbc1-6454-9bb6" type="rule"/>
                     <infoLink id="ef36-eebc-c924-7747" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="68ab-224e-24eb-ae20" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
+                    <infoLink id="b5f6-d3b1-244b-c7e7" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="8d9d-dde1-0fb4-3df4" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7bf0-e8b3-04d6-61a2">
@@ -2627,7 +2640,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 50x50</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Entrenched, Immobile</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Entrenched, Immobile, Resolute</characteristic>
           </characteristics>
         </profile>
         <profile id="b7f9-69e7-0314-95f8" name="Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -2653,12 +2666,13 @@
         <infoLink id="c2cf-33ad-f80f-4db8" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
         <infoLink id="7f61-2c3a-c2c9-a1bc" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
         <infoLink id="0f77-1683-221d-6fb2" name="Indirect(X)" hidden="false" targetId="1411-52c8-8d71-1b15" type="rule"/>
+        <infoLink id="c94d-43aa-a4e8-0eb1" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a253-9679-146d-ec79" name="New CategoryLink" hidden="false" targetId="b17f-cb95-65c6-c703" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="120.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="125.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cc5-74a9-c000-edec" name="Earthshaker Mortar" hidden="false" collective="false" import="true" type="upgrade">
@@ -2669,7 +2683,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 50x50</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Entrenched, Immobile</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Entrenched, Immobile, Resolute</characteristic>
           </characteristics>
         </profile>
         <profile id="d8c7-701b-170f-9109" name="Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -2695,12 +2709,13 @@
         <infoLink id="4b5c-4019-22bc-bba7" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
         <infoLink id="1805-2ed0-b551-56e2" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
         <infoLink id="a86f-3c4c-c19c-043d" name="Indirect(X)" hidden="false" targetId="1411-52c8-8d71-1b15" type="rule"/>
+        <infoLink id="dd89-c2e2-082e-5dba" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="753b-2cea-e7a8-9d3d" name="New CategoryLink" hidden="false" targetId="b17f-cb95-65c6-c703" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="155.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="160.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4dfd-f5cd-deea-f953" name="Chaos Dwarf Weapon Teams" hidden="false" collective="false" import="true" type="unit">
@@ -2725,12 +2740,13 @@
                     <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                     <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                     <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Slow</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Resolute, Slow</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="76cf-a319-d968-bdf0" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
+                <infoLink id="9161-2206-8ec9-0d4b" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="79bd-96b2-d0e6-868d" name="Weapon Team Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="e3f2-9296-5362-6282">
@@ -2843,12 +2859,13 @@
                     <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                     <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                     <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Slow</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Resolute, Slow</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="e2cf-4de1-58df-047a" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
+                <infoLink id="ba00-4612-7d8e-307c" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="591d-213f-18ca-e302" name="Weapon Team Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="cead-04d4-bac1-1367">
@@ -3231,7 +3248,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Mystic Warding, Shield Wall, Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Mystic Warding, Resolute, Shield Wall, Slow</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="6196-18ed-0640-f99d" name="Warpforged Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3250,9 +3267,10 @@
                     <infoLink id="f683-ee9c-db24-fdf6" name="Mystic Warding" hidden="false" targetId="14fe-ddef-6747-1e8b" type="rule"/>
                     <infoLink id="1d61-a4ae-e9ea-8c56" name="Shield Wall" hidden="false" targetId="20ae-dbc1-6454-9bb6" type="rule"/>
                     <infoLink id="0b1c-f959-7673-c03d" name="Warp" hidden="false" targetId="752c-6b16-ab0f-c6a3" type="rule"/>
+                    <infoLink id="32bc-d0e3-c9f3-3fe6" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="13.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="14.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="37bf-aaa5-4ce4-0cde" name="0-1 Devoted of Hashut" hidden="false" collective="false" import="true" type="upgrade">
@@ -3306,7 +3324,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Mystic Warding, Shield Wall, Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Mystic Warding, Resolute, Shield Wall, Slow</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="eefe-e257-da8d-da65" name="Warpforged Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3325,9 +3343,10 @@
                     <infoLink id="77b8-f8ba-f3dd-1c90" name="Mystic Warding" hidden="false" targetId="14fe-ddef-6747-1e8b" type="rule"/>
                     <infoLink id="c30b-1508-03b6-68bc" name="Shield Wall" hidden="false" targetId="20ae-dbc1-6454-9bb6" type="rule"/>
                     <infoLink id="01c2-3849-7e3d-9e64" name="Warp" hidden="false" targetId="752c-6b16-ab0f-c6a3" type="rule"/>
+                    <infoLink id="9a8e-cdba-127f-56ff" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="13.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="14.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="db31-f464-efe6-82a0" name="0-2 Devoted of Hashut" hidden="false" collective="false" import="true" type="upgrade">
@@ -3855,7 +3874,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Resolute, Slow</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="8a17-b14d-62c5-cb2c" name="Hailshot Blunderbuss" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3878,9 +3897,10 @@
                   <infoLinks>
                     <infoLink id="28de-6ca4-81dd-01fe" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="ca1f-87d4-8106-2358" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
+                    <infoLink id="c641-4a62-b0f6-2661" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="16.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3888,27 +3908,27 @@
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="eeb0-885c-62d8-c651" name="10 Chaos Dwarf Devastators" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a90b-8c9f-999c-dc5d" name="10 Chaos Dwarf Devastators" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13d6-32b6-f4de-1518" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f341-c9f7-ceb4-30b4" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="fbb1-d0e2-5e57-103c" name="Chaos Dwarf Devastator" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="f02e-9741-7d8b-9ac1" name="Chaos Dwarf Devastator" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6ca-bd34-8e2d-2e37" type="max"/>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86f6-0b6f-a0d1-550a" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f36-4eef-3e6d-64cc" type="max"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6257-6ace-1dde-47c6" type="min"/>
                   </constraints>
                   <profiles>
-                    <profile id="d533-9b61-672c-203b" name="Chaos Dwarf Devastator" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                    <profile id="4ac8-677f-e7a6-2309" name="Chaos Dwarf Devastator" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
                       <characteristics>
                         <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Resolute, Slow</characteristic>
                       </characteristics>
                     </profile>
-                    <profile id="6f18-ebf1-9fba-8d23" name="Hailshot Blunderbuss" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                    <profile id="5d3f-a075-b693-b13d" name="Hailshot Blunderbuss" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="9ade-0584-de41-eded">9&quot;</characteristic>
                         <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
@@ -3916,7 +3936,7 @@
                         <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
                       </characteristics>
                     </profile>
-                    <profile id="5c4b-73a2-16b6-03cd" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                    <profile id="8362-3320-0c98-9889" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                         <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
@@ -3926,11 +3946,12 @@
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="ac8f-4dfa-f95b-69a6" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                    <infoLink id="4f69-92f7-894c-0d58" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
+                    <infoLink id="5401-7c53-0bd4-05d2" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="21dc-d844-1701-b779" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
+                    <infoLink id="d744-35a8-6e8a-37c2" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="16.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3973,13 +3994,14 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Shield Wall, Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Resolute, Shield Wall, Slow</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="f529-540e-c270-cb18" name="Shield Wall" hidden="false" targetId="20ae-dbc1-6454-9bb6" type="rule"/>
                     <infoLink id="dca8-a931-2709-34e4" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
+                    <infoLink id="e808-af9b-a9e5-f6b9" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="56b1-6428-b412-2004" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d07f-21ce-2893-7505">
@@ -4077,13 +4099,14 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Shield Wall, Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Resolute, Shield Wall, Slow</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="dcd6-ad96-da5e-c9b7" name="Shield Wall" hidden="false" targetId="20ae-dbc1-6454-9bb6" type="rule"/>
                     <infoLink id="5b5b-36fc-5b64-1323" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
+                    <infoLink id="6cca-51fa-3b20-8054" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="b661-619a-998f-37a3" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d027-1bc5-a9e4-d21f">
@@ -4236,10 +4259,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Cowardly Despoilers</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="6e96-e9c1-c917-159e" name="Cowardly Despoilers" hidden="false" targetId="e124-cb28-7d86-f6b9" type="rule"/>
+                  </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="a730-74d5-4b63-6b1f" name="Throwing Weapon" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
@@ -4328,7 +4354,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.5"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4353,10 +4379,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Cowardly Despoilers</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="0273-9ecf-06b0-5fad" name="Cowardly Despoilers" hidden="false" targetId="e124-cb28-7d86-f6b9" type="rule"/>
+                  </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="0ee4-6022-f62c-722b" name="Throwing Weapon" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
@@ -4445,7 +4474,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.5"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4562,7 +4591,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Cowardly Despoilers</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="5211-6f0f-9111-8bfb" name="Bow" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4582,8 +4611,11 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="7c28-d559-5659-76cc" name="Cowardly Despoilers" hidden="false" targetId="e124-cb28-7d86-f6b9" type="rule"/>
+                  </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="11.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4608,7 +4640,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Cowardly Despoilers</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="b416-76db-59fb-5acb" name="Bow" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4628,8 +4660,11 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="52a5-7c95-2b12-84be" name="Cowardly Despoilers" hidden="false" targetId="e124-cb28-7d86-f6b9" type="rule"/>
+                  </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="11.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4672,7 +4707,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Cowardly Despoilers, Fast</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="56b4-4af0-f023-0f90" name="Heavy Claw" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4687,6 +4722,7 @@
                   <infoLinks>
                     <infoLink id="89d9-5860-52bb-5c5c" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="4e83-39df-8a71-e98f" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
+                    <infoLink id="3bb0-03f0-5773-9320" name="Cowardly Despoilers" hidden="false" targetId="e124-cb28-7d86-f6b9" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="6768-6409-01c4-6910" name="Bow" hidden="false" collective="true" import="true" type="upgrade">
@@ -4783,7 +4819,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Cowardly Despoilers, Fast</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="7569-3d12-7aa3-a1cd" name="Heavy Claw" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4798,6 +4834,7 @@
                   <infoLinks>
                     <infoLink id="2e55-d89d-3a62-52e3" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="77b1-8e9e-3c7c-8f00" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
+                    <infoLink id="a990-590f-efb4-3564" name="Cowardly Despoilers" hidden="false" targetId="e124-cb28-7d86-f6b9" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="943d-0100-250b-fb22" name="Bow" hidden="false" collective="true" import="true" type="upgrade">
@@ -4991,12 +5028,13 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Hero</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Cowardly Despoilers, Hero</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="6fd3-91d6-b727-27ed" name="Hero" hidden="false" targetId="7f75-81ad-7d84-379b" type="rule"/>
+        <infoLink id="19eb-91f8-e9be-8016" name="Cowardly Despoilers" hidden="false" targetId="e124-cb28-7d86-f6b9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="54cb-a89f-c40c-dd3f" name="New CategoryLink" hidden="false" targetId="b1f7-e68c-ee70-9808" primary="true"/>
@@ -5212,7 +5250,7 @@
         <entryLink id="c0ba-f23b-3ce1-1d6a" name="Warlord" hidden="false" collective="false" import="true" targetId="42a7-c65b-11e2-3034" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="30.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a691-e308-6a4b-0d99" name="Chosen of Hashut" hidden="false" collective="false" import="true" type="upgrade">
@@ -5223,13 +5261,14 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Hero, Slow</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Hero, Resolute, Slow</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="73d8-7319-5219-ed10" name="Hero" hidden="false" targetId="7f75-81ad-7d84-379b" type="rule"/>
         <infoLink id="cfe7-67bf-c755-77f7" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
+        <infoLink id="2b6f-38ad-f22a-d0c3" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="46ba-3c1e-4e43-f283" name="New CategoryLink" hidden="false" targetId="b1f7-e68c-ee70-9808" primary="true"/>
@@ -5845,7 +5884,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Hero, Slow</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Hero, Resolute, Slow</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5853,6 +5892,7 @@
         <infoLink id="aadc-d41d-2585-e733" name="Hero" hidden="false" targetId="7f75-81ad-7d84-379b" type="rule"/>
         <infoLink id="f0f8-9c27-842d-9f60" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
         <infoLink id="8f7f-2730-43a4-1814" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
+        <infoLink id="f5bc-645e-c29d-4f93" name="Resolute" hidden="false" targetId="be54-6cbe-5140-c5b9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e6d8-1d10-d110-a2cb" name="New CategoryLink" hidden="false" targetId="b1f7-e68c-ee70-9808" primary="true"/>
@@ -6281,7 +6321,7 @@
         <entryLink id="f1f9-8e1c-8995-7999" name="Warlord" hidden="false" collective="false" import="true" targetId="42a7-c65b-11e2-3034" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="25.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="30.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

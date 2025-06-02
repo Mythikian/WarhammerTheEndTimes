@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78fe-5f7a-af3c-0d63" name="Beastmen" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78fe-5f7a-af3c-0d63" name="Beastmen" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="7a95-aee2-c376-4f45" name="Chaos Warhounds" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1120,7 +1120,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Stealth, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush, Stealth, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="c5ad-21bc-8120-c72d" name="Shortbow" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1143,9 +1143,10 @@
                   <infoLinks>
                     <infoLink id="66fd-be32-b89b-b631" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="2f06-3026-54dc-0e46" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="3f4c-0ae1-fcb8-1109" name="Ambush" hidden="false" targetId="7acc-70b2-480c-f22b" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="12.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="13.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1170,7 +1171,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Stealth, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush, Stealth, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="473b-7a45-2ddb-3fc2" name="Shortbow" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1193,9 +1194,10 @@
                   <infoLinks>
                     <infoLink id="17cf-a216-11e3-eb3a" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="5751-aa46-0131-3cb4" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="1f58-3012-5b55-bfba" name="Ambush" hidden="false" targetId="7acc-70b2-480c-f22b" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="12.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="13.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1415,7 +1417,7 @@
                             <infoLink id="d334-f8f7-3680-0fda" name="Mark of Chaos Undivided" hidden="false" targetId="e4a1-5ad1-d39e-34df" type="rule"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="4.0"/>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -1624,7 +1626,7 @@
                             <infoLink id="128b-7b2c-797d-d690" name="Mark of Chaos Undivided" hidden="false" targetId="e4a1-5ad1-d39e-34df" type="rule"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="4.0"/>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -2860,7 +2862,7 @@
                             <infoLink id="fdef-5f25-024c-23f6" name="Putrid" hidden="false" targetId="4146-e32f-ca7d-ec38" type="rule"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="6.0"/>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="6.66"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="a5cc-a59d-c87e-22fb" name="Mark of Slaanesh" hidden="false" collective="true" import="true" type="upgrade">
@@ -2881,7 +2883,7 @@
                             <infoLink id="2d0f-3bb0-f002-13c8" name="Very Fast" hidden="false" targetId="cda9-6ede-3c5b-fdce" type="rule"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="8.0"/>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="8.33"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="f4d1-8e81-1f55-4e96" name="Mark of Tzeentch" hidden="false" collective="true" import="true" type="upgrade">
@@ -3698,7 +3700,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">9</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Impact(4)</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Impact(4), Strider</characteristic>
           </characteristics>
         </profile>
         <profile id="cb7e-abc3-8bcd-871b" name="Heavy Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3722,6 +3724,7 @@
         <infoLink id="7c2f-07b5-9a5c-d096" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
         <infoLink id="71a0-e8a9-0370-3978" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
         <infoLink id="9eb7-8465-8d16-2f22" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+        <infoLink id="a555-1079-0208-672c" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5b4a-1a8f-ca03-4a04" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -3758,7 +3761,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="205.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="220.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c8f9-dc8c-9d21-68bc" name="Dragon Ogres" hidden="false" collective="false" import="true" type="unit">
@@ -3789,12 +3792,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(4) 90x52</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Strider</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="0a06-60e4-5e14-5790" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="823c-0c00-3bad-1bf3" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="eac1-3f9d-a2f6-5a04" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="07c6-d260-8e52-3dc0">
@@ -3888,7 +3892,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="160.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="170.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8ac0-5b2e-8dab-290b" name="6 Dragon Ogres" hidden="false" collective="false" import="true" type="upgrade">
@@ -3908,12 +3912,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(4) 90x52</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Strider</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="4f15-5588-f52a-5063" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="bd63-8d96-60fe-1450" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="b723-4221-7fcc-7a89" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="2862-de6f-12f2-6e73">
@@ -4007,7 +4012,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="320.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="340.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4262,7 +4267,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">2+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(3) 60x60</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Entrenched, Fear(1), Power Node, Scout, Unstable</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Entrenched, Fear(1), Immobile, Power Node, Scout, Structured Protection, Unstable</characteristic>
           </characteristics>
         </profile>
         <profile id="20fa-e7a9-069b-8151" name="Mystic Energies" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4284,12 +4289,45 @@
         <infoLink id="2675-c82b-9744-5fa5" name="Entrenched" hidden="false" targetId="c0a7-b837-7fad-97c1" type="rule"/>
         <infoLink id="4b5f-c5fa-7556-bf7a" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
         <infoLink id="5d3e-be56-219f-b09d" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
+        <infoLink id="286a-f8ef-3162-dd31" name="Immobile" hidden="false" targetId="5378-7042-370d-67fc" type="rule"/>
+        <infoLink id="1a56-8ce6-e4f8-4801" name="Structured Protection" hidden="false" targetId="8b96-1ea7-0f54-1519" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d28c-b566-b58d-03e7" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7287-be1c-811c-1acf" name="Wildhorn Shaman" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8844-e05d-71ae-189e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3f13-b35d-afba-797c" name="Wildhorn Shaman" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+              <characteristics>
+                <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Caster(1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0f90-dc23-4b5b-54fa" name="Caster(X)" hidden="false" targetId="be0a-5475-4dc4-2e86" type="rule"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="29b9-9b32-f077-3bba" name="Lore Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="8221-023b-6fc4-79ce">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="695b-5a19-92fe-a0ca" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b841-be5a-c928-6eca" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="8221-023b-6fc4-79ce" name="Lore of the Wild" hidden="false" collective="false" import="true" targetId="c7b1-7f6d-3d81-b65d" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="105.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8e27-d471-ddbd-2aaf" name="Incarnate Elemental of Beasts" hidden="false" collective="false" import="true" type="upgrade">
@@ -4603,7 +4641,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da02-6d4e-48a2-43c6" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f66a-1779-81fd-d2eb" name="Javelin Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                <profile id="f66a-1779-81fd-d2eb" name="Shortbow Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
                     <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">6</characteristic>

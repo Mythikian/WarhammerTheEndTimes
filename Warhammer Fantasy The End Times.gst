@@ -2175,13 +2175,13 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <profile id="5c20-d85d-15af-cc59" name="Rush Objective" hidden="false" typeId="6c33-44d5-6d3c-a825" typeName="Strategem">
               <characteristics>
                 <characteristic name="CP Cost" typeId="8155-b1ce-86ec-4daa">1</characteristic>
-                <characteristic name="Effect" typeId="792b-1a47-f8a7-f58c">Pick one friendly unit that is using a Rush action, and it may add +4” to its movement if it ends up within 3” of an objective. </characteristic>
+                <characteristic name="Effect" typeId="792b-1a47-f8a7-f58c">Pick one friendly unit that is using a Advance action, and it may add +4” to its movement if it ends up within 3” of an objective. </characteristic>
               </characteristics>
             </profile>
             <profile id="c585-2118-5d09-e3e5" name="Supreme Caster" hidden="false" typeId="6c33-44d5-6d3c-a825" typeName="Strategem">
               <characteristics>
                 <characteristic name="CP Cost" typeId="8155-b1ce-86ec-4daa">1</characteristic>
-                <characteristic name="Effect" typeId="792b-1a47-f8a7-f58c">One friendly Caster gets 1 Spell dice for the casting of a Spell this turn.</characteristic>
+                <characteristic name="Effect" typeId="792b-1a47-f8a7-f58c">One friendly Caster gets 1 spell token, which may not be spent to give casters +1/-1 to their casting rolls. </characteristic>
               </characteristics>
             </profile>
             <profile id="52f0-cbd1-d4d6-8ac8" name="Vanish" hidden="false" typeId="6c33-44d5-6d3c-a825" typeName="Strategem">
@@ -2547,6 +2547,21 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
     </rule>
     <rule id="56fd-ec05-299a-792a" name="Trample" hidden="false">
       <description>This model and its unit gain Impact(1).</description>
+    </rule>
+    <rule id="53ed-9697-175a-fca2" name="Crushing Blow" hidden="false">
+      <description>Hits dealt by weapons with this rule ignore modifiers that give AP(-X), such as the Protected special rule.</description>
+    </rule>
+    <rule id="8b96-1ea7-0f54-1519" name="Structured Protection" hidden="false">
+      <description>Models with this special rule provide Cover to friendly units that are at least partially obscured by it from attacking units.</description>
+    </rule>
+    <rule id="e124-cb28-7d86-f6b9" name="Cowardly Despoilers" hidden="false">
+      <description>This model has +1 to hit in melee against models that are SHAKEN.</description>
+    </rule>
+    <rule id="be54-6cbe-5140-c5b9" name="Resolute" hidden="false">
+      <description>Whenever a unit where most models have this rule would resolve a melee, they give a -1 penalty to any rules that would give the enemy a bonus in calculating the combat result, such as the Fear special rule. (For Example: A unit with Fear(2) counts as having Fear(1).)</description>
+    </rule>
+    <rule id="3ac6-4b19-c690-b07b" name="Elven Grace" hidden="false">
+      <description>When taking a wound in melee, if this unit is not fatigued, roll one die. On a 6+ it is ignored.</description>
     </rule>
   </sharedRules>
 </gameSystem>

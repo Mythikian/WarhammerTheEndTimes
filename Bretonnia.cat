@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c102-ef42-da61-7c25" name="Bretonnia" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c102-ef42-da61-7c25" name="Bretonnia" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b6d5-50c9-cc20-e3e4" name="Battle Hounds" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -368,7 +368,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fearless, Furious, Impact(1), Joust</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Furious, Impact(1), Joust, Knight&apos;s Honor</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="7953-f6bd-f9b1-c541" name="Lance" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -384,7 +384,7 @@
                     <infoLink id="7946-87f2-7c86-4583" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="4f12-ca9b-892f-0bc4" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                     <infoLink id="ba81-ce7f-18df-5aec" name="Joust" hidden="false" targetId="f042-5f90-6723-b817" type="rule"/>
-                    <infoLink id="bd56-8ad1-caee-388b" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="bd56-8ad1-caee-388b" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
                     <infoLink id="a38d-effb-d947-99fb" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="f25d-cbe0-27ef-5b15" name="Lance" hidden="false" targetId="a510-87f8-91d8-c665" type="rule"/>
                     <infoLink id="86b7-bffe-d8d6-52df" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
@@ -415,7 +415,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fearless, Furious, Impact(1), Joust</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Furious, Impact(1), Joust, Knight&apos;s Honor</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="bda7-dfc4-b244-162a" name="Lance" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -431,7 +431,7 @@
                     <infoLink id="b99e-d3ff-3b04-76c5" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="5060-a9cd-c0bb-40a5" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                     <infoLink id="62ba-aa26-0004-5c1e" name="Joust" hidden="false" targetId="f042-5f90-6723-b817" type="rule"/>
-                    <infoLink id="28d6-602f-4784-22a0" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="28d6-602f-4784-22a0" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
                     <infoLink id="521e-d5d7-d8c3-2183" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="a001-a670-c587-11cc" name="Lance" hidden="false" targetId="a510-87f8-91d8-c665" type="rule"/>
                     <infoLink id="b00c-6b96-7b2b-9eff" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
@@ -517,10 +517,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="9f8c-3ab7-78d9-97b8" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
+                  </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="d997-2628-17e3-da79" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e7b-d99e-9432-6548">
                       <constraints>
@@ -617,10 +620,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="4d51-85c1-37f7-4f8b" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
+                  </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="11d0-5872-716c-5640" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f2bd-6711-21ca-cfe6">
                       <constraints>
@@ -809,7 +815,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="3791-97d4-df05-bfb7" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -829,6 +835,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="767f-ca08-5993-73f5" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
+                  </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="9afa-64c5-e23b-0eaa" name="Flaming Brazier" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
@@ -903,7 +912,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="d598-f9ac-1993-9893" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -923,6 +932,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="80cd-7055-fa43-a3b8" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
+                  </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="4cf4-e602-5096-9180" name="Flaming Brazier" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
@@ -1015,7 +1027,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="5099-0a6d-9b94-082f" name="Sling" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1035,6 +1047,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="946a-91a8-e805-b50f" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="4.5"/>
                   </costs>
@@ -1061,7 +1076,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="4ee2-2c27-489b-b496" name="Sling" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1081,6 +1096,9 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="bd66-e7e5-8531-16c7" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
+                  </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="4.5"/>
                   </costs>
@@ -1125,13 +1143,14 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Company Standard, Scout</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Company Standard, Peasant&apos;s Duty, Scout</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="1bf3-4678-1be9-b9b7" name="Company Standard" hidden="false" targetId="fc13-1598-aae1-3e25" type="rule"/>
                     <infoLink id="d81d-f6ce-4e63-8d13" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
+                    <infoLink id="b2d8-54f4-d8ad-dd1d" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="7ba1-e69a-d49e-d198" name="Bows" hidden="false" collective="true" import="true" type="upgrade">
@@ -1228,13 +1247,14 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Company Standard, Scout</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Company Standard, Peasant&apos;s Duty, Scout</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="b605-814c-dc9b-4b26" name="Company Standard" hidden="false" targetId="fc13-1598-aae1-3e25" type="rule"/>
                     <infoLink id="86e2-293e-8694-04bc" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
+                    <infoLink id="ae76-b6c9-c036-8c5b" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="cc00-d3f1-529f-56ad" name="Bows" hidden="false" collective="true" import="true" type="upgrade">
@@ -1386,7 +1406,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious, Peasant&apos;s Duty</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="6822-c53d-b9c4-fe61" name="Flail" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1402,6 +1422,7 @@
                     <infoLink id="bdfb-8224-67b4-2139" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                     <infoLink id="d6fc-422a-6287-dbce" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="052c-44d6-6cf4-dd49" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="3093-9b69-93e3-f468" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="9.0"/>
@@ -1429,7 +1450,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious, Peasant&apos;s Duty</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="a3fe-7819-8fdf-2ccd" name="Flail" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1445,6 +1466,7 @@
                     <infoLink id="5f53-a5cd-9a36-b193" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                     <infoLink id="554b-f109-b653-505d" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="891c-737d-c043-e292" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="35c8-54d4-73a9-7f4f" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="9.0"/>
@@ -2099,12 +2121,12 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Knight&apos;s Honor</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="652a-2dd8-8f47-a8cb" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="652a-2dd8-8f47-a8cb" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
                     <infoLink id="861e-ce56-333b-e387" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
@@ -2179,12 +2201,12 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Knight&apos;s Honor</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="b083-e49f-8c61-01b7" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="b083-e49f-8c61-01b7" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
                     <infoLink id="dbaa-c695-2dab-0818" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
@@ -2294,7 +2316,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">6</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(3) 60x60</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Battle Zeal, Fear(1), Furious</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Battle Zeal, Fear(1), Furious, Peasant&apos;s Duty</characteristic>
           </characteristics>
         </profile>
         <profile id="9e6a-f771-28f6-5f3a" name="Pilgrim Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -2315,6 +2337,7 @@
         <infoLink id="f180-7e7d-2693-27f7" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
         <infoLink id="7206-46ac-a77d-2f51" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
         <infoLink id="cdb9-84b4-2474-f799" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+        <infoLink id="1edb-20f1-2a34-b325" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2ecb-8ce5-7d49-b18e" name="New CategoryLink" hidden="false" targetId="b17f-cb95-65c6-c703" primary="true"/>
@@ -2376,7 +2399,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scout, Stealth</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty, Scout, Stealth</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="c73c-53ba-865c-4ed1" name="Longbow" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -2399,6 +2422,7 @@
                   <infoLinks>
                     <infoLink id="c54d-c457-05e8-c721" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="445d-3f5e-37bf-638d" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
+                    <infoLink id="6c08-3ab4-ff6e-1832" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="21.0"/>
@@ -2426,7 +2450,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scout, Stealth</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty, Scout, Stealth</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="2b4c-3252-56cb-a823" name="Longbow" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -2449,6 +2473,7 @@
                   <infoLinks>
                     <infoLink id="a8fa-421b-974f-1536" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="4216-0dff-c311-2b1a" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
+                    <infoLink id="dcae-cf04-df60-dfb5" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="21.0"/>
@@ -2531,13 +2556,14 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1)</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Peasant&apos;s Duty</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="3ca2-e47d-136e-31e6" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="b143-d1b3-90a2-ded0" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
+                    <infoLink id="1ef8-2561-f0fa-0218" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="12e6-9423-f398-1b8d" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6b47-4851-48ea-1b98">
@@ -2663,13 +2689,14 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1)</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Peasant&apos;s Duty</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="ee65-9b1c-c1ec-1c9d" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="5f91-19ea-9d02-f37c" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
+                    <infoLink id="2a4b-a355-cf71-7145" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="994d-3608-8a7e-ed6a" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8fa9-5d68-6545-271a">
@@ -2850,7 +2877,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 40x40</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fearless, Flying, Impact(2), Joust</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Flying, Impact(2), Joust, Knight&apos;s Honor</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="9ece-6a80-d5fa-2699" name="Heavy Hooves" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -2873,7 +2900,7 @@
                   <infoLinks>
                     <infoLink id="182f-5625-c0c1-fc5c" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="907b-a4ae-48c4-fcc1" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
-                    <infoLink id="1eec-63c1-689c-1c97" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="1eec-63c1-689c-1c97" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
                     <infoLink id="3435-b7b0-5e22-2aa9" name="Flying" hidden="false" targetId="c9d0-942c-1f23-c6ea" type="rule"/>
                     <infoLink id="eced-17da-38c3-9b0f" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                     <infoLink id="de2b-96fb-fd76-1dad" name="Joust" hidden="false" targetId="f042-5f90-6723-b817" type="rule"/>
@@ -2905,7 +2932,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 40x40</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fearless, Flying, Impact(2), Joust</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Flying, Impact(2), Joust, Knight&apos;s Honor</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="e498-2813-ef67-9db9" name="Heavy Hooves" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -2928,7 +2955,7 @@
                   <infoLinks>
                     <infoLink id="cec1-6f62-7299-ea54" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="70cb-46ba-52f3-ae30" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
-                    <infoLink id="aa66-9cdc-1e7c-6a23" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="aa66-9cdc-1e7c-6a23" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
                     <infoLink id="53cb-bed3-499d-81ec" name="Flying" hidden="false" targetId="c9d0-942c-1f23-c6ea" type="rule"/>
                     <infoLink id="f63c-3206-e3a4-46ef" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                     <infoLink id="aedd-b4d1-4278-0aba" name="Joust" hidden="false" targetId="f042-5f90-6723-b817" type="rule"/>
@@ -3015,7 +3042,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fearless, Impact(1), Joust, Mystic Warding</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Joust, Knight&apos;s Honor, Mystic Warding</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="f844-2fe2-f57c-dcde" name="Heavy Halberd" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3034,7 +3061,7 @@
                     <infoLink id="2390-ff16-999d-109c" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
                     <infoLink id="7a45-cd36-8108-e836" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="4354-0b16-fca4-8c33" name="Mystic Warding" hidden="false" targetId="14fe-ddef-6747-1e8b" type="rule"/>
-                    <infoLink id="b00f-607e-7f50-5567" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="b00f-607e-7f50-5567" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="24.0"/>
@@ -3062,7 +3089,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fearless, Impact(1), Joust, Mystic Warding</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Joust, Knight&apos;s Honor, Mystic Warding</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="af79-4aed-09dc-dc57" name="Heavy Halberd" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3081,7 +3108,7 @@
                     <infoLink id="2276-7a35-e5eb-fc3a" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
                     <infoLink id="0fef-0b90-988b-4f47" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="13e6-7131-cd33-e8aa" name="Mystic Warding" hidden="false" targetId="14fe-ddef-6747-1e8b" type="rule"/>
-                    <infoLink id="7dcf-eb82-80a2-7f97" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="7dcf-eb82-80a2-7f97" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="24.0"/>
@@ -3164,7 +3191,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fearless, Impact(1), Joust, Monster Hunter</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Joust, Knight&apos;s Honor, Monster Hunter</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="d3ec-31e0-c9d6-99f9" name="Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3186,7 +3213,7 @@
                     <infoLink id="7261-b323-2662-bb27" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                     <infoLink id="3c79-cb8d-9e95-e53b" name="Joust" hidden="false" targetId="f042-5f90-6723-b817" type="rule"/>
                     <infoLink id="1a72-ba50-2257-1a64" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                    <infoLink id="34aa-4c2a-e0c5-1a26" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="34aa-4c2a-e0c5-1a26" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="26.0"/>
@@ -3214,7 +3241,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fearless, Impact(1), Joust, Monster Hunter</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Joust, Knight&apos;s Honor, Monster Hunter</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="e51a-8838-c6d6-70fe" name="Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3236,7 +3263,7 @@
                     <infoLink id="b627-f1db-61fe-8649" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                     <infoLink id="d232-51e6-f8a8-8211" name="Joust" hidden="false" targetId="f042-5f90-6723-b817" type="rule"/>
                     <infoLink id="aa51-7d33-dc10-8d44" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                    <infoLink id="bb5f-5010-8cff-d8b7" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="bb5f-5010-8cff-d8b7" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="26.0"/>
@@ -3631,7 +3658,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scout, Sheep, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty, Scout, Sheep, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="cbf4-91d2-ac09-5c7f" name="Sling" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3651,6 +3678,7 @@
                   <infoLinks>
                     <infoLink id="7418-e5f7-3a98-df30" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
                     <infoLink id="472c-86a3-2113-f062" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
+                    <infoLink id="80b0-4084-8263-b46a" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="d7ee-5c20-0f26-7dff" name="Heavy Armor" hidden="false" collective="true" import="true" type="upgrade">
@@ -3771,7 +3799,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scout, Sheep, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty, Scout, Sheep, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="5c74-6dc5-9b51-04d2" name="Sling" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3791,6 +3819,7 @@
                   <infoLinks>
                     <infoLink id="0678-863d-d5b7-ff12" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
                     <infoLink id="0e76-b504-8b52-fbef" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
+                    <infoLink id="6774-0af8-1ea2-b0f8" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="cec5-ed04-447a-e5f7" name="Heavy Armor" hidden="false" collective="true" import="true" type="upgrade">
@@ -3966,7 +3995,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="8c03-b90e-e077-a279" name="Heavy Crossbow" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3989,6 +4018,7 @@
                   <infoLinks>
                     <infoLink id="0475-0be1-4adf-8f61" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="c72b-5a35-bbb6-78cc" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                    <infoLink id="cd8c-0cba-bbc2-7ad4" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="25.0"/>
@@ -4016,7 +4046,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="23b8-83eb-24cd-c52e" name="Heavy Crossbow" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4039,6 +4069,7 @@
                   <infoLinks>
                     <infoLink id="2dce-492d-1065-82e2" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="db43-ac48-2014-0701" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                    <infoLink id="a77e-797b-01e2-68c3" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="25.0"/>
@@ -4109,7 +4140,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(3) 60x60</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Entrenched, Immobile</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Entrenched, Immobile, Peasant&apos;s Duty</characteristic>
           </characteristics>
         </profile>
         <profile id="3bb1-4a0d-8b03-29ce" name="Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4126,6 +4157,7 @@
         <infoLink id="1856-b0eb-9dfd-1aff" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
         <infoLink id="a6d8-0147-b278-44cb" name="Entrenched" hidden="false" targetId="c0a7-b837-7fad-97c1" type="rule"/>
         <infoLink id="a5c5-3f4c-5400-4ecd" name="Immobile" hidden="false" targetId="5378-7042-370d-67fc" type="rule"/>
+        <infoLink id="1739-1120-681f-ba1d" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a4c7-a4b0-6705-85a5" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -4150,7 +4182,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(3) 60x60</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Entrenched, Immobile</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Entrenched, Immobile, Peasant&apos;s Duty</characteristic>
           </characteristics>
         </profile>
         <profile id="2a6c-6102-13e5-5ff2" name="Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4167,6 +4199,7 @@
         <infoLink id="9e05-1513-fa33-cced" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
         <infoLink id="7f2c-afc5-f8c4-40f5" name="Entrenched" hidden="false" targetId="c0a7-b837-7fad-97c1" type="rule"/>
         <infoLink id="ca09-fb56-6d19-d481" name="Immobile" hidden="false" targetId="5378-7042-370d-67fc" type="rule"/>
+        <infoLink id="569d-2588-0af5-4a99" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="09df-6b49-07be-3ae0" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -4191,7 +4224,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(3) 60x60</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Entrenched, Immobile</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Entrenched, Immobile, Peasant&apos;s Duty</characteristic>
           </characteristics>
         </profile>
         <profile id="3082-ab2c-881e-a3a6" name="Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4209,6 +4242,7 @@
         <infoLink id="a46d-5ef7-a210-87ad" name="Entrenched" hidden="false" targetId="c0a7-b837-7fad-97c1" type="rule"/>
         <infoLink id="3576-3e5f-b07e-1d33" name="Immobile" hidden="false" targetId="5378-7042-370d-67fc" type="rule"/>
         <infoLink id="cc9d-88ba-5c72-d048" name="Indirect(X)" hidden="false" targetId="1411-52c8-8d71-1b15" type="rule"/>
+        <infoLink id="7013-7c8b-c151-7215" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d892-ca4c-b735-0ef9" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -4326,7 +4360,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">2+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">6</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">120x92</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Boiling Oil</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Boiling Oil, Peasant&apos;s Duty</characteristic>
           </characteristics>
         </profile>
         <profile id="9069-61d5-8bf9-7b1a" name="Heavy Bow Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4361,6 +4395,7 @@
       </rules>
       <infoLinks>
         <infoLink id="f2c3-3998-44c4-77f8" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+        <infoLink id="aa91-4eb3-bc4f-f1e1" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c989-fbf9-4741-a623" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -4399,310 +4434,308 @@
         <categoryLink id="ff68-f9db-b462-8865" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="1581-7bd1-249d-7fc2" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="6fb4-482b-0d8b-4e96">
+        <selectionEntryGroup id="1581-7bd1-249d-7fc2" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="be2d-e068-808f-9e85">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccfc-543e-7967-b7f1" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a69-4d5d-facb-172e" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6fb4-482b-0d8b-4e96" name="5 Grail Knights" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10fe-cd0a-d4fd-d442" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="1a17-28ac-550d-980e" name="Grail Knight" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="853f-2d92-af5e-7262" type="max"/>
-                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="356e-2758-574a-8062" type="min"/>
-                  </constraints>
-                  <profiles>
-                    <profile id="57ef-e194-4b86-438a" name="Grail Knight" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
-                      <characteristics>
-                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
-                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
-                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
-                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fearless, Impact(1), Joust</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="757a-46d9-6aa0-a6a1" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
-                    <infoLink id="9939-d462-bb7e-cf3e" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                    <infoLink id="2c39-2374-d522-a2ac" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
-                    <infoLink id="9dd5-7a6e-804a-ee8c" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
-                    <infoLink id="7785-150c-bc23-255f" name="Joust" hidden="false" targetId="f042-5f90-6723-b817" type="rule"/>
-                  </infoLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="77a4-d5c4-40e0-7645" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a30-b7d8-a5c5-8144">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f710-6082-78a1-faef" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b68-4b56-a1ef-5f5b" type="max"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="a529-b6d5-0a27-3b89" name="Saint&apos;s Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8c7a-2741-fbef-986a" type="max"/>
-                            <constraint field="selections" scope="6fb4-482b-0d8b-4e96" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ca2f-ed20-9954-b9e9" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="d388-07b3-208a-b858" name="Saint&apos;s Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Ignores Regeneration</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <infoLinks>
-                            <infoLink id="2409-cf7e-d69f-4fd9" name="Ignores Regeneration" hidden="false" targetId="1d21-303a-306a-8dbd" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="5a30-b7d8-a5c5-8144" name="Heavy Lance" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ff0-e57e-d406-7783" type="max"/>
-                            <constraint field="selections" scope="1a17-28ac-550d-980e" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dcfe-beb2-7f67-6a56" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="033a-f44c-cde7-b234" name="Heavy Lance" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Lance</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                    <selectionEntryGroup id="edc1-065f-65e1-a4bd" name="Relics" hidden="false" collective="false" import="true">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfb8-ead9-94b2-ff3d" type="max"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="370c-c144-7d51-c2f0" name="Bone Relic" hidden="false" collective="true" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f30-9cfd-bebe-3b5e" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="38e8-6050-5a0d-21fd" name="Bone Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
-                              <characteristics>
-                                <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Protected</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <infoLinks>
-                            <infoLink id="d2f6-8625-c0ee-5404" name="Protected" hidden="false" targetId="170e-9393-3079-dd53" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="2.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="9452-a948-dff9-41e5" name="Blood Relic" hidden="false" collective="true" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6903-7369-a538-7127" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="9c24-cabc-b075-e4e5" name="Blood Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
-                              <characteristics>
-                                <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Angelic Shield</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <infoLinks>
-                            <infoLink id="8e5b-c542-6c52-22be" name="Angelic Shield" hidden="false" targetId="f023-b4ea-3ce7-7d18" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="3.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="cfe5-32f1-bf2e-725c" name="Sword Relic" hidden="false" collective="true" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b72-ae56-1dce-487c" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="f287-b3c5-f190-f48d" name="Sword Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
-                              <characteristics>
-                                <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">AP(+1) in Melee</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <rules>
-                            <rule id="9035-84bc-ad5b-4d08" name="AP(+1) in Melee" hidden="false">
-                              <description>This model&apos;s Melee weapons get AP(+1).</description>
-                            </rule>
-                          </rules>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="3.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="26.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="e800-7264-f9cd-7c02" name="10 Grail Knights" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="231b-2fe3-eba3-f008" type="max"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="a25c-100c-ded6-3de4" name="Grail Knight" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="284b-4131-fb09-a443" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                <infoLink id="3736-20a9-218f-99f5" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
+                <infoLink id="a01b-9ced-addb-f35a" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
+                <infoLink id="f388-8eb0-06a9-4609" name="Joust" hidden="false" targetId="f042-5f90-6723-b817" type="rule"/>
+                <infoLink id="8b03-ac3b-bce5-7d67" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="b6ca-58fa-33d9-c54f" name="Relics" hidden="false" collective="false" import="true">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d1f-518a-94c6-ea0b" type="max"/>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea86-f47f-0d07-f134" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dc1-a692-770d-d81e" type="max"/>
                   </constraints>
-                  <profiles>
-                    <profile id="b8e2-b502-6f65-b4a5" name="Grail Knight" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
-                      <characteristics>
-                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
-                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
-                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
-                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fearless, Impact(1), Joust</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="4473-cc6a-3144-0ed0" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
-                    <infoLink id="5e2e-fa64-7a70-6031" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                    <infoLink id="d942-431c-b7ac-8ed3" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
-                    <infoLink id="93ef-1d66-8349-f73a" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
-                    <infoLink id="5a78-acff-7ab1-4821" name="Joust" hidden="false" targetId="f042-5f90-6723-b817" type="rule"/>
-                  </infoLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="7f81-3033-34a0-d3a8" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a37-de0c-7384-6e3b">
+                  <selectionEntries>
+                    <selectionEntry id="85bd-75fa-0634-a0f5" name="Bone Relic" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="307f-3782-a3e3-6c8f" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9523-2f85-a730-d500" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d36-4b44-c661-21e1" type="max"/>
                       </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="9205-7ba8-0d13-c2b9" name="Saint&apos;s Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="67e4-0183-b4af-ba15" type="max"/>
-                            <constraint field="selections" scope="e800-7264-f9cd-7c02" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d35-daff-cdd6-730d" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="4689-9f22-3e95-18b9" name="Saint&apos;s Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Ignores Regeneration</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <infoLinks>
-                            <infoLink id="7edb-a0d0-66a2-b9b8" name="Ignores Regeneration" hidden="false" targetId="1d21-303a-306a-8dbd" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="5a37-de0c-7384-6e3b" name="Heavy Lance" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8efb-7bae-27f6-935d" type="max"/>
-                            <constraint field="selections" scope="e800-7264-f9cd-7c02" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0af2-4f53-df84-8bcc" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="8d6b-85c7-094e-86d7" name="Heavy Lance" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Lance</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                    <selectionEntryGroup id="2537-2d69-bc4f-3219" name="Relics" hidden="false" collective="false" import="true">
+                      <profiles>
+                        <profile id="1cac-3e46-7ce1-3e46" name="Bone Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                          <characteristics>
+                            <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Protected</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="8ff4-9aee-f041-1d39" name="Protected" hidden="false" targetId="170e-9393-3079-dd53" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0a71-11cf-b337-0a4e" name="Blood Relic" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="346a-bc9d-20dc-026f" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9700-bd24-d89c-2b62" type="max"/>
                       </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="9b37-622b-8862-07a7" name="Bone Relic" hidden="false" collective="true" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea56-7afb-523e-5f3a" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="c384-43f4-649c-35d0" name="Bone Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
-                              <characteristics>
-                                <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Protected</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <infoLinks>
-                            <infoLink id="d6f2-425d-97b2-8191" name="Protected" hidden="false" targetId="170e-9393-3079-dd53" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="2.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="a637-c708-198a-e063" name="Blood Relic" hidden="false" collective="true" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83db-e319-7e6f-39d4" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="40d6-86c7-eebd-5c47" name="Blood Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
-                              <characteristics>
-                                <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Angelic Shield</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <infoLinks>
-                            <infoLink id="eb26-dcf4-0c3d-fced" name="Angelic Shield" hidden="false" targetId="f023-b4ea-3ce7-7d18" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="3.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="a88a-3884-afbf-81ab" name="Sword Relic" hidden="false" collective="true" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a3f-a40e-4960-4844" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="9968-cfe1-5382-b696" name="Sword Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
-                              <characteristics>
-                                <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">AP(+1) in Melee</characteristic>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <rules>
-                            <rule id="ea80-502e-1774-090f" name="AP(+1) in Melee" hidden="false">
-                              <description>This model&apos;s Melee weapons get AP(+1).</description>
-                            </rule>
-                          </rules>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="3.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="26.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                      <profiles>
+                        <profile id="3c08-7709-7ef5-9fb6" name="Blood Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                          <characteristics>
+                            <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Angelic Shield</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="ba27-fdb7-8e9c-8a65" name="Angelic Shield" hidden="false" targetId="f023-b4ea-3ce7-7d18" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="30.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="53be-bc2e-f563-a475" name="Sword Relic" hidden="false" collective="true" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4450-3738-f604-391e" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="3393-b26d-f6d3-a660" name="Sword Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                          <characteristics>
+                            <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">AP(+1) in Melee</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="3079-9cce-5aa2-6c44" name="AP(+1) in Melee" hidden="false">
+                          <description>This model&apos;s Melee weapons get AP(+1).</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="30.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="6b27-74d8-41bd-643f" name="Grail Knight Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="b372-393e-4b4e-40d6">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d89-51c5-b65a-a2f9" type="max"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cf5-533b-f39b-2221" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="b372-393e-4b4e-40d6" name="Grail Knight w/ Heavy Lance" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="252f-0313-2e97-011e" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="4933-ea06-f3a3-976e" name="Grail Knight" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                          <characteristics>
+                            <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                            <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
+                            <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Joust, Knight&apos;s Honor</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="7b0a-408a-9d4e-de9a" name="Heavy Lance" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Lance</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="7788-8b5c-292b-2abe" name="Lance" hidden="false" targetId="a510-87f8-91d8-c665" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="26.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="77fc-a9e7-8d8f-2ab1" name="Grail Knight w/ Saint&apos;s Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d91d-2e1c-aad5-8c79" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="c047-d23f-ed6f-70d7" name="Grail Knight" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                          <characteristics>
+                            <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                            <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
+                            <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Joust, Knight&apos;s Honor</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="19b9-24cf-627c-0c28" name="Saint&apos;s Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Purge</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="69f5-fd9b-a863-11b0" name="Purge" hidden="false">
+                          <description>Ignores Regeneration, and the target must re-roll unmodified Defense rolls of 6 when blocking hits.</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="31.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="be2d-e068-808f-9e85" name="5 Grail Knights" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d81-3c08-a574-f89c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0f5f-e916-5f2b-92a0" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                <infoLink id="418f-781a-333f-4a88" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
+                <infoLink id="326b-cec6-68ac-89eb" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
+                <infoLink id="6043-9d5a-762f-1b8e" name="Joust" hidden="false" targetId="f042-5f90-6723-b817" type="rule"/>
+                <infoLink id="8b99-7fb9-4d58-7d04" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="f32d-8418-7087-c541" name="Relics" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b03-2d8a-2ae4-40d8" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="f093-8335-3c7b-1722" name="Bone Relic" hidden="false" collective="true" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71c2-cf7f-66ef-4cb4" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="70d2-3b52-a233-efbc" name="Bone Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                          <characteristics>
+                            <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Protected</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="490e-f363-5181-166c" name="Protected" hidden="false" targetId="170e-9393-3079-dd53" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6d54-659a-a095-0685" name="Blood Relic" hidden="false" collective="true" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7638-ee8e-9d6a-93f4" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7885-efdf-9c71-bb0d" name="Blood Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                          <characteristics>
+                            <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Angelic Shield</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="29b7-52f3-c1d1-2e3a" name="Angelic Shield" hidden="false" targetId="f023-b4ea-3ce7-7d18" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="95a7-660b-02ea-fe4a" name="Sword Relic" hidden="false" collective="true" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a3-6667-c558-750e" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="a683-e72b-2d2f-731e" name="Sword Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                          <characteristics>
+                            <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">AP(+1) in Melee</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="8351-3c72-c8a9-3071" name="AP(+1) in Melee" hidden="false">
+                          <description>This model&apos;s Melee weapons get AP(+1).</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="dc46-aa95-3cea-b35b" name="Grail Knight Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b65-d73b-8afd-9284">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ef0-fd59-e348-ff9b" type="max"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3816-67ec-79f2-3ee2" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="2b65-d73b-8afd-9284" name="Grail Knight w/ Heavy Lance" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f1d-cafc-7326-faab" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="fdb2-1062-cb45-aed0" name="Grail Knight" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                          <characteristics>
+                            <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                            <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
+                            <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast,  Impact(1), Joust, Knight&apos;s Honor</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="7526-7ac2-c582-4dc6" name="Heavy Lance" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Lance</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="1ab5-b438-0784-9d58" name="Lance" hidden="false" targetId="a510-87f8-91d8-c665" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="26.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8809-210b-f5cb-daad" name="Grail Knight w/ Saint&apos;s Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3103-5e6c-dff0-51c9" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="d573-4e7c-3a6e-8b6e" name="Grail Knight" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                          <characteristics>
+                            <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                            <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
+                            <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Joust, Knight&apos;s Honor</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="8430-ba3b-167b-99f4" name="Saint&apos;s Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Purge</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="63e4-ec01-99a7-a9d3" name="Purge" hidden="false">
+                          <description>Ignores Regeneration, and the target must re-roll unmodified Defense rolls of 6 when blocking hits.</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="31.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
               </costs>
@@ -4926,7 +4959,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">9</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fear(1), Flying, Mystic Warding</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Fear(1), Flying, Knight&apos;s Honor, Mystic Warding</characteristic>
           </characteristics>
         </profile>
         <profile id="152d-fca6-e80c-e313" name="Heavy Lance" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4953,6 +4986,7 @@
         <infoLink id="714b-c977-b2af-89e3" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
         <infoLink id="6d1a-2007-308d-b02c" name="Flying" hidden="false" targetId="c9d0-942c-1f23-c6ea" type="rule"/>
         <infoLink id="c8af-2643-0517-d8a7" name="Mystic Warding" hidden="false" targetId="14fe-ddef-6747-1e8b" type="rule"/>
+        <infoLink id="b141-1547-fbde-710a" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6671-9bc0-e1e5-aec1" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -4989,7 +5023,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="265.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="285.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a83-0d58-3323-d3dd" name="Spirits of the Fay" hidden="false" collective="false" import="true" type="unit">
@@ -5190,12 +5224,13 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Hero</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Hero, Peasant&apos;s Duty</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="ffbf-6d62-e968-83ad" name="Hero" hidden="false" targetId="7f75-81ad-7d84-379b" type="rule"/>
+        <infoLink id="f20e-00fb-85df-c47d" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="44e3-d447-727b-aab2" name="New CategoryLink" hidden="false" targetId="b1f7-e68c-ee70-9808" primary="true"/>
@@ -5700,13 +5735,13 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Hero</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Hero, Knight&apos;s Honor</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="da45-896c-8cf0-76f6" name="Hero" hidden="false" targetId="7f75-81ad-7d84-379b" type="rule"/>
-        <infoLink id="040f-9e1a-e53f-ce7b" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+        <infoLink id="040f-9e1a-e53f-ce7b" name="Knight&apos;s Honor" hidden="false" targetId="5e1a-73d8-a774-879d" type="rule"/>
         <infoLink id="722e-b73b-46dc-009c" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -6214,4 +6249,12 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedRules>
+    <rule id="5e1a-73d8-a774-879d" name="Knight&apos;s Honor" hidden="false">
+      <description>Whenever a unit where most models have this rule fails a morale test, roll one die. On a 4+ it counts as passed instead.</description>
+    </rule>
+    <rule id="a348-809b-4247-a9c9" name="Peasant&apos;s Duty" hidden="false">
+      <description>While there is a unit within 6&quot; with a majority of its models having the Knight&apos;s Honor and/or Joust rule, this unit gets a +1 bonus to Morale rolls.</description>
+    </rule>
+  </sharedRules>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2915-6e83-69af-2e0b" name="Horde of Chaos - Khorne" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2915-6e83-69af-2e0b" name="Horde of Chaos - Khorne" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="dd14-6778-cb20-9fe4" name="Wrathmongers" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -2859,199 +2859,177 @@
           </constraints>
           <selectionEntries>
             <selectionEntry id="e293-1b04-8753-9b9d" name="5 Khorngors" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="b799-4ff6-b706-b0e8" name="Khorngor" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6882-6438-2126-8e58" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="0f89-e1d2-3b5d-64ad" name="Khorngor" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                  <characteristics>
+                    <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                    <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
+                    <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                    <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3e61-4610-df3d-4c3d" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                <infoLink id="7074-78ae-2881-cca8" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="77e1-2074-6824-32e2" name="Khorngor Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc80-3074-c89a-0487">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ff0-df0f-bf39-fdb0" type="max"/>
-                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8ec-3d37-8ec7-dde9" type="min"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9ad-c6a2-9331-816d" type="max"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab2d-6467-d9bb-2fdf" type="min"/>
                   </constraints>
-                  <profiles>
-                    <profile id="bf55-2dd2-bf15-33a0" name="Khorngor" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
-                      <characteristics>
-                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
-                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
-                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
-                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="180c-7c98-2398-a69f" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
-                    <infoLink id="8746-29d6-5978-cfc5" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                  </infoLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="7191-6b9b-afac-86c7" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="1394-b89a-8e3f-2b62">
+                  <selectionEntries>
+                    <selectionEntry id="dc80-3074-c89a-0487" name="Khorngor w/ Heavy Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fd9-02e3-9f40-3b5a" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e512-7762-17b1-3c9b" type="max"/>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b145-5f44-24ed-ecac" type="max"/>
                       </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="c468-08df-101d-2ce4" name="Heavy Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ece5-74e4-f30c-4450" type="max"/>
-                            <constraint field="selections" scope="e293-1b04-8753-9b9d" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9679-f714-47a2-8cc8" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="df2b-8718-7cb5-eebe" name="Heavy Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="aed0-abf3-4ce7-02ee" name="Dual Heavy Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="743b-66fc-f388-6dde" type="max"/>
-                            <constraint field="selections" scope="e293-1b04-8753-9b9d" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5a67-dc1e-1304-6b46" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="8e93-5ad9-d0b0-c453" name="Dual Heavy Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="7.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="1394-b89a-8e3f-2b62" name="Heavy Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6154-dbdc-e77a-8dc2" type="max"/>
-                            <constraint field="selections" scope="e293-1b04-8753-9b9d" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5f3a-31d2-a32a-da73" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="41ad-095c-d40a-58a6" name="Heavy Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="12.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                      <profiles>
+                        <profile id="3509-771c-b543-be37" name="Heavy Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0593-9a0c-cdb3-bb1b" name="Khorngor w/ Heavy Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc6f-aa64-1b78-5757" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="05df-7b30-af58-2613" name="Heavy Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="de2e-97a8-4dc1-d94e" name="Khorngor w/ Dual Heavy Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56d0-659d-0b37-0fbf" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="a7d5-4720-88f9-7e62" name="Dual Heavy Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="7.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="60.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="138d-dab8-79f5-49be" name="10 Khorngors" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntries>
-                <selectionEntry id="4ed8-ac2a-2f5d-9ee1" name="Khorngor" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8c69-f648-2726-72f0" name="10 Khorngors" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9983-72dd-6cd8-5f35" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="9081-1a6c-911c-9c21" name="Khorngor" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                  <characteristics>
+                    <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                    <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
+                    <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                    <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="2c87-6310-dfc1-66ff" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                <infoLink id="6f93-7dd5-3abd-6f30" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="0861-3c64-205e-ac9e" name="Khorngor Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="2750-733d-44fc-4aca">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0b6-6d3e-25aa-9807" type="max"/>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d90-bf8b-9ed3-d816" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7313-e60c-56a4-906e" type="max"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5230-b9af-977e-967b" type="min"/>
                   </constraints>
-                  <profiles>
-                    <profile id="44a0-22a7-e23e-5828" name="Khorngor" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
-                      <characteristics>
-                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
-                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
-                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
-                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="6509-2b62-2a13-d8d9" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
-                    <infoLink id="10c4-b079-c200-4d72" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                  </infoLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="f95c-698c-0d8f-566d" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="043a-78a1-00a7-aa1a">
+                  <selectionEntries>
+                    <selectionEntry id="2750-733d-44fc-4aca" name="Khorngor w/ Heavy Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fb4-b67e-fa51-9e40" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75a0-e245-c0ad-fb6c" type="max"/>
+                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b9-058b-537a-a8c4" type="max"/>
                       </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="9744-77c5-e756-b2b7" name="Heavy Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8604-60df-4780-3d67" type="max"/>
-                            <constraint field="selections" scope="138d-dab8-79f5-49be" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b093-f28b-7d37-0ebe" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="6713-9c0d-4daf-0aa4" name="Heavy Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="d78c-3e38-4fde-9b64" name="Dual Heavy Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="72c7-c186-9fa5-8de9" type="max"/>
-                            <constraint field="selections" scope="138d-dab8-79f5-49be" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f3b0-11d3-d43f-6133" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="386c-6418-753a-675f" name="Dual Heavy Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="7.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="043a-78a1-00a7-aa1a" name="Heavy Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="487c-426e-6764-c2f2" type="max"/>
-                            <constraint field="selections" scope="138d-dab8-79f5-49be" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e9f7-05d0-fba0-df00" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="11f0-1c09-d8ab-a5b7" name="Heavy Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="12.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                      <profiles>
+                        <profile id="6244-340d-47bf-e484" name="Heavy Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3eac-e65c-12e8-95b5" name="Khorngor w/ Heavy Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d79d-f8c3-5389-58c0" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7c93-2cab-cd46-1ba6" name="Heavy Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="02f7-60a5-dc51-d120" name="Khorngor w/ Dual Heavy Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb7b-c58d-0b00-6397" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="9d64-b3fc-6383-c3a6" name="Dual Heavy Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="7.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="120.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3370,214 +3348,186 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4d37-8488-9bb8-ba40" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="ca33-d3b7-7fea-3254">
+        <selectionEntryGroup id="4d37-8488-9bb8-ba40" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="3bec-d594-44c9-cc70">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae45-b975-527f-abcc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e22-0eb5-a8fc-2056" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ca33-d3b7-7fea-3254" name="5 Blood Warriors" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3bec-d594-44c9-cc70" name="5 Blood Warriors" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52df-be74-41de-7a60" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0f2-962f-b746-29e5" type="max"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="18b8-045e-a095-a89c" name="Blood Warrior" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="716d-6c5a-07ad-3230" name="Blood Warrior" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                  <characteristics>
+                    <characteristic name="Quality" typeId="d469-f059-193c-f740">3+</characteristic>
+                    <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
+                    <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                    <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 32x32</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Frenzy</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a076-1f15-80f3-c000" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                <infoLink id="01c5-4d69-8411-a489" name="Frenzy" hidden="false" targetId="dda7-99c5-d52e-de87" type="rule"/>
+                <infoLink id="097f-bdf8-89f6-974e" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="5822-367f-e557-33d4" name="Blood Warrior Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="1033-4948-1c76-16c0">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ec-2999-bfc5-9fe7" type="max"/>
-                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2521-d1d9-7707-c27b" type="min"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3390-ee74-f376-afba" type="max"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7339-cee2-9369-2211" type="min"/>
                   </constraints>
-                  <profiles>
-                    <profile id="710a-c2c4-58e9-76c7" name="Blood Warrior" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
-                      <characteristics>
-                        <characteristic name="Quality" typeId="d469-f059-193c-f740">3+</characteristic>
-                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
-                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
-                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 32x32</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Frenzy</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="f660-9dfd-5350-ed5c" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
-                    <infoLink id="a05d-2c30-b12e-6605" name="Frenzy" hidden="false" targetId="dda7-99c5-d52e-de87" type="rule"/>
-                    <infoLink id="12ad-fab7-c0fe-0887" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                  </infoLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="9d01-3877-867f-26ea" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a3f-eb6d-8ca9-2c82">
+                  <selectionEntries>
+                    <selectionEntry id="1033-4948-1c76-16c0" name="Blood Warrior w/ Heavy Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d542-9047-ad3d-a36d" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c40-3b8e-9f5a-c704" type="max"/>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="502e-d2c5-f920-2645" type="max"/>
                       </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="6908-a718-0161-0812" name="Dual Heavy Great Weapons" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8996-506a-35fb-9d81" type="max"/>
-                            <constraint field="selections" scope="ca33-d3b7-7fea-3254" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="270e-e675-105e-baae" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="3e4f-d691-288a-ea0d" name="Dual Heavy Great Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="20.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="05c9-1df5-1c7b-2c3b" name="Dual Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7b76-d76c-7a46-d88b" type="max"/>
-                            <constraint field="selections" scope="ca33-d3b7-7fea-3254" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="699b-a094-cc18-2064" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="934a-a026-dd8c-00f7" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="6.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="4a3f-eb6d-8ca9-2c82" name="Heavy Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b30d-f307-6e04-6686" type="max"/>
-                            <constraint field="selections" scope="ca33-d3b7-7fea-3254" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5b39-e1b4-fd50-2a4f" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="aa79-cab0-a869-8256" name="Heavy Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="19.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                      <profiles>
+                        <profile id="3b58-e8b3-b268-faa7" name="Heavy Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="39b1-977f-9f6d-62ee" name="Blood Warrior w/ Dual Heavy Great Weapons" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="012c-f710-dde3-5396" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="0b9c-192e-2585-d288" name="Dual Heavy Great Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c00b-3373-0e44-ac6c" name="Blood Warrior w/ Dual Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb47-b366-6702-34e0" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="1d43-edba-6fba-5085" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="6.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="95.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d58b-b2e7-84ab-5661" name="10 Blood Warriors" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="28c9-33ad-7b51-a884" name="10 Blood Warriors" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c243-e8a4-1bbc-575a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cf1-e397-fba2-7f19" type="max"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry id="3946-7354-47c4-1796" name="Blood Warrior" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a1b6-abf3-40c6-252b" name="Blood Warrior" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                  <characteristics>
+                    <characteristic name="Quality" typeId="d469-f059-193c-f740">3+</characteristic>
+                    <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
+                    <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                    <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 32x32</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Frenzy</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="e866-fed1-2eba-bd09" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                <infoLink id="57ad-e699-4461-d407" name="Frenzy" hidden="false" targetId="dda7-99c5-d52e-de87" type="rule"/>
+                <infoLink id="ccb6-c0f2-65d8-f8eb" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="bd0e-4400-8acd-cb7a" name="Blood Warrior Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="bdeb-f3ed-073a-9021">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f58-5006-45d9-e646" type="max"/>
-                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dddc-8a62-d245-19f0" type="min"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a05e-6032-5b83-a807" type="max"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59aa-c4fb-718e-b137" type="min"/>
                   </constraints>
-                  <profiles>
-                    <profile id="f4d3-5c7e-8bb9-99ad" name="Blood Warrior" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
-                      <characteristics>
-                        <characteristic name="Quality" typeId="d469-f059-193c-f740">3+</characteristic>
-                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
-                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
-                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 32x32</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Frenzy</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="7021-5d4e-e242-7c9c" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
-                    <infoLink id="12d2-5ca0-43db-6b8e" name="Frenzy" hidden="false" targetId="dda7-99c5-d52e-de87" type="rule"/>
-                    <infoLink id="8d70-0837-f450-5020" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                  </infoLinks>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="b4a2-764f-5799-970b" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="c92b-6653-fb23-63db">
+                  <selectionEntries>
+                    <selectionEntry id="bdeb-f3ed-073a-9021" name="Blood Warrior w/ Heavy Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="836f-8ab4-5ec1-86e3" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecf7-22f9-1671-a20b" type="max"/>
+                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85ac-4376-6f81-6029" type="max"/>
                       </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="dc52-8851-0520-c78f" name="Dual Heavy Great Weapons" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f318-c0a5-7477-6be6" type="max"/>
-                            <constraint field="selections" scope="3946-7354-47c4-1796" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c7a2-a0a2-ef63-4607" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="003c-8c26-1380-b780" name="Dual Heavy Great Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="20.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="9fe5-6dd8-5a5a-e4e7" name="Dual Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e082-d7fa-24be-5860" type="max"/>
-                            <constraint field="selections" scope="3946-7354-47c4-1796" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c5ba-6c01-2957-66cc" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="273b-7aa0-66d5-c3a8" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="6.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="c92b-6653-fb23-63db" name="Heavy Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a74-3e71-42a3-46f8" type="max"/>
-                            <constraint field="selections" scope="3946-7354-47c4-1796" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="625a-8b43-86a0-0d40" type="max"/>
-                          </constraints>
-                          <profiles>
-                            <profile id="35f8-9441-4f4b-90ac" name="Heavy Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
-                              <characteristics>
-                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
-                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
-                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
-                              </characteristics>
-                            </profile>
-                          </profiles>
-                          <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="19.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                      <profiles>
+                        <profile id="d944-0bcf-6b5c-4657" name="Heavy Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d787-7d19-edc8-a403" name="Blood Warrior w/ Dual Heavy Great Weapons" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="154c-8813-d8ba-7883" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="05c7-82f5-d04a-bd84" name="Dual Heavy Great Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6810-2c8f-3150-8be2" name="Blood Warrior w/ Dual Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69ff-b887-2b5a-ebdd" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="dbb6-336d-bdac-f8f6" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="6.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="190.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5081,11 +5031,9 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="d924-1e1d-ba7c-0d59" name="Wrath of Khorne(1)" hidden="false">
-              <description>Once per game, when this model activates, before attacking, roll 1 dice. For each 2+ one enemy unit within 12&quot; takes 3 hits with AP(1).</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink id="2ade-7718-b1b1-72d3" name="Wrath of Khorne(X)" hidden="false" targetId="e3a5-9df3-686e-7040" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
           </costs>
@@ -5484,11 +5432,9 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="35c2-9dc2-6cbc-3f90" name="Wrath of Khorne(2)" hidden="false">
-              <description>Once per game, when this model activates, before attacking, roll 2 dice. For each 2+ one enemy unit within 12&quot; takes 3 hits with AP(1).</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink id="b246-e773-1f94-87ee" name="Wrath of Khorne(X)" hidden="false" targetId="e3a5-9df3-686e-7040" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="20.0"/>
           </costs>
@@ -5736,11 +5682,9 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="1a75-bda2-f8a9-d908" name="Wrath of Khorne(3)" hidden="false">
-              <description>Once per game, when this model activates, before attacking, roll 3 dice. For each 2+ one enemy unit within 12&quot; takes 3 hits with AP(1).</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink id="87d2-5c24-fb3e-0a9a" name="Wrath of Khorne(X)" hidden="false" targetId="e3a5-9df3-686e-7040" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="30.0"/>
           </costs>
@@ -5936,11 +5880,9 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="f6d7-68cd-5aa0-30fe" name="Wrath of Khorne(4)" hidden="false">
-              <description>Once per game, when this model activates, before attacking, roll 4 dice. For each 2+ one enemy unit within 12&quot; takes 3 hits with AP(1).</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink id="0fea-b28d-e8b9-a52a" name="Wrath of Khorne(X)" hidden="false" targetId="e3a5-9df3-686e-7040" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="40.0"/>
           </costs>
@@ -7568,6 +7510,9 @@
   <sharedRules>
     <rule id="356c-7609-e03c-f16c" name="Bleeding" hidden="false">
       <description>Enemies that roll to block hits from this weapon take one extra wound for each unmodified result of 1 that they roll.</description>
+    </rule>
+    <rule id="e3a5-9df3-686e-7040" name="Wrath of Khorne(X)" hidden="false">
+      <description>Once per game, when this model activates, before attacking, roll X dice. For each 2+ one enemy unit within 12&quot; takes 3 hits with AP(1).</description>
     </rule>
   </sharedRules>
 </catalogue>

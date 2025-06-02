@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c4d9-41ac-d91a-656f" name="Skaven" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c4d9-41ac-d91a-656f" name="Skaven" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c315-03be-57c4-3013" name="Giant Rats" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -29,7 +29,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Scurrying Rats, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="d1a4-41dd-f4b7-443d" name="Rending Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -45,6 +45,7 @@
                     <infoLink id="0e30-1166-32b7-f14e" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
                     <infoLink id="2bdf-b7a9-8e97-5f81" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="61fe-c169-5ab1-c313" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="758f-3211-437b-7cfb" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="6b41-5934-0d67-9cfd" name="Master Moulder" hidden="false" collective="true" import="true" type="upgrade">
@@ -72,7 +73,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="70.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="75.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="02f3-6f3e-a94d-f0e9" name="10 Giant Rats" hidden="false" collective="false" import="true" type="upgrade">
@@ -92,7 +93,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Scurrying Rats, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="8b5e-3262-e36d-82ec" name="Rending Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -108,6 +109,7 @@
                     <infoLink id="d105-4366-c327-1e14" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
                     <infoLink id="a500-3330-fd5a-5bb0" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="904f-6480-0416-da89" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="7f3d-c5d7-25f5-ef93" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="3340-4074-5c25-c9b6" name="Master Moulder" hidden="false" collective="true" import="true" type="upgrade">
@@ -135,7 +137,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="140.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="150.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -260,7 +262,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dodge, Hero, Scout, Stealth, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dodge, Hero, Scout, Scurrying Rats, Stealth, Strider</characteristic>
           </characteristics>
         </profile>
         <profile id="257d-1a8e-f127-f397" name="Dual Heavy Poisoned Blades" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -289,6 +291,7 @@
         <infoLink id="3a07-6347-07c9-b889" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
         <infoLink id="7ca2-9118-5a71-e735" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
         <infoLink id="c0a2-1e13-63e9-9bd1" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+        <infoLink id="9b39-b685-809a-394f" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d8e4-572f-cc30-6773" name="New CategoryLink" hidden="false" targetId="b1f7-e68c-ee70-9808" primary="true"/>
@@ -317,7 +320,7 @@
         <entryLink id="419e-ac9b-6f39-d0bb" name="Warlord" hidden="false" collective="false" import="true" targetId="42a7-c65b-11e2-3034" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="135.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="140.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f28-02c0-fccb-2043" name="Warplock Jezzail Teams" hidden="false" collective="false" import="true" type="unit">
@@ -348,7 +351,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats, Slow</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="c960-a241-354f-63d3" name="Warplock Jezzail" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -372,6 +375,7 @@
                     <infoLink id="0313-9289-b415-d841" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="69fb-f393-b034-93fe" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
                     <infoLink id="ddab-f5db-a372-70aa" name="Sniper" hidden="false" targetId="868d-8e83-5a37-29b3" type="rule"/>
+                    <infoLink id="c7e4-ee86-905b-eee4" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -379,7 +383,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="115.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="120.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6c7f-8a57-0621-f8d1" name="6 Warplock Jezzail Teams" hidden="false" collective="false" import="true" type="upgrade">
@@ -399,7 +403,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Slow</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats, Slow</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="6ec2-f500-f821-6eeb" name="Warplock Jezzail" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -423,6 +427,7 @@
                     <infoLink id="b119-1c1c-f1a0-2db2" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="d473-4105-3d9d-100e" name="Slow" hidden="false" targetId="3678-75cd-ed12-040c" type="rule"/>
                     <infoLink id="4606-bfa5-f2ab-6bcf" name="Sniper" hidden="false" targetId="868d-8e83-5a37-29b3" type="rule"/>
+                    <infoLink id="383b-a0ab-a88b-b958" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -430,7 +435,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="230.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="240.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -468,12 +473,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurry Away</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurry Away, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="1f6a-be26-6011-3755" name="Scurry Away" hidden="false" targetId="0196-4144-2bff-22cf" type="rule"/>
+                    <infoLink id="4c39-95eb-c65c-fd26" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="4b49-ff2d-31b8-1025" name="Whips" hidden="false" collective="true" import="true" type="upgrade">
@@ -553,7 +559,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="95.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="100.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d6b2-673a-e43d-5c3d" name="6 Packmasters" hidden="false" collective="false" import="true" type="upgrade">
@@ -573,12 +579,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurry Away</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurry Away, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="dcbe-bbb9-ced3-55bf" name="Scurry Away" hidden="false" targetId="0196-4144-2bff-22cf" type="rule"/>
+                    <infoLink id="510b-c64e-0e7b-39e0" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="bb8e-a3d9-2074-b815" name="Whips" hidden="false" collective="true" import="true" type="upgrade">
@@ -658,7 +665,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="190.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="200.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -823,7 +830,7 @@
                   <characteristics>
                     <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
                     <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">6</characteristic>
-                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
                     <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
                   </characteristics>
                 </profile>
@@ -849,14 +856,14 @@
                 </rule>
               </rules>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="135.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="145.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f448-f8e3-8941-37e0" name="Eshin Assassin Adepts" hidden="false" collective="false" import="true" type="unit">
@@ -887,7 +894,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dodge, Scout, Stealth, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dodge, Scout, Scurrying Rats, Stealth, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="f8d6-c7d8-1e34-0363" name="Dual Heavy Poisoned Blades" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -915,6 +922,7 @@
                     <infoLink id="daa1-4c38-bc9f-dbd4" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
                     <infoLink id="2240-4105-a6b8-7a0a" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="9ddc-ff74-2630-56e3" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="91aa-98a2-8e7f-59e0" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -922,7 +930,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="155.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="160.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c2ee-2687-df74-e493" name="6 Eshin Assassin Adepts" hidden="false" collective="false" import="true" type="upgrade">
@@ -942,7 +950,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dodge, Scout, Stealth, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dodge, Scout, Scurrying Rats, Stealth, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="6e02-565c-e1f2-4880" name="Dual Heavy Poisoned Blades" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -970,6 +978,7 @@
                     <infoLink id="be26-082f-3294-0a95" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
                     <infoLink id="b264-b325-01de-3289" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="ce72-c4cd-f709-95dc" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="2776-907a-18aa-d69f" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -977,7 +986,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="310.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="320.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -998,12 +1007,12 @@
             <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(2), Fearless, Furious</characteristic>
           </characteristics>
         </profile>
-        <profile id="c739-ab96-1995-f246" name="Heavy Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+        <profile id="c739-ab96-1995-f246" name="Blade Claw" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">8</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
             <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
-            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Deadly(3)</characteristic>
           </characteristics>
         </profile>
         <profile id="c1b2-9166-0eb2-e6db" name="Stomp" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1014,12 +1023,22 @@
             <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
           </characteristics>
         </profile>
+        <profile id="29a1-31d3-4c94-b238" name="Rending Claw" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="94af-3ec4-c086-20fe" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
         <infoLink id="878a-c381-9cdd-1dd0" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
         <infoLink id="edbb-3505-8e08-88f9" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
         <infoLink id="f644-c736-cfb5-fabf" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+        <infoLink id="c126-ff32-dc46-02ca" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+        <infoLink id="3827-5b2f-c09b-567e" name="Deadly(X)" hidden="false" targetId="3962-6d7d-4f66-1efb" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bcaa-ae3f-d964-fe85" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -1113,7 +1132,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="300.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="320.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f60b-12c4-7045-c3c6" name="Plague Monk Censer Bearers" hidden="false" collective="false" import="true" type="unit">
@@ -1144,7 +1163,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Noxious Plague</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Noxious Plague, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="b695-752b-7bc1-1b1a" name="Plague Censer" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1165,6 +1184,7 @@
                     <infoLink id="8d00-18a4-ec82-64a4" name="Poison" hidden="false" targetId="da66-217e-b893-4de9" type="rule"/>
                     <infoLink id="5603-4e79-5b28-39ff" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="7c63-c702-c176-46e0" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="fd27-1bc3-79a2-ce51" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1172,7 +1192,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="85.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="90.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d2d0-ade3-fb89-5c64" name="10 Plague Monk Censer Bearers" hidden="false" collective="false" import="true" type="upgrade">
@@ -1192,7 +1212,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Noxious Plague</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Noxious Plague, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="f2e2-a36d-1643-82dc" name="Plague Censer" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1213,6 +1233,7 @@
                     <infoLink id="ec73-27af-2d74-72e5" name="Poison" hidden="false" targetId="da66-217e-b893-4de9" type="rule"/>
                     <infoLink id="df34-098e-73df-816d" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="8d17-dd87-3797-464d" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="3ad1-b176-f2a3-027a" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1220,7 +1241,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="170.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="180.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1295,7 +1316,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scout, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="022a-85d4-6525-ea12" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1307,6 +1328,10 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="3e72-d59b-46ec-f0f9" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
+                    <infoLink id="41b8-42d9-0707-a22f" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                  </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="89e3-d332-57f6-ed38" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="3f83-1b51-cb09-21c7">
                       <constraints>
@@ -1367,7 +1392,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="55.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="65.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="edc6-a6ac-8dca-99e7" name="10 Globadiers" hidden="false" collective="false" import="true" type="upgrade">
@@ -1387,7 +1412,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scout, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="95ce-6367-5776-1d20" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1399,6 +1424,10 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="0eb5-a5cd-1787-a8ec" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
+                    <infoLink id="1668-6180-4259-5c3d" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                  </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="eaa7-a27d-245c-b8cc" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="0970-5688-7ae9-357a">
                       <constraints>
@@ -1459,7 +1488,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="110.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="130.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1485,7 +1514,7 @@
             <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
             <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">10</characteristic>
             <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Reap</characteristic>
           </characteristics>
         </profile>
         <profile id="d370-14ad-99bb-6740" name="Stomp" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1501,6 +1530,7 @@
         <infoLink id="12cc-c472-1b26-c8c7" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
         <infoLink id="ed2b-e921-bfc3-7c89" name="Regeneration" hidden="false" targetId="0e2a-a0fa-3d80-3b25" type="rule"/>
         <infoLink id="826e-17c6-9805-3902" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+        <infoLink id="5fad-c834-7260-a71d" name="Reap" hidden="false" targetId="b17b-cac9-77af-d150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a5bf-2e59-84db-2945" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -1723,14 +1753,14 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">6</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Fearless, Furious</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Fearless, Furious, Noxious Plague, Plagued Blessing</characteristic>
           </characteristics>
         </profile>
         <profile id="09be-30f2-b587-a182" name="Giant Plague Censer" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
             <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
-            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">4</characteristic>
             <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Poison</characteristic>
           </characteristics>
         </profile>
@@ -1743,11 +1773,20 @@
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="ecc2-93ab-b93e-f85a" name="Noxious Plague" hidden="false">
+          <description>Whenever this model attacks in melee, roll one die. On a roll of 6+ the target takes 1 wound.</description>
+        </rule>
+        <rule id="e880-8f64-651f-fb4f" name="Plagued Blessing" hidden="false">
+          <description>Once per this unit&apos;s activation, pick 2 friendly units within 12&quot;, which get Poison on their melee attacks next time they charge.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="b6c9-7aa0-1148-8dd4" name="Poison" hidden="false" targetId="da66-217e-b893-4de9" type="rule"/>
         <infoLink id="532f-21c9-94e9-79cb" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
         <infoLink id="57cb-1fd7-0e66-bd51" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
         <infoLink id="5604-e963-3318-9dee" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+        <infoLink id="780c-0912-5619-f965" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7961-2c07-ffd6-9afe" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -1796,7 +1835,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="120.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="11a9-be9f-c2ee-c679" name="Clan Moulder Battle Platform" hidden="false" collective="false" import="true" type="upgrade">
@@ -1807,14 +1846,14 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">6</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Fearless, Furious</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Fearless, Ferocity of Clan Moulder, Furious</characteristic>
           </characteristics>
         </profile>
         <profile id="fb8e-0521-ffa3-1eb5" name="Rat Ogre Champion" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
             <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
-            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
             <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
           </characteristics>
         </profile>
@@ -1822,11 +1861,16 @@
           <characteristics>
             <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
             <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
             <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="edb9-9cd5-b423-750e" name="Ferocity of Clan Moulder" hidden="false">
+          <description>Once per this unit&apos;s activation, pick 2 friendly units within 12&quot;, which get Furious next time they charge. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="53f9-a1d5-14ce-6826" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
         <infoLink id="066a-8cbe-b409-62ec" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
@@ -1834,7 +1878,7 @@
         <infoLink id="0c6f-84b8-30f9-399b" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5da9-0bdb-f150-fb8c" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
+        <categoryLink id="45f2-6aa8-9d04-7fa5" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="100b-feed-811b-4e21" name="Preacher" hidden="false" collective="false" import="true" type="upgrade">
@@ -1880,7 +1924,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="135.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="165.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9087-79f9-ae84-977e" name="Screaming Bell" hidden="false" collective="false" import="true" type="upgrade">
@@ -1891,24 +1935,30 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">6</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Fearless, Furious, Great Bell</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Commanding Toll, Fear(1), Fearless, Furious, Great Bell</characteristic>
           </characteristics>
         </profile>
-        <profile id="7a2e-c622-bd8c-9c1f" name="Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+        <profile id="7a2e-c622-bd8c-9c1f" name="Rat Ogre Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">3</characteristic>
             <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="e978-0b3a-639c-3ca0" name="Commanding Toll" hidden="false">
+          <description>Once per this unit&apos;s activation, before attacking, pick 2 friendly units within 12&quot;, which get +1 to their next morale test roll.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="00cd-ef84-26e6-2c2b" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
         <infoLink id="2e00-1765-0e42-e7f0" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
         <infoLink id="0f7e-1847-bfa9-0e29" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
         <infoLink id="a212-f94f-4ac3-9c7c" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
         <infoLink id="3b93-cf6c-bef7-c751" name="Great Bell" hidden="false" targetId="7c95-a222-c00e-c252" type="rule"/>
+        <infoLink id="8b4b-bf5d-6d60-adfe" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="00f3-26c1-9ad6-c613" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -1957,7 +2007,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="135.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d86c-9cfb-3bdc-650a" name="Great Horned Rat Shrine" hidden="false" collective="false" import="true" type="upgrade">
@@ -1971,12 +2021,12 @@
             <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Fearless, Furious, Holy Statue</characteristic>
           </characteristics>
         </profile>
-        <profile id="650a-e536-c036-5ff1" name="Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+        <profile id="650a-e536-c036-5ff1" name="Stormvermin Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">6</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1985,6 +2035,7 @@
         <infoLink id="6baa-d8b3-6dee-37ba" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
         <infoLink id="aa68-5d6c-cc9a-6345" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
         <infoLink id="3a4a-0f1f-3501-f55a" name="Holy Statue" hidden="false" targetId="d6d2-e3d1-f911-df7b" type="rule"/>
+        <infoLink id="ff41-9bb2-a1ca-eba0" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b7e2-952e-7a0e-d1d0" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -2033,7 +2084,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="140.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="185.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="45b6-eea7-4512-4ad9" name="Wolf Rats" hidden="false" collective="false" import="true" type="unit">
@@ -2064,7 +2115,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Furious, Impact(1), Strider</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2072,6 +2123,7 @@
                     <infoLink id="e7cd-1589-fa80-8141" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                     <infoLink id="ab3b-457e-2286-5d7f" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="063a-bcb1-dfe9-9aac" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="210e-3ac7-7762-3f78" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="3e6b-ac85-ed31-f6f2" name="Master Moulder" hidden="false" collective="true" import="true" type="upgrade">
@@ -2146,7 +2198,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="20.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="22.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2171,7 +2223,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Furious, Impact(1), Strider</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2179,6 +2231,7 @@
                     <infoLink id="d381-6f10-9339-ae28" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                     <infoLink id="88b1-32d9-85c5-7239" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="a7fb-5912-ae24-17e8" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="35ea-5770-d4e5-f99e" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="9b8e-a253-40fb-e43c" name="Master Moulder" hidden="false" collective="true" import="true" type="upgrade">
@@ -2253,7 +2306,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="20.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="22.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2290,10 +2343,13 @@
                     <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                     <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                     <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="3ada-2be0-170c-ddd6" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="ffa1-1f76-c7b4-59bf" name="Weapon Team Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="194d-eac6-a63d-84fe">
                   <constraints>
@@ -2561,7 +2617,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="105.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="110.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7bbb-bf8b-52bf-cdcf" name="6 Weapon Teams" hidden="false" collective="false" import="true" type="upgrade">
@@ -2575,10 +2631,13 @@
                     <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                     <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                     <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="04a8-d328-9294-f27f" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+              </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="d9c0-5459-e70e-f6f7" name="Weapon Team Selection" hidden="false" collective="false" import="true" defaultSelectionEntryId="cde5-6b3b-4b6d-e389">
                   <constraints>
@@ -2846,7 +2905,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="210.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="220.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2884,12 +2943,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="116c-a55a-8122-414b" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="abc9-ed43-e40a-44bb" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="fb13-2884-fc24-bb01" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="fc2c-d282-8b8f-3a70">
@@ -2950,7 +3010,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="75.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="80.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f5a3-aca7-cbe6-8580" name="10 Stormvermin" hidden="false" collective="false" import="true" type="upgrade">
@@ -2970,12 +3030,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="caf4-52e5-428e-b0bf" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="f539-4406-0595-5668" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="321b-5bef-c00a-9b6b" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="408c-23e1-8cab-8c44">
@@ -3036,7 +3097,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="150.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="160.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3087,7 +3148,7 @@
       <profiles>
         <profile id="0994-42a7-fb8d-bd28" name="Chimaerat" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
           <characteristics>
-            <characteristic name="Quality" typeId="d469-f059-193c-f740">3+</characteristic>
+            <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">12</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
@@ -3098,7 +3159,7 @@
           <characteristics>
             <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
             <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">6</characteristic>
-            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
             <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
           </characteristics>
         </profile>
@@ -3176,7 +3237,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="260.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="240.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfc0-c49a-af32-c5ca" name="Rat Ogres" hidden="false" collective="false" import="true" type="unit">
@@ -3207,12 +3268,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 40x40</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="9d91-47b4-6cc6-6132" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+                    <infoLink id="6823-a773-2878-7e56" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="916f-cbaa-bff2-85bb" name="Master Moulder" hidden="false" collective="true" import="true" type="upgrade">
@@ -3334,7 +3396,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="310.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="300.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5411-2b4f-9591-0d47" name="3 Rat Ogres" hidden="false" collective="false" import="true" type="upgrade">
@@ -3354,12 +3416,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 40x40</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="b52e-ac19-83ce-301e" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+                    <infoLink id="8008-b3c8-6c68-7919" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="418e-05c7-a26f-2d7b" name="Master Moulder" hidden="false" collective="true" import="true" type="upgrade">
@@ -3481,7 +3544,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="155.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="150.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3519,7 +3582,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="c64c-f174-e914-5805" name="Sling" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3531,6 +3594,29 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="7c4f-353a-1376-5947" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="ca51-3ce1-7fd8-2287" name="Pawleader" hidden="false" collective="true" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e894-2243-795b-45d6" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="6e94-3572-6290-0ea0" name="Pawleader" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                          <characteristics>
+                            <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Fearless</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="a541-595a-1638-a8d8" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="1.5"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="ac6e-c6ed-65b6-1d01" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="dc94-a1ff-e9ad-a32d">
                       <constraints>
@@ -3586,7 +3672,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="45.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="50.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="39aa-c44c-671e-0fe1" name="20 Skavenslaves" hidden="false" collective="false" import="true" type="upgrade">
@@ -3606,7 +3692,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="441e-5145-160f-8f4a" name="Sling" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3618,6 +3704,29 @@
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="678d-4e5c-84d7-0998" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="c804-b300-9ca5-d3fd" name="Pawleader" hidden="false" collective="true" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffd2-60b1-219c-3da5" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="4cd1-f2e1-246f-ecd5" name="Pawleader" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                          <characteristics>
+                            <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Fearless</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="2d64-4ee6-e11f-b00e" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="1.5"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="4e5b-6dc0-06cd-1f53" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="08c9-b8c4-ef3b-060f">
                       <constraints>
@@ -3673,7 +3782,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="90.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="100.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3853,7 +3962,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dodge, Scout, Stealth, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dodge, Scout, Scurrying Rats, Stealth, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="7083-abc8-e05e-4eff" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3879,9 +3988,10 @@
                     <infoLink id="a537-ffd9-c4bb-fbcd" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
                     <infoLink id="d444-72f9-9cc9-4c43" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="961c-e942-2604-8afa" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="6234-79a4-7c08-8995" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="24.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="25.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3906,7 +4016,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dodge, Scout, Stealth, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dodge, Scout, Scurrying Rats, Stealth, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="43a1-7af0-ec64-e16d" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3932,9 +4042,10 @@
                     <infoLink id="e3cd-d678-cf3e-b6cf" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
                     <infoLink id="9d78-2bee-5753-cad5" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="0ef0-dc6e-c0b9-109d" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="e6ae-cc50-c6c5-1870" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="24.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="25.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3977,13 +4088,14 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 50x50</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="8735-0eb2-ddb9-ffdb" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="9cec-a932-6172-adc9" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="9c7e-a23f-47db-a1d2" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="9319-2994-03c0-0f4a" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="449a-92fe-d43e-0cab">
@@ -4157,7 +4269,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="205.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="215.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cff7-0cfb-0fa9-ab95" name="6 Stormfiends" hidden="false" collective="false" import="true" type="upgrade">
@@ -4177,13 +4289,14 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 50x50</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="532b-253a-d9a1-ca66" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="c997-05d4-4abd-61c9" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                    <infoLink id="712c-fa7b-47ba-e966" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="5d7f-b3b0-6fc6-17dd" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="3431-16b7-8369-bda3">
@@ -4357,7 +4470,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="410.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="430.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4540,7 +4653,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scout, Stealth, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scout, Scurrying Rats, Stealth, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="9255-70ea-5674-d724" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4564,9 +4677,10 @@
                     <infoLink id="4cac-3462-2d12-a7dc" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
                     <infoLink id="a0f0-00d5-0a54-4373" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="c7fb-42b7-8e6f-303f" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="6ed0-b829-f48d-c3a5" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="13.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="14.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4591,7 +4705,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scout, Stealth, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scout, Scurrying Rats, Stealth, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="d747-66b2-fed5-6f06" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4615,9 +4729,10 @@
                     <infoLink id="262e-1245-b11c-039e" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
                     <infoLink id="7ce3-5efb-28b9-d538" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="f203-f3ce-965d-249a" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="f111-b838-2137-57ec" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="13.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="14.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4660,7 +4775,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="220c-e176-20f4-9304" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4674,9 +4789,10 @@
                   </profiles>
                   <infoLinks>
                     <infoLink id="08fe-04b4-d4fd-e1f1" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+                    <infoLink id="c860-422d-3278-6ff0" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="11.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="12.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4701,7 +4817,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="593c-695f-9358-1d73" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4715,9 +4831,10 @@
                   </profiles>
                   <infoLinks>
                     <infoLink id="131d-24b7-04ce-ebc8" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+                    <infoLink id="bd75-2e55-5186-248b" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="11.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="12.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4834,10 +4951,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="bb46-1ac4-c522-3731" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                  </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="3ee9-e25d-9601-e300" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d641-534b-2372-7c2d">
                       <constraints>
@@ -4909,7 +5029,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="6.5"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="7.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4937,8 +5057,8 @@
                             <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
-                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">60x35</characteristic>
-                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -4968,7 +5088,7 @@
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="40.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="4b73-a1b8-8070-1c10" name="0-1 Poisoned Wind Mortar Weapon Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -4989,8 +5109,8 @@
                             <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
-                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">60x35</characteristic>
-                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5020,7 +5140,7 @@
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="30.0"/>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="cf36-315f-6ddd-9f53" name="0-1 Ratling Gun Weapon Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -5041,8 +5161,8 @@
                             <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
-                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">60x35</characteristic>
-                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5071,7 +5191,7 @@
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="40.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="28fb-8d55-f4c4-22ce" name="0-1 Warp Grinder Weapon Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -5092,8 +5212,8 @@
                             <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
-                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">60x35</characteristic>
-                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5144,8 +5264,8 @@
                             <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
-                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">60x35</characteristic>
-                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5175,7 +5295,7 @@
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="30.0"/>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7ceb-0f60-48ed-2215" name="0-1 Warpvolt Scourger Weapon Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -5196,8 +5316,8 @@
                             <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
-                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">60x35</characteristic>
-                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5226,7 +5346,7 @@
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="30.0"/>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -5253,10 +5373,13 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <infoLinks>
+                    <infoLink id="fe71-81ff-6e7a-0f97" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                  </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="2937-1537-fc01-a538" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6821-d5f9-928a-fb0c">
                       <constraints>
@@ -5328,7 +5451,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="6.5"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="7.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -5356,8 +5479,8 @@
                             <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
-                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">60x35</characteristic>
-                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5387,7 +5510,7 @@
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="40.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="26a8-1048-74f2-a820" name="0-2 Poisoned Wind Mortar Weapon Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -5408,8 +5531,8 @@
                             <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
-                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">60x35</characteristic>
-                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5439,7 +5562,7 @@
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="30.0"/>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1f08-5a8f-1c21-b4ce" name="0-2 Ratling Gun Weapon Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -5460,8 +5583,8 @@
                             <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
-                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">60x35</characteristic>
-                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5490,7 +5613,7 @@
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="40.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="50f3-7ee2-292c-33f4" name="0-2 Warp Grinder Weapon Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -5511,8 +5634,8 @@
                             <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
-                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">60x35</characteristic>
-                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5563,8 +5686,8 @@
                             <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
-                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">60x35</characteristic>
-                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5594,7 +5717,7 @@
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="30.0"/>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e0d3-1e55-7e3c-ca30" name="0-2 Warpvolt Scourger Weapon Team" hidden="false" collective="false" import="true" type="upgrade">
@@ -5615,8 +5738,8 @@
                             <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
                             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
-                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">60x35</characteristic>
-                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a"/>
+                            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Scurrying Rats</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5645,7 +5768,7 @@
                         </selectionEntry>
                       </selectionEntries>
                       <costs>
-                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="30.0"/>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -5670,12 +5793,13 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Hero</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Hero, Scurrying Rats</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="8704-8214-0f98-5318" name="Hero" hidden="false" targetId="7f75-81ad-7d84-379b" type="rule"/>
+        <infoLink id="8597-e57d-05c3-d9f6" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8092-1e64-0080-a687" name="New CategoryLink" hidden="false" targetId="b1f7-e68c-ee70-9808" primary="true"/>
@@ -5737,12 +5861,16 @@
                 <profile id="308a-2491-6ee4-a0f5" name="Doomrocket Launcher" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                    <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
                     <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                    <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Poison</characteristic>
+                    <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Blast(3), Indirect</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink id="a364-b5d3-b017-ea1a" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
+                <infoLink id="959a-6b1a-d33d-3119" name="Indirect(X)" hidden="false" targetId="1411-52c8-8d71-1b15" type="rule"/>
+              </infoLinks>
               <costs>
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
               </costs>
@@ -5777,7 +5905,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d6c-b86c-3466-245e" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="5163-7d6c-5a23-067c" name="Warlock Master" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5163-7d6c-5a23-067c" name="Arch-Warlock" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17b7-ea1a-61cd-e2ce" type="max"/>
               </constraints>
@@ -6025,7 +6153,7 @@
                   <characteristics>
                     <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
                     <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">6</characteristic>
-                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
                     <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
                   </characteristics>
                 </profile>
@@ -6068,7 +6196,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="190.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="205.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6078,7 +6206,7 @@
         <entryLink id="bfbb-866d-a6db-63bf" name="Warlord" hidden="false" collective="false" import="true" targetId="42a7-c65b-11e2-3034" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="40.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d68-340e-af1e-b9f5" name="Doctrine Selection" hidden="false" collective="false" import="true" type="upgrade">
@@ -6101,12 +6229,13 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Hero</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Hero, Scurrying Rats</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="b064-7538-563d-5f08" name="Hero" hidden="false" targetId="7f75-81ad-7d84-379b" type="rule"/>
+        <infoLink id="8c7b-67dd-a6db-d893" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6b60-5a42-00a4-abc3" name="New CategoryLink" hidden="false" targetId="b1f7-e68c-ee70-9808" primary="true"/>
@@ -6145,17 +6274,17 @@
               <profiles>
                 <profile id="720b-6af2-7aa5-c2c5" name="High Preacher" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
                   <characteristics>
-                    <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Battle Chant</characteristic>
+                    <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Arcane Shielding</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <rules>
-                <rule id="81a2-8bd0-b14d-2c82" name="Battle Chant" hidden="false">
-                  <description>This model and its unit get Furious. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead.</description>
+                <rule id="81a2-8bd0-b14d-2c82" name="Arcane Shielding" hidden="false">
+                  <description>This model and its unit get Resistance.</description>
                 </rule>
               </rules>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="30.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7efe-6fc3-0876-54d2" name="Eshin Sorcerer" hidden="false" collective="false" import="true" type="upgrade">
@@ -6385,14 +6514,14 @@
                     <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">+2</characteristic>
                     <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">+6</characteristic>
                     <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Fearless, Furious</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Fearless, Furious, Noxious Plague, Plagued Blessing</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="d1d4-6e88-8441-e4a4" name="Plague Furnace" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                     <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
-                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">4</characteristic>
                     <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Poison</characteristic>
                   </characteristics>
                 </profile>
@@ -6405,11 +6534,20 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <rules>
+                <rule id="b64e-81f6-b71c-fd9b" name="Noxious Plague" hidden="false">
+                  <description>Whenever this model attacks in melee, roll one die. On a roll of 6+ the target takes 1 wound.</description>
+                </rule>
+                <rule id="14f3-8589-72c4-a6f8" name="Plagued Blessing" hidden="false">
+                  <description>Once per this unit&apos;s activation, pick 2 friendly units within 12&quot;, which get Poison on their melee attacks next time they charge.</description>
+                </rule>
+              </rules>
               <infoLinks>
                 <infoLink id="e855-5b4d-101b-bdba" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
                 <infoLink id="8aec-6a9c-0117-56ec" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                 <infoLink id="a751-9e01-55ae-9833" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                 <infoLink id="bcc5-d7da-6f37-1eb2" name="Poison" hidden="false" targetId="da66-217e-b893-4de9" type="rule"/>
+                <infoLink id="b229-76e2-716c-4d1d" name="Poison" hidden="false" targetId="da66-217e-b893-4de9" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="230e-dce4-888b-c3d7" name="Wound Chart" hidden="false" collective="false" import="true" type="upgrade">
@@ -6443,7 +6581,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="125.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="190.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5c4e-a619-027a-0290" name="Screaming Bell" hidden="false" collective="false" import="true" type="upgrade">
@@ -6457,24 +6595,30 @@
                     <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">+2</characteristic>
                     <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">+6</characteristic>
                     <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Fearless, Furious, Great Bell</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Commanding Toll, Fear(1), Fearless, Furious, Great Bell</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="cc08-39b7-a451-eeb0" name="Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                <profile id="8b5c-1725-1407-95a5" name="Rat Ogre Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                    <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                    <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">3</characteristic>
                     <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                    <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                    <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <rules>
+                <rule id="0964-d84e-61ae-a6fc" name="Commanding Toll" hidden="false">
+                  <description>Once per this unit&apos;s activation, before attacking, pick 2 friendly units within 12&quot;, which get +1 to their next morale test roll.</description>
+                </rule>
+              </rules>
               <infoLinks>
                 <infoLink id="b97a-a4b2-0225-6c52" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                 <infoLink id="4350-615a-4567-1f87" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
                 <infoLink id="0670-00cf-604b-a029" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                 <infoLink id="acc5-c17a-f81e-545f" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                 <infoLink id="a35c-1d1e-6ad1-1ad6" name="Great Bell" hidden="false" targetId="7c95-a222-c00e-c252" type="rule"/>
+                <infoLink id="7671-06a7-228d-dfce" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="3bf7-298f-308f-1d87" name="Wound Chart" hidden="false" collective="false" import="true" type="upgrade">
@@ -6508,7 +6652,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="150.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="190.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="76bd-4d43-6688-f0d9" name="Great Horned Rat Shrine" hidden="false" collective="false" import="true" type="upgrade">
@@ -6516,12 +6660,12 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b67d-c300-68b1-0810" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e3c0-a5e7-82f2-5ce8" name="Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                <profile id="e3c0-a5e7-82f2-5ce8" name="Stormvermin Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-                    <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                    <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                    <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">6</characteristic>
+                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                    <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="af75-bd70-0f07-4a88" name="Great Horned Rat Shrine" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
@@ -6539,6 +6683,8 @@
                 <infoLink id="cc5c-5468-2c07-083b" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                 <infoLink id="2505-4205-c8c1-baf1" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                 <infoLink id="2c74-35d8-81b1-9dab" name="Holy Statue" hidden="false" targetId="d6d2-e3d1-f911-df7b" type="rule"/>
+                <infoLink id="fd8d-777f-d5d5-3095" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                <infoLink id="b77c-1e85-b673-1f9c" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="a1b1-dfaf-9665-8bfe" name="Wound Chart" hidden="false" collective="false" import="true" type="upgrade">
@@ -6572,7 +6718,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="155.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="190.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0a94-58d7-4eba-a802" name="Clan Moulder Battle Platform" hidden="false" collective="false" import="true" type="upgrade">
@@ -6586,14 +6732,14 @@
                     <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">+2</characteristic>
                     <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">+6</characteristic>
                     <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Fearless, Furious</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Fearless, Ferocity of Clan Moulder, Furious</characteristic>
                   </characteristics>
                 </profile>
                 <profile id="e184-70a3-9b2c-d883" name="Rat Ogre Champion" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                     <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
-                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
+                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
                     <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
                   </characteristics>
                 </profile>
@@ -6601,11 +6747,16 @@
                   <characteristics>
                     <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                     <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
-                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
                     <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
                   </characteristics>
                 </profile>
               </profiles>
+              <rules>
+                <rule id="5594-ffe6-ef56-3821" name="Ferocity of Clan Moulder" hidden="false">
+                  <description>Once per this unit&apos;s activation, pick 2 friendly units within 12&quot;, which get Furious next time they charge. If they already had Furious, they get extra hits from Furious on unmodified rolls of 5-6 to hit instead.</description>
+                </rule>
+              </rules>
               <infoLinks>
                 <infoLink id="d3cb-7581-1cdf-9ec7" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
                 <infoLink id="5142-faf6-938e-f30f" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
@@ -6644,7 +6795,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="140.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="180.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6654,7 +6805,7 @@
         <entryLink id="cd50-60de-1891-4cfa" name="Warlord" hidden="false" collective="false" import="true" targetId="42a7-c65b-11e2-3034" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="25.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="087e-3fbc-5b1b-2e33" name="Skaven Battle Master" hidden="false" collective="false" import="true" type="upgrade">
@@ -6665,7 +6816,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Hero, Scurrying Rats</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6673,6 +6824,7 @@
         <infoLink id="c88a-d29f-2aba-bcb7" name="Hero" hidden="false" targetId="7f75-81ad-7d84-379b" type="rule"/>
         <infoLink id="5ce6-251c-45f0-cabc" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
         <infoLink id="36ff-8dde-f119-7a23" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+        <infoLink id="a6d8-ea59-4857-e2c8" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7430-4631-ba21-848a" name="New CategoryLink" hidden="false" targetId="b1f7-e68c-ee70-9808" primary="true"/>
@@ -6928,21 +7080,22 @@
                     <characteristic name="Quality" typeId="d469-f059-193c-f740">-</characteristic>
                     <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">-</characteristic>
                     <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">+3</characteristic>
-                    <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                    <characteristic name="Size" typeId="30eb-08db-7033-1f87">(4) 90x52</characteristic>
                     <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="03fe-da6a-93e6-5c92" name="Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                <profile id="03fe-da6a-93e6-5c92" name="Heavy Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                     <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">3</characteristic>
-                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
                     <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink id="1b06-7479-e470-e80a" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
+                <infoLink id="c1a4-856c-8d8f-19a6" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="ad92-130f-6c6b-5dd6" name="Wound Chart" hidden="false" collective="false" import="true" type="upgrade">
@@ -6970,7 +7123,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="55.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="60.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2221-7c47-51b7-d3d4" name="Rat Ogre Bonebreaker" hidden="false" collective="false" import="true" type="upgrade">
@@ -6988,7 +7141,7 @@
                   <characteristics>
                     <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                     <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">3</characteristic>
-                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
                     <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
                   </characteristics>
                 </profile>
@@ -7022,7 +7175,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="55.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="70.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c942-80fa-eee6-d109" name="War-Litter Throne" hidden="false" collective="false" import="true" type="upgrade">
@@ -7214,7 +7367,7 @@
                   <characteristics>
                     <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                     <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">3</characteristic>
-                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">3</characteristic>
                     <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
                   </characteristics>
                 </profile>
@@ -7249,7 +7402,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="65.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="80.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7259,13 +7412,220 @@
         <entryLink id="606d-2c3e-b251-eef1" name="Warlord" hidden="false" collective="false" import="true" targetId="42a7-c65b-11e2-3034" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="40.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="72f8-aa7a-286c-b770" name="Warp Hunters" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="90d5-2799-01fe-a18a" name="New CategoryLink" hidden="false" targetId="b17f-cb95-65c6-c703" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d575-784c-ce77-37a5" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="9ca8-9b76-c844-beb7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9462-0538-c92d-eec0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a80a-c8bf-f6b0-9546" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9ca8-9b76-c844-beb7" name="5 Warp Hunters" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb55-96f1-abcc-4af3" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="d10d-ca07-7d12-ed5f" name="Warp Hunter" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9a9-7dad-a16f-4948" type="max"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00d3-0454-bb15-2ec0" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="4891-98b5-9619-9974" name="Warp Hunter" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush, Furious, Scurrying Rats</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="f5be-72ed-f88d-3ef3" name="Pistol" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">12&quot;</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="0a30-8794-fefe-62b7" name="Ambush" hidden="false" targetId="7acc-70b2-480c-f22b" type="rule"/>
+                    <infoLink id="4b2a-7bfd-76cf-9cb1" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+                    <infoLink id="b315-3ddf-8d89-5b25" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="416f-140f-fe45-6294" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                  </infoLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="be65-1a74-1ee5-a9f6" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b345-f044-1b39-a40d">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf7d-0aab-620c-de05" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="352f-1512-f5b5-337b" type="min"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="b14d-fc9e-a5cd-23c3" name="Halberd" hidden="false" collective="true" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee3-769e-e3db-1523" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="aa85-4a2b-c191-e17e" name="Halberd" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="67c9-3f57-2627-7489" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="1.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="b345-f044-1b39-a40d" name="Heavy Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f16-e61b-a08b-dbdb" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="7227-345a-1311-30e3" name="Heavy Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="19.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1d19-6e27-f120-cfbc" name="10 Warp Hunters" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a18b-99f7-5c09-232a" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="05bd-5b0c-6243-ce86" name="Warp Hunter" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eec2-48cd-c134-ead7" type="max"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78ee-101d-e3e9-f4bd" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="b3e8-a3d9-139d-5518" name="Warp Hunter" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush, Furious, Scurrying Rats</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="103b-97e8-28b0-c48f" name="Pistol" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">12&quot;</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="df56-1d5b-ebe9-3fc2" name="Ambush" hidden="false" targetId="7acc-70b2-480c-f22b" type="rule"/>
+                    <infoLink id="87f7-d6a2-d52b-ea18" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+                    <infoLink id="eca0-6b41-e77b-8af9" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="f1fe-d267-beee-3d30" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                  </infoLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="3e69-0bf4-a234-30b6" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="273e-5290-92f1-e849">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be22-f7e6-b148-53e9" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22df-6975-46fa-e9a8" type="min"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="ced7-1b1e-8a4d-a97d" name="Halberd" hidden="false" collective="true" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9a9-7263-1623-b002" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="116a-7b30-07f5-2952" name="Halberd" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="0f50-63e5-7574-cbb7" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="1.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="273e-5290-92f1-e849" name="Heavy Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3f1-24ca-4b89-e713" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="200a-ca09-7ae0-d731" name="Heavy Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="19.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>
     <rule id="fd97-81e9-a021-5130" name="Strength in Numbers" hidden="false">
       <description>Once per this unit&apos;s activation, before attacking, pick 2 friendly units within 12&quot;, which get +1 to their next morale test roll.</description>
+    </rule>
+    <rule id="2b86-8db4-707f-97df" name="Scurrying Rats" hidden="false">
+      <description>Moves +2&quot; when using Advance.</description>
     </rule>
   </sharedRules>
 </catalogue>
