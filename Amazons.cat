@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="11db-caa3-7c48-1cf6" name="Amazons" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="11db-caa3-7c48-1cf6" name="Amazons" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="41fe-4e4a-c900-c3ef" name="Amazon Warriors" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -7350,6 +7350,276 @@
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6813-3552-412e-bc14" name="Solarforce Drones" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e103-ed27-6a8d-caee" name="New CategoryLink" hidden="false" targetId="b17f-cb95-65c6-c703" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2b19-2824-8ef2-7fc6" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="3503-ae6f-c782-17b8">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cd7-8db3-3b16-4b56" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d07-8c08-285c-d106" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3503-ae6f-c782-17b8" name="3 Solarforce Drones" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0d7-c0d7-fc76-223f" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="8577-a97c-f00a-aab4" name="Solarforce Drone" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efef-6800-b4ca-b6e7" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a957-a36b-3837-7766" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="2fd9-1abe-6ebf-08ad" name="Solarforce Drone" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 40x40</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Flying, Good Shot, Unstable</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="1af5-69a5-dbf2-522a" name="Flying" hidden="false" targetId="c9d0-942c-1f23-c6ea" type="rule"/>
+                    <infoLink id="6e26-a145-3059-1656" name="Good Shot" hidden="false" targetId="9e68-0080-7036-cad3" type="rule"/>
+                    <infoLink id="d9dc-73c1-8e80-2d2a" name="Unstable" hidden="false" targetId="d4d1-bb98-8943-c841" type="rule"/>
+                  </infoLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="f507-24ea-7071-147e" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="128a-ccfb-af2a-3d1f">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3241-22df-2120-62ce" type="max"/>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="404a-636e-419a-fec1" type="min"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="128a-ccfb-af2a-3d1f" name="0-3 Blowpipe Shooter &amp; Claws" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf6-8bf7-dfdb-575f" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="9f54-942c-a634-f838" name="Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                            <profile id="6dd0-f5e6-3784-a5d5" name="Blowpipe Shooter" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Poison</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="4257-d411-b654-db30" name="Poison" hidden="false" targetId="da66-217e-b893-4de9" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="ac02-869c-5842-c56c" name="0-3 Solar Burner &amp; Claws" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0478-6a84-e26b-dfc7" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="3baa-97a6-961b-1e0e" name="Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                            <profile id="a33e-2b57-0ab9-ee6a" name="Solar Burner" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">12&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Blast(3), Reliable</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="003c-9806-a5aa-3fe5" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
+                            <infoLink id="000d-81c3-fdba-12bc" name="Reliable" hidden="false" targetId="40b6-ff14-dbfb-09d5" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="fc52-2a61-8bd4-045f" name="0-3 Solar Shredder" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2144-3d97-61a1-8531" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="5d85-aca5-cde0-f0c0" name="Solar Shredder" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="bf05-489f-02c3-3347" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                            <infoLink id="51c3-9cb4-52ef-72fb" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="170.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1084-872a-c759-5a85" name="6 Solarforce Drones" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b26c-8272-54b0-9b21" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="7cf0-e844-3514-7d34" name="Solarforce Drone" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51c6-fd7b-d267-a9ad" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="097f-641d-4876-a0b9" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="4deb-5470-17bd-e001" name="Solarforce Drone" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 40x40</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Flying, Good Shot, Unstable</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="acd4-f3c6-ff71-7993" name="Flying" hidden="false" targetId="c9d0-942c-1f23-c6ea" type="rule"/>
+                    <infoLink id="27d7-115a-028d-ecc1" name="Good Shot" hidden="false" targetId="9e68-0080-7036-cad3" type="rule"/>
+                    <infoLink id="f6e4-32bc-9745-e1ad" name="Unstable" hidden="false" targetId="d4d1-bb98-8943-c841" type="rule"/>
+                  </infoLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="f923-e299-dd60-096d" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb5d-52a5-f42d-9350">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b11e-a24a-5e5d-cda6" type="max"/>
+                        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe20-308c-6489-c5c3" type="min"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="bb5d-52a5-f42d-9350" name="0-6 Blowpipe Shooter &amp; Claws" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4661-3914-2675-f560" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="bf46-81ff-4850-99e9" name="Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                            <profile id="c719-d234-1b26-9e26" name="Blowpipe Shooter" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Poison</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="1129-d600-c98d-5ad8" name="Poison" hidden="false" targetId="da66-217e-b893-4de9" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="5be3-0d71-2201-3860" name="0-6 Solar Burner &amp; Claws" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a85-305d-fc68-efdc" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="7bc8-d5b1-1056-0bbf" name="Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                            <profile id="37ba-c36b-2068-4a07" name="Solar Burner" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">12&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Blast(3), Reliable</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="89aa-49be-1e50-f688" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
+                            <infoLink id="679f-f7fc-a24e-92f4" name="Reliable" hidden="false" targetId="40b6-ff14-dbfb-09d5" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="b05d-05b2-cb32-76a9" name="0-6 Solar Shredder" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88eb-e9e5-d8c4-2808" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="2c18-c5e2-c50e-5e80" name="Solar Shredder" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="e6c1-bce1-f056-15b1" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                            <infoLink id="bc14-ce17-fb65-398a" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="340.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

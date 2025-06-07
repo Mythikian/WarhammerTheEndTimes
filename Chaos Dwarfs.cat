@@ -894,7 +894,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(4) 90x52</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Impact(2)</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Impact(2), Resolute</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="bc6d-714d-c1d3-aa24" name="Dual Heavy Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">

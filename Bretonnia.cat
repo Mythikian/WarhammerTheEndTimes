@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c102-ef42-da61-7c25" name="Bretonnia" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c102-ef42-da61-7c25" name="Bretonnia" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b6d5-50c9-cc20-e3e4" name="Battle Hounds" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1549,13 +1549,16 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush, Dishonorable, No Code No Shame</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="1808-c1fa-f3ee-7056" name="Ambush" hidden="false" targetId="7acc-70b2-480c-f22b" type="rule"/>
                     <infoLink id="073c-03f5-96fc-a64b" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="f8dd-8d3c-f34f-2bb1" name="Dishonorable" hidden="false" targetId="7ff3-be2d-f37d-194e" type="rule"/>
+                    <infoLink id="466e-e069-7715-7cc8" name="No Code No Shame" hidden="false" targetId="eb61-6d6b-43bd-96e9" type="rule"/>
+                    <infoLink id="0755-b487-69ec-8e25" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="861c-a938-0b92-c5a8" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="eb15-e933-8cb1-db64">
@@ -1612,7 +1615,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="11.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1637,13 +1640,16 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush, Dishonorable, No Code No Shame</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="3616-a5ee-b72e-702f" name="Ambush" hidden="false" targetId="7acc-70b2-480c-f22b" type="rule"/>
                     <infoLink id="b038-2c90-58a5-3b8c" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="9174-fb81-040d-1326" name="Dishonorable" hidden="false" targetId="7ff3-be2d-f37d-194e" type="rule"/>
+                    <infoLink id="6b68-3722-5df1-9db8" name="No Code No Shame" hidden="false" targetId="eb61-6d6b-43bd-96e9" type="rule"/>
+                    <infoLink id="013e-89e7-74bb-33c1" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="519f-1168-5e48-f6bc" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="047f-892d-d752-3bd7">
@@ -1700,7 +1706,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="11.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1780,13 +1786,14 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Crimson Vow</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="afd9-fbf5-53d0-f647" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="ea02-6f18-8546-ff3c" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="13e1-0366-312b-e001" name="Crimson Vow" hidden="false" targetId="4b1c-ec13-9347-666b" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="8bb2-98e1-6543-be1f" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f524-cf77-e466-deef">
@@ -1923,13 +1930,14 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Crimson Vow</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="7fa8-201e-2f2a-bbcc" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="3cf6-ca90-4980-0863" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="2d22-f02e-c17e-6f48" name="Crimson Vow" hidden="false" targetId="4b1c-ec13-9347-666b" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="5e3d-7e17-7e7c-36c0" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4436-6e20-f420-b676">
@@ -3346,7 +3354,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Stealth, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dishonorable, No Code No Shame, Stealth, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="8fb5-fdf6-6895-1263" name="Sling" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3361,6 +3369,9 @@
                   <infoLinks>
                     <infoLink id="8185-278c-d8f4-0f7d" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="330d-6cc3-7de9-e53c" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="1644-04e9-a213-c4e8" name="Dishonorable" hidden="false" targetId="7ff3-be2d-f37d-194e" type="rule"/>
+                    <infoLink id="9b62-ea0b-f061-1c76" name="No Code No Shame" hidden="false" targetId="eb61-6d6b-43bd-96e9" type="rule"/>
+                    <infoLink id="8827-b4b6-a6a0-2e0a" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="5a3c-a954-1b64-8b21" name="Takedown" hidden="false" collective="true" import="true" type="upgrade">
@@ -3468,12 +3479,12 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="50.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c183-3005-f098-56cf" name="6 Rogues" hidden="false" collective="false" import="true" type="upgrade">
@@ -3493,7 +3504,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Stealth, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dishonorable, No Code No Shame, Stealth, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="d83f-0e5d-829a-4c68" name="Sling" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3508,6 +3519,9 @@
                   <infoLinks>
                     <infoLink id="f14b-ed00-43a0-12a3" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="f038-30fe-f904-5349" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="92b2-02dc-ac2e-56df" name="Dishonorable" hidden="false" targetId="7ff3-be2d-f37d-194e" type="rule"/>
+                    <infoLink id="6e97-12e1-239f-9777" name="No Code No Shame" hidden="false" targetId="eb61-6d6b-43bd-96e9" type="rule"/>
+                    <infoLink id="c88a-6f5f-8942-976e" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="e898-e165-37ab-c40a" name="Takedown" hidden="false" collective="true" import="true" type="upgrade">
@@ -3615,12 +3629,12 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="100.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3658,7 +3672,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty, Scout, Sheep, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dishonorable, No Code No Shame, Scout, Sheep, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="cbf4-91d2-ac09-5c7f" name="Sling" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3678,7 +3692,9 @@
                   <infoLinks>
                     <infoLink id="7418-e5f7-3a98-df30" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
                     <infoLink id="472c-86a3-2113-f062" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
-                    <infoLink id="80b0-4084-8263-b46a" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
+                    <infoLink id="b559-71e8-fa79-88e1" name="Dishonorable" hidden="false" targetId="7ff3-be2d-f37d-194e" type="rule"/>
+                    <infoLink id="5ac2-625f-1e3a-00e1" name="No Code No Shame" hidden="false" targetId="eb61-6d6b-43bd-96e9" type="rule"/>
+                    <infoLink id="a3c7-fb48-9f8d-0a50" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="d7ee-5c20-0f26-7dff" name="Heavy Armor" hidden="false" collective="true" import="true" type="upgrade">
@@ -3774,7 +3790,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="18.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="19.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3799,7 +3815,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Peasant&apos;s Duty, Scout, Sheep, Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dishonorable, No Code No Shame, Scout, Sheep, Strider</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="5c74-6dc5-9b51-04d2" name="Sling" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -3819,7 +3835,9 @@
                   <infoLinks>
                     <infoLink id="0678-863d-d5b7-ff12" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
                     <infoLink id="0e76-b504-8b52-fbef" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
-                    <infoLink id="6774-0af8-1ea2-b0f8" name="Peasant&apos;s Duty" hidden="false" targetId="a348-809b-4247-a9c9" type="rule"/>
+                    <infoLink id="fb93-95b7-6aef-5744" name="Dishonorable" hidden="false" targetId="7ff3-be2d-f37d-194e" type="rule"/>
+                    <infoLink id="51fb-61e5-b752-37a3" name="No Code No Shame" hidden="false" targetId="eb61-6d6b-43bd-96e9" type="rule"/>
+                    <infoLink id="3ccd-e08a-e6f2-c096" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="cec5-ed04-447a-e5f7" name="Heavy Armor" hidden="false" collective="true" import="true" type="upgrade">
@@ -3915,7 +3933,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="18.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="19.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6248,13 +6266,321 @@
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="45.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="069d-3935-e030-ca44" name="Knaves" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="d672-a0a6-70d8-50f5" name="New CategoryLink" hidden="false" targetId="1e9b-4826-2550-176c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9b46-14ce-fc33-2730" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="d7c6-c371-abd3-24cc">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee8-826a-020d-5246" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a72-409a-e0b6-8b61" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d7c6-c371-abd3-24cc" name="5 Knaves" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f93d-1b19-3a81-4a61" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="2c3b-d8c1-e802-ab96" name="Knave" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b50-686a-79a4-6a25" type="max"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d21-4a7c-e6dc-8087" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="44c9-e2db-cea1-033f" name="Knave" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dishonorable, Fast, Impact(1), No Code No Shame</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="38fd-2a69-6ae2-65ec" name="Lance &amp; Blade" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Flux, Lance</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="2f36-649d-08a8-bcdc" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
+                    <infoLink id="a9d3-d26a-ed8d-34a1" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
+                    <infoLink id="49a1-0f70-21b7-45f9" name="No Code No Shame" hidden="false" targetId="eb61-6d6b-43bd-96e9" type="rule"/>
+                    <infoLink id="dee2-8345-94ef-94db" name="Dishonorable" hidden="false" targetId="7ff3-be2d-f37d-194e" type="rule"/>
+                    <infoLink id="29ff-d865-4da4-b070" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="5abc-5193-ce69-c6d8" name="Lance" hidden="false" targetId="a510-87f8-91d8-c665" type="rule"/>
+                    <infoLink id="c675-67c8-6331-e022" name="Flux" hidden="false" targetId="2be4-340e-477f-8ce1" type="rule"/>
+                    <infoLink id="20ea-7546-ea75-f039" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="19.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="21cb-2172-5411-2cda" name="10 Knaves" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2294-88d3-6f14-7dac" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="79a5-d325-00db-dcea" name="Knave" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9fb-3b7f-20da-f6ff" type="max"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b04-3f60-14d7-b0f5" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="7872-8bfb-25f3-d81f" name="Knave" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Dishonorable, Fast, Impact(1), No Code No Shame</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="37c2-292c-316e-ee59" name="Lance &amp; Blade" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Flux, Lance</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="42ec-a4ce-296a-25ea" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
+                    <infoLink id="a79d-a837-c199-d8b9" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
+                    <infoLink id="cdcf-f6ed-7d13-07da" name="No Code No Shame" hidden="false" targetId="eb61-6d6b-43bd-96e9" type="rule"/>
+                    <infoLink id="eced-6a6f-1615-4d2a" name="Dishonorable" hidden="false" targetId="7ff3-be2d-f37d-194e" type="rule"/>
+                    <infoLink id="5f3a-f8c1-e209-a8ad" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="a51e-2b27-0454-716b" name="Lance" hidden="false" targetId="a510-87f8-91d8-c665" type="rule"/>
+                    <infoLink id="9064-ed8b-5d85-9ceb" name="Flux" hidden="false" targetId="2be4-340e-477f-8ce1" type="rule"/>
+                    <infoLink id="8c30-a5d3-e99f-71f8" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="19.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="434d-7a93-3d23-e1ac" name="Command Group" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="7e54-9cba-f05a-fc76" name="Sergeant" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1c1-0993-6957-02c1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="bcde-af4b-1cc7-bea9" name="Sergeant" hidden="false" targetId="2f6c-bfac-daca-d184" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2fea-c378-82ed-bed5" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4abf-e360-9170-aed8" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="87aa-7521-7676-b2ff" name="Musician" hidden="false" targetId="aad6-3f72-ebdd-a776" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="08bb-3fe3-5673-6aeb" name="Banner" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fbb-752c-7ad8-b886" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8983-01e5-bb6d-fffd" name="Banner" hidden="false" targetId="b17d-8062-7a13-6c91" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3673-1506-94a3-bfa8" name="Chorus of the Vigilant" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7d23-9663-f8dd-5b4d" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5720-eaa6-b035-e9d7" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="e24e-ff1a-3d05-d861">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f649-1403-577b-f02b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eed5-e1f5-0cc5-dfe2" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e24e-ff1a-3d05-d861" name="3 Choristers of the Vigilant" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cb5-7a6d-850f-9349" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="ef66-3131-772e-6690" name="Chorister of the Vigilant" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="266f-ca3c-54ee-e28c" type="max"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27c3-a896-1f85-2fa0" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="d6cf-1e4e-28c8-4783" name="Chorister of the Vigilant" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Crimson Vow, Hymn of the Lady</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="b1ff-c663-e2a9-152f" name="Staff of Grace" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Purge</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="a409-36ab-34e8-191d" name="Divine Wrath" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Purge</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="b34e-7b59-6d86-2a93" name="Purge" hidden="false">
+                      <description>Ignores Regeneration, and the target must re-roll unmodified Defense rolls of 6 when blocking hits.</description>
+                    </rule>
+                    <rule id="1530-7466-6357-5a19" name="Hymn of the Lady" hidden="false">
+                      <description>Once per activation, choose one of the following hymns for the unit to sing.
+
+Sanctified Veil – Pick 1 friendly unit within 12&quot;, which gets Regeneration next time it takes wounds.
+
+Judgemental Light – Target enemy unit within 18&quot; must make a morale test or get -1 to defense rolls next time it takes hits.
+
+Echo of Valor – Pick 1 friendly unit within 12&quot;, which get +1 to hit next time it fights in melee.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="64fc-b24b-439e-c9f0" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="5390-daed-7ac3-3e36" name="Crimson Vow" hidden="false" targetId="4b1c-ec13-9347-666b" type="rule"/>
+                    <infoLink id="1420-6bff-44fe-cb28" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="145.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4148-88ef-c6a8-69cc" name="6 Choristers of the Vigilant" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e90-fade-6aa4-5062" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="98a0-a9b1-0782-e4cb" name="Chorister of the Vigilant" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8fc-4133-5db5-3b0f" type="max"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6797-1d0b-4833-fa2a" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="a94c-d9dc-b547-56c8" name="Chorister of the Vigilant" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Crimson Vow, Hymn of the Lady</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="1914-713c-f06f-902d" name="Staff of Grace" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Purge</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="1c3d-266e-7fba-2710" name="Divine Wrath" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Purge</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="b3c7-4833-dff8-122a" name="Purge" hidden="false">
+                      <description>Ignores Regeneration, and the target must re-roll unmodified Defense rolls of 6 when blocking hits.</description>
+                    </rule>
+                    <rule id="9f70-0367-f8de-b188" name="Hymn of the Lady" hidden="false">
+                      <description>Once per activation, choose one of the following hymns for the unit to sing.
+
+Sanctified Veil – Pick 1 friendly unit within 12&quot;, which gets Regeneration next time it takes wounds.
+
+Judgemental Light – Target enemy unit within 18&quot; must make a morale test or get -1 to defense rolls next time it takes hits.
+
+Echo of Valor – Pick 1 friendly unit within 12&quot;, which get +1 to hit next time it fights in melee.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks>
+                    <infoLink id="94e0-3010-8a83-8f59" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="2401-4817-674e-f584" name="Crimson Vow" hidden="false" targetId="4b1c-ec13-9347-666b" type="rule"/>
+                    <infoLink id="698d-6109-3466-8b90" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="290.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedRules>
     <rule id="5e1a-73d8-a774-879d" name="Knight&apos;s Honor" hidden="false">
       <description>Whenever a unit where most models have this rule fails a morale test, roll one die. On a 4+ it counts as passed instead.</description>
     </rule>
     <rule id="a348-809b-4247-a9c9" name="Peasant&apos;s Duty" hidden="false">
-      <description>While there is a unit within 6&quot; with a majority of its models having the Knight&apos;s Honor and/or Joust rule, this unit gets a +1 bonus to Morale rolls.</description>
+      <description>While there is a unit within 6&quot; with a majority of its models having the Crimson Vow, Knight&apos;s Honor, and/or Joust rule, this unit gets a +1 bonus to Morale rolls.</description>
+    </rule>
+    <rule id="eb61-6d6b-43bd-96e9" name="No Code No Shame" hidden="false">
+      <description>Models with this special rule gain Fearless while within 3&quot; of an objective or terrain feature.</description>
+    </rule>
+    <rule id="7ff3-be2d-f37d-194e" name="Dishonorable" hidden="false">
+      <description>Models with this special rule have +1 to hit against SHAKEN units.</description>
+    </rule>
+    <rule id="4b1c-ec13-9347-666b" name="Crimson Vow" hidden="false">
+      <description>Models with this rule have Furious, and whenever they are subjected to an effect that would lower their morale, roll one die. On a 5+ they negate that effect instead.</description>
     </rule>
   </sharedRules>
 </catalogue>

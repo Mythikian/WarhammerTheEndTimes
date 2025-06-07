@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2915-6e83-69af-2e0b" name="Horde of Chaos - Khorne" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2915-6e83-69af-2e0b" name="Horde of Chaos - Khorne" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="dd14-6778-cb20-9fe4" name="Wrathmongers" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -7497,6 +7497,247 @@
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d5e0-ad67-485e-a40e" name="Greater Brass Scorpion" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a841-91a2-ccb1-173f" name="Greater Brass Scorpion" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+          <characteristics>
+            <characteristic name="Quality" typeId="d469-f059-193c-f740">3+</characteristic>
+            <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">2+</characteristic>
+            <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">24</characteristic>
+            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(7) 160x122</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(4), Fearless</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a34d-0c70-1136-7ec5" name="Destroyer Cannon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="9ade-0584-de41-eded">30&quot;</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Blast(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cba7-f35e-234e-799c" name="Scorpion Cannon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="9ade-0584-de41-eded">30&quot;</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">12</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+          </characteristics>
+        </profile>
+        <profile id="00fc-7fe3-2fac-e087" name="Hellmaw Flame Cannons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="9ade-0584-de41-eded">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Blast(3), Reliable</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e672-1d80-1f37-6f19" name="Hellcrusher Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">12</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">4</characteristic>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+          </characteristics>
+        </profile>
+        <profile id="fda1-831a-b85d-1fb1" name="Stomp" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">6</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6a7a-4068-7439-7959" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
+        <infoLink id="5025-683a-94ba-103e" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+        <infoLink id="1e1f-301e-8036-2b36" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+        <infoLink id="9eae-f092-c623-ee34" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
+        <infoLink id="e302-d3c5-b1d8-e7dd" name="Reliable" hidden="false" targetId="40b6-ff14-dbfb-09d5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a60e-81fc-49cb-ef5b" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="cb2a-97ce-c21d-4260" name="Wound Chart" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fccc-70f1-268a-8375" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c490-c9c5-c5a1-f0b1" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c3a2-f2d2-1dfb-1e0e" name="1" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">24</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">None</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d41c-03f3-8e5f-0f73" name="2" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">21</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">-2&quot; Move</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b41d-2a78-725e-0a12" name="3" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">18</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">-2&quot; Move. -1 Quality</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="be35-d3b6-6e9d-c0e9" name="4" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">15</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">-2&quot; Move. -1 Quality, -1 Defense</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="fe7e-0723-9d9a-dcd4" name="5" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">12</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">-4&quot; Move. -1 Quality, -1 Defense</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4f04-d630-9d75-5986" name="6" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">9</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">-4&quot; Move. -2 Quality, -1 Defense</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3259-ec98-2b64-0f46" name="7" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">6</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">-4&quot; Move. -2 Quality, -2 Defense</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="312e-ae0b-6d1c-c183" name="8" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">3</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">-6&quot; Move. -2 Quality, -2 Defense</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="1165.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfc2-7010-134f-a9dc" name="Brass Revenants" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="ee6d-01a0-43d1-24b8" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="563b-5e6c-8639-cda3" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="71a3-d742-078d-a1b1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e787-6857-b47c-dad1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cff7-cbfb-5c6c-ba00" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="71a3-d742-078d-a1b1" name="5 Brass Revenants" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3841-63ad-88ed-0dea" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="2219-980a-e837-cab8" name="Brass Revenant" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef96-2171-4538-1bb6" type="max"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5f4-50a1-1c31-fadd" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="4e4e-528c-736e-7742" name="Brass Revenant" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">3+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 32x32</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ethereal, Frenzy, Resistance, Undead</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="9dc9-7e0d-05b4-293e" name="Dual Heavy Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="5898-9d0d-3c4c-da38" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+                    <infoLink id="a2a4-36a6-c708-4c0f" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="71bb-4103-a7f5-3264" name="Ethereal" hidden="false" targetId="ac0b-2ee2-7ba8-8891" type="rule"/>
+                    <infoLink id="b4ea-4b9d-fefa-f7c7" name="Resistance" hidden="false" targetId="7393-5a31-eec7-dbac" type="rule"/>
+                    <infoLink id="c66c-4f99-4e59-e62d" name="Frenzy" hidden="false" targetId="dda7-99c5-d52e-de87" type="rule"/>
+                    <infoLink id="d431-dd47-3892-080d" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+                    <infoLink id="68d0-8ae9-a1bc-e31b" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="f104-96c1-28b2-1f52" name="Undead" hidden="false" targetId="21b9-c351-ef78-a962" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="37.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="60ad-a37d-3636-0b55" name="10 Brass Revenants" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bd9-ad2f-c344-d698" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="e08c-bec5-8c0b-cf2c" name="Brass Revenant" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7839-b7d6-9ac0-9cf7" type="max"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e787-06a1-fded-d8fe" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="ec40-8452-8668-f781" name="Brass Revenant" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">3+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 32x32</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ethereal, Frenzy, Resistance, Undead</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="ef18-5bf0-2988-5f57" name="Dual Heavy Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="95fd-a714-633a-e1cc" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+                    <infoLink id="41fd-5314-0b1b-351a" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="d53e-048c-e63e-a160" name="Ethereal" hidden="false" targetId="ac0b-2ee2-7ba8-8891" type="rule"/>
+                    <infoLink id="b27f-59f1-5ec9-1a43" name="Resistance" hidden="false" targetId="7393-5a31-eec7-dbac" type="rule"/>
+                    <infoLink id="e461-dedc-21b4-76f9" name="Frenzy" hidden="false" targetId="dda7-99c5-d52e-de87" type="rule"/>
+                    <infoLink id="f790-ac6b-8377-254b" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+                    <infoLink id="cbca-7eec-ed0e-6a8d" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="7583-90e2-cd5c-35b2" name="Undead" hidden="false" targetId="21b9-c351-ef78-a962" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="37.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

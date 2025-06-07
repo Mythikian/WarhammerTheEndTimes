@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="171e-7ef2-7e89-abdf" name="Warhammer Fantasy: The End Times" revision="7" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="171e-7ef2-7e89-abdf" name="Warhammer Fantasy: The End Times" revision="8" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="b8e3-33ff-ba55-d8c1" name="Core Rules"/>
   </publications>
@@ -2562,6 +2562,12 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
     </rule>
     <rule id="3ac6-4b19-c690-b07b" name="Elven Grace" hidden="false">
       <description>When taking a wound in melee, if this unit is not fatigued, roll one die. On a 6+ it is ignored.</description>
+    </rule>
+    <rule id="a0e8-a16c-a865-f316" name="Explode" hidden="false">
+      <description>If this model is killed in melee, the attacking unit takes X hits. If this model survives melee, after both sides have finished attacking, it is immediately killed, and the enemy unit takes X hits.</description>
+    </rule>
+    <rule id="5a13-5cfa-611e-cd0a" name="No Retreat" hidden="false">
+      <description>Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can&apos;t be ignored.</description>
     </rule>
   </sharedRules>
 </gameSystem>

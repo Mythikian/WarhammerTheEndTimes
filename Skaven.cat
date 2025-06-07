@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c4d9-41ac-d91a-656f" name="Skaven" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c4d9-41ac-d91a-656f" name="Skaven" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c315-03be-57c4-3013" name="Giant Rats" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1186,6 +1186,26 @@
                     <infoLink id="7c63-c702-c176-46e0" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="fd27-1bc3-79a2-ce51" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="5b76-5a70-6a89-1ec2" name="Fumegaster" hidden="false" collective="true" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5a1-4bf8-3932-0d0f" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="309c-9bf3-709b-5aac" name="Fumegaster" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                          <characteristics>
+                            <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Stealth</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="e28b-22a4-ad2c-d645" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="2.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
                   </costs>
@@ -1235,6 +1255,26 @@
                     <infoLink id="8d17-dd87-3797-464d" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="3ad1-b176-f2a3-027a" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="91d3-9160-4f3f-31b2" name="Fumegaster" hidden="false" collective="true" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5ac-b181-e8ad-66c6" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="7948-1eac-2c47-c21d" name="Fumegaster" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                          <characteristics>
+                            <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Stealth</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="cd22-d026-e6b2-45e3" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="2.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
                   </costs>
@@ -2115,15 +2155,21 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Furious, Impact(1), Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Feral Charge, Furious, Impact(1), Scurrying Rats, Strider</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <rules>
+                    <rule id="c745-0109-eae9-a513" name="Feral Charge" hidden="false">
+                      <description>This model&apos;s Impact Hits get AP(1).</description>
+                    </rule>
+                  </rules>
                   <infoLinks>
                     <infoLink id="e7cd-1589-fa80-8141" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                     <infoLink id="ab3b-457e-2286-5d7f" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="063a-bcb1-dfe9-9aac" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
                     <infoLink id="210e-3ac7-7762-3f78" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+                    <infoLink id="e0da-419c-eaf0-e112" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="3e6b-ac85-ed31-f6f2" name="Master Moulder" hidden="false" collective="true" import="true" type="upgrade">
@@ -2198,7 +2244,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="22.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="25.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2223,15 +2269,21 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Furious, Impact(1), Strider</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Feral Charge, Furious, Impact(1), Scurrying Rats, Strider</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
+                  <rules>
+                    <rule id="b77e-b184-aec5-13e0" name="Feral Charge" hidden="false">
+                      <description>This model&apos;s Impact Hits get AP(1).</description>
+                    </rule>
+                  </rules>
                   <infoLinks>
                     <infoLink id="d381-6f10-9339-ae28" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                     <infoLink id="88b1-32d9-85c5-7239" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="a7fb-5912-ae24-17e8" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
                     <infoLink id="35ea-5770-d4e5-f99e" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+                    <infoLink id="c105-2b81-b756-6761" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="9b8e-a253-40fb-e43c" name="Master Moulder" hidden="false" collective="true" import="true" type="upgrade">
@@ -2306,7 +2358,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="22.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="25.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -7405,6 +7457,38 @@
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="80.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="1ace-c81f-b557-d724" name="Giant Rat" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d94-b40e-f5ea-b8e4" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5bae-b2db-8ab5-bb6e" name="Giant Rat" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                  <characteristics>
+                    <characteristic name="Quality" typeId="d469-f059-193c-f740">-</characteristic>
+                    <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">-</characteristic>
+                    <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">-</characteristic>
+                    <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                    <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Strider</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="79ac-de21-824a-51cd" name="Rending Claw" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                    <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                    <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                    <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ff9a-c961-7b3c-7e31" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                <infoLink id="caad-26b7-bc54-4547" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
+                <infoLink id="009e-4612-454c-b8da" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -7614,9 +7698,592 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="eb9b-b9ae-e624-26e6" name="Command Group" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="c7f9-5ee4-22f1-45f1" name="Sergeant" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2229-5518-6b17-4f52" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5e57-ed66-7603-bd5e" name="Sergeant" hidden="false" targetId="2f6c-bfac-daca-d184" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="91e1-80b3-7e72-0f37" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3df-493a-22f7-b3de" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ecd6-a6d7-35e0-0f2c" name="Musician" hidden="false" targetId="aad6-3f72-ebdd-a776" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8710-fe87-8b21-a061" name="Banner" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e713-0d69-13b4-d012" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="282a-c810-c57b-c660" name="Banner" hidden="false" targetId="b17d-8062-7a13-6c91" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3361-6585-5360-e19a" name="Throtlings" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="3006-705b-2eae-4d2b" name="New CategoryLink" hidden="false" targetId="1e9b-4826-2550-176c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7c4e-a3ac-dfc5-c71a" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="75a9-1d15-f904-4300">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="530d-0a9f-131c-88fc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6a1-fb32-0e7e-9f88" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="75a9-1d15-f904-4300" name="10 Throtlings" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19b9-eac1-c0df-d723" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="2ee2-decc-9dcb-1887" name="Throtling" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cd8-a20c-9a67-fad6" type="max"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="742a-2778-01d0-ba95" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="ad0b-f5bb-068b-8d7a" name="Throtling" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Mutations, Scurrying Rats</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="d82f-4591-f3c6-4895" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="876c-c49f-fecb-d390" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                    <infoLink id="09f0-302c-42fe-fa5b" name="Mutations" hidden="false" targetId="df56-3139-f096-ec00" type="rule"/>
+                    <infoLink id="8b0d-a21d-a41a-249d" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                    <infoLink id="ae03-48fb-1ab8-c785" name="Mutations" hidden="false" targetId="df56-3139-f096-ec00" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="7.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e5e0-8a83-a6f8-817d" name="20 Throtlings" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb6b-fbfc-a6b1-4bd7" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="9495-0128-62ee-920d" name="Throtling" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="689a-216e-0f5c-a2a7" type="max"/>
+                    <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b00f-ae32-42fe-70ea" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="a245-7765-8b83-9d95" name="Throtling" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Mutations, Scurrying Rats</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="514f-041e-06e5-e0c2" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="a9ba-2dec-29d5-1355" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                    <infoLink id="9d05-83f4-08f2-89dc" name="Mutations" hidden="false" targetId="df56-3139-f096-ec00" type="rule"/>
+                    <infoLink id="cc15-7f8e-a77d-392d" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                    <infoLink id="43f4-2ce0-440a-2d5e" name="Mutations" hidden="false" targetId="df56-3139-f096-ec00" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="7.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fce7-1c2d-d43c-9cda" name="Bomb Rats" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7945-08a1-07a9-71e4" name="New CategoryLink" hidden="false" targetId="1e9b-4826-2550-176c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="aefe-47e4-c8a6-cbe2" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="a542-c151-f0af-746c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c89-b052-a996-e6a7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d8f-8b7c-8186-80bd" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a542-c151-f0af-746c" name="3 Bomb Rats" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28e6-f367-81c6-007e" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="a916-516b-f6a0-a091" name="Bomb Rat" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8199-515e-8f5b-9200" type="max"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e14-4b61-0c2a-5f81" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="fe45-a8c1-3a39-daa2" name="Bomb Rat" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">6+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Explode(2), No Retreat, Scurrying Rats</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="b84c-ea51-0157-4bde" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="5ddb-ef69-65cb-e6c2" name="Explode" hidden="false" targetId="a0e8-a16c-a865-f316" type="rule"/>
+                    <infoLink id="a2e0-f4c4-3d17-273a" name="No Retreat" hidden="false" targetId="5a13-5cfa-611e-cd0a" type="rule"/>
+                    <infoLink id="919f-6319-7248-5c44" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1015-0375-7d4a-844a" name="6 Bomb Rats" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7924-6545-5b01-54cf" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="04e5-03b2-cafe-1ab7" name="Bomb Rat" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7887-63d5-c244-7071" type="max"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f91e-46a5-298b-c5bf" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="f74c-7f03-b911-d867" name="Bomb Rat" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">6+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">6+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Explode(2), No Retreat, Scurrying Rats</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="5253-d087-030e-9c7c" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="aa3b-7d51-8b5c-0b88" name="Explode" hidden="false" targetId="a0e8-a16c-a865-f316" type="rule"/>
+                    <infoLink id="f37a-463f-de38-3dd2" name="No Retreat" hidden="false" targetId="5a13-5cfa-611e-cd0a" type="rule"/>
+                    <infoLink id="c64b-ee4f-b700-3734" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef68-3da2-330b-bbdf" name="Giant Rat Riders" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="1a7c-c445-799f-3d5c" name="New CategoryLink" hidden="false" targetId="b17f-cb95-65c6-c703" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3902-ef19-bea3-8001" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="85f1-2187-8ffa-63dd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b53-063a-1c56-5e17" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cb5-e6a5-0a80-ff18" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="85f1-2187-8ffa-63dd" name="5 Giant Rat Riders" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f26-130d-090e-fd44" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="074f-a8ce-23e6-7bed" name="Giant Rat Rider" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcf3-9387-851b-d742" type="max"/>
+                    <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="585d-ca92-8e39-c368" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="ab51-3b29-26ba-139c" name="Giant Rat Rider" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Scurrying Rats, Strider</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="4e17-aea2-9a03-705a" name="Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                      </characteristics>
+                    </profile>
+                    <profile id="0b68-fa56-79c9-3266" name="Rending Claw" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="146b-af9d-5680-b6f9" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
+                    <infoLink id="687a-dbf8-d341-f9da" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="2bc3-27ae-e737-d5d7" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                    <infoLink id="7a44-a86b-8ae9-cc36" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="850a-4d08-8ad7-83bb" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="23.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="45b2-7acd-c67c-29c0" name="10 Giant Rat Riders" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11cb-64e8-6883-afe0" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="457e-83c4-2bdb-cff1" name="Giant Rat Rider" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05a-75d3-3d2c-2390" type="max"/>
+                    <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6e4-56ea-783a-2c49" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="62e8-f389-0c84-217e" name="Giant Rat Rider" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Scurrying Rats, Strider</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="a0da-9066-6986-ecb2" name="Great Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                      </characteristics>
+                    </profile>
+                    <profile id="2afb-f861-38d1-c3e1" name="Rending Claw" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Rending</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="9eba-8d04-285c-f267" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
+                    <infoLink id="31a2-2031-df96-ec3f" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="bf56-99a2-25a8-7072" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                    <infoLink id="2c20-dda1-bbb7-ed7e" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="1d2a-2d68-fabd-68ad" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="23.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3e07-2d33-59b3-791b" name="Command Group" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="986d-580c-c2a0-afae" name="Sergeant" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2f7-7890-0f36-4740" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f796-96c4-01ed-7fa3" name="Sergeant" hidden="false" targetId="2f6c-bfac-daca-d184" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c861-7095-e267-70f0" name="Musician" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb92-afd0-88a9-152b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ac6e-d53d-9077-1ffb" name="Musician" hidden="false" targetId="aad6-3f72-ebdd-a776" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aca9-c804-543d-744a" name="Banner" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cd4-1258-4d0d-9b07" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="a69e-9f72-d0d3-9b05" name="Banner" hidden="false" targetId="b17d-8062-7a13-6c91" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4890-6a52-7559-32e9" name="Warpstone Thrower" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3782-7091-a393-0f6b" name="Warpstone Thrower" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+          <characteristics>
+            <characteristic name="Quality" typeId="d469-f059-193c-f740">5+</characteristic>
+            <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
+            <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
+            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Entrenched, Immobile</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="81a7-1072-76c9-cbcf" name="Warpstone Thrower" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="9ade-0584-de41-eded">24&quot;</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Blast(3), Indirect</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d2b3-d673-3b90-792b" name="Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">3</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b6ea-0c5f-db30-7b27" name="Entrenched" hidden="false" targetId="c0a7-b837-7fad-97c1" type="rule"/>
+        <infoLink id="9ae2-f9cf-d3cc-81d2" name="Immobile" hidden="false" targetId="5378-7042-370d-67fc" type="rule"/>
+        <infoLink id="2c3c-f70e-2c0c-92bd" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
+        <infoLink id="281c-5d02-4b40-8310" name="Indirect(X)" hidden="false" targetId="1411-52c8-8d71-1b15" type="rule"/>
+        <infoLink id="f4dd-7916-7888-1a86" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3d39-e0e7-a788-6446" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="85.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6064-6538-27ef-758d" name="Aberration" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="512d-13d7-958a-df3b" name="Aberration" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+          <characteristics>
+            <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+            <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
+            <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">6</characteristic>
+            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(3) 60x60</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Fearless, Furious, Mutations, Scurrying Rats, Strider</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8947-cbfa-1df6-5c33" name="Heavy Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">6</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4dc6-c50c-3fd0-8573" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+        <infoLink id="4b70-69ff-8971-5e85" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
+        <infoLink id="eb4f-efeb-d162-e691" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+        <infoLink id="d11d-c7d8-4564-17dc" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+        <infoLink id="1f50-0751-2cf8-ca74" name="Mutations" hidden="false" targetId="df56-3139-f096-ec00" type="rule"/>
+        <infoLink id="aa60-5ba2-019c-7268" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+        <infoLink id="fac3-f946-ce9b-8ff0" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8414-cac5-15ec-bdde" name="New CategoryLink" hidden="false" targetId="b17f-cb95-65c6-c703" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="815a-c3a8-c1aa-84fc" name="Wound Chart" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dde-59b1-2496-9513" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9cd-b670-185c-fd58" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="94cc-b101-6e69-cf29" name="1" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">6</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">None</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0e6a-08f9-f59d-cabe" name="2" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">3</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">-2&quot; Move</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7807-13fb-9c9f-ceb8" name="Warpstone Rat Tank" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="cf34-aa89-c572-de1d" name="Warpstone Rat Tank" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+          <characteristics>
+            <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+            <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">2+</characteristic>
+            <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">9</characteristic>
+            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(2), Impact(6)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d9c2-3c78-19d0-5ee4" name="Warpstone Cannon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="9ade-0584-de41-eded">24&quot;</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Blast(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c03c-bc9d-d199-562b" name="Heavy Pistol" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="9ade-0584-de41-eded">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">3</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f16c-a790-fd4f-aef6" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
+        <infoLink id="ab64-35a5-eaca-de24" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
+        <infoLink id="da60-67bd-1457-3b58" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+        <infoLink id="7be6-6cd9-1959-3ad8" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="173c-dd07-a69b-50ea" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="eac8-0c76-98f4-2aa4" name="Wound Chart" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e27-13d0-8623-12cb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c70-0ad8-803f-0bf6" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a65a-7a12-c3bc-cebf" name="1" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">9</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">None</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="fee2-ef07-2409-42e5" name="2" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">6</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">-2&quot; Move</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9166-bfa8-b72f-bccf" name="3" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">3</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">-2&quot; Move. -1 Quality</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="260.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

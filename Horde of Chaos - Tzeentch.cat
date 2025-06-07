@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="098a-766b-93ff-7586" name="Horde of Chaos - Tzeentch" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="098a-766b-93ff-7586" name="Horde of Chaos - Tzeentch" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e8af-0448-6440-87b7" name="Doctrine Selection" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -45,7 +45,7 @@
             <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
             <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">6</characteristic>
             <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
           </characteristics>
         </profile>
         <profile id="f6e8-f608-c4d3-ec7f" name="Warpfire Barrage" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -118,7 +118,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="605.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="610.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="abf1-7884-195e-bc6f" name="Burning Chariot" hidden="false" collective="false" import="true" type="upgrade">
@@ -3791,16 +3791,17 @@
                         <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
                         <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
                         <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="b134-ee5b-6ff0-a938" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="b36a-ef97-4dbb-a6d2" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
+                    <infoLink id="ecb2-f4ac-5e68-1f99" name="Warp" hidden="false" targetId="752c-6b16-ab0f-c6a3" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="13.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="14.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3841,16 +3842,17 @@
                         <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
                         <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
                         <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="9a8b-5026-1bf3-ef87" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
                     <infoLink id="e85a-afe8-e8f3-da26" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
+                    <infoLink id="9f2c-6db5-c135-043d" name="Warp" hidden="false" targetId="752c-6b16-ab0f-c6a3" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="13.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="14.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4877,7 +4879,7 @@
             <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
             <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
             <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4885,6 +4887,7 @@
         <infoLink id="ee04-559c-798b-6bc6" name="Hero" hidden="false" targetId="7f75-81ad-7d84-379b" type="rule"/>
         <infoLink id="17c3-0df4-06e7-97cf" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
         <infoLink id="1635-e430-ab64-f192" name="Caster(X)" hidden="false" targetId="be0a-5475-4dc4-2e86" type="rule"/>
+        <infoLink id="c1b2-4a1f-006a-e51a" name="Warp" hidden="false" targetId="752c-6b16-ab0f-c6a3" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dec2-bfc5-4313-2b13" name="New CategoryLink" hidden="false" targetId="b1f7-e68c-ee70-9808" primary="true"/>
@@ -7476,6 +7479,366 @@
               </entryLinks>
               <costs>
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="65.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="20cd-7156-e23c-64e8" name="Sekhetar Constructs" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="2af8-0cfe-2d73-decc" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f919-d70a-d5d2-17d1" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="de93-baa3-7af5-cbcf">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7179-8f39-71b9-a5c9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f822-3d21-60a5-5a55" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="de93-baa3-7af5-cbcf" name="3 Sekhetar Constructs" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cacd-9f6c-496a-991e" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="478c-f175-bdb7-69d3" name="Sekhetar Construct" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9000-3b08-4ea8-51d0" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aa0-d802-52bd-945c" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="7d37-4dc7-0499-81ec" name="Sekhetar Construct" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">3+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 40x40</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Stealth, Unstable</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="c26a-d4fe-19ff-6206" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="feb1-4094-aec9-4433" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+                    <infoLink id="1cf5-0364-0c9f-f45f" name="Unstable" hidden="false" targetId="d4d1-bb98-8943-c841" type="rule"/>
+                  </infoLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="57a8-8457-3596-5ab4" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="1e2c-1fc4-a170-c541">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5a9-d816-d496-6bd0" type="max"/>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7f8-bd97-c15e-6078" type="min"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="ad26-e8f4-58ad-1494" name="0-3 Pyreflux Meltagun &amp; Heavy Claw" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f46-aa4d-8198-2cf5" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="e9f6-c893-40b5-a4d8" name="Heavy Claw" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                            <profile id="e8d7-491e-005a-8996" name="Pyreflux Meltagun" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">4</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Deadly(3)</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="9eb4-6950-572d-c889" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                            <infoLink id="ffa9-2f79-5f0c-878d" name="Deadly(X)" hidden="false" targetId="3962-6d7d-4f66-1efb" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="1e2c-1fc4-a170-c541" name="0-3 Dual Heavy Claws" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2a1-15a4-522b-0131" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="372d-4963-f56c-65dc" name="Dual Heavy Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="da1e-c3ff-d9bd-90b5" name="0-3 Flamer &amp; Heavy Claw" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42fc-b5e0-b40b-b7fb" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="a1ee-8011-6276-ccd2" name="Heavy Claw" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                            <profile id="c858-3c0a-8e17-4736" name="Warpfire Projector" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">12&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Blast(3), Reliable</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="bd74-6d1f-60c0-33a0" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
+                            <infoLink id="bf4d-9999-1f56-4d27" name="Reliable" hidden="false" targetId="40b6-ff14-dbfb-09d5" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="ab1d-d43d-7fb8-aa09" name="0-3 Dual Power Claws" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43d1-a71a-af52-3c3a" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="9652-69c3-ded7-9771" name="Dual Power Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">4</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="25.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="98d5-0d11-19d7-f60c" name="0-3 Light Missile Rack &amp; Heavy Claw" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f55-3a64-32f2-2e27" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="2ad6-a7b8-57fe-1e80" name="Heavy Claw" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                            <profile id="1559-747d-6060-a804" name="Light Missile Rack" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">30&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Blast(3), Indirect</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="3577-17f6-f82a-9b33" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
+                            <infoLink id="756f-c21b-fcda-4b6b" name="Indirect(X)" hidden="false" targetId="1411-52c8-8d71-1b15" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="220.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a194-c191-e462-d6f8" name="6 Sekhetar Constructs" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a12-cae2-ad68-397a" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="1f51-0166-4793-c1eb" name="Sekhetar Construct" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b496-4577-1d8d-28d7" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e29-4497-f5ec-efdc" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="5f53-0247-66e4-e663" name="Sekhetar Construct" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">3+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 40x40</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Stealth, Unstable</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="2581-6b2a-a8d8-39c0" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="58ae-124f-5f92-be45" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+                    <infoLink id="b273-81e8-8f92-9c07" name="Unstable" hidden="false" targetId="d4d1-bb98-8943-c841" type="rule"/>
+                  </infoLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="c4c1-c83a-1eb5-0ab1" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="4789-3f2e-c544-4ba0">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3bf-ce86-139f-acf6" type="max"/>
+                        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bc6-f580-0823-9b3f" type="min"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="a920-c05a-96a4-8f47" name="0-6 Pyreflux Meltagun &amp; Heavy Claw" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b8b-907f-bb2e-84b1" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="df66-9739-5d6a-b6d0" name="Heavy Claw" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                            <profile id="4a89-e3a3-5241-2e7b" name="Pyreflux Meltagun" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">4</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Deadly(3)</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="bf1a-792d-d1ff-2de3" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                            <infoLink id="7b67-811c-7b7a-2071" name="Deadly(X)" hidden="false" targetId="3962-6d7d-4f66-1efb" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="4789-3f2e-c544-4ba0" name="0-6 Dual Heavy Claws" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4802-79b8-14ad-2869" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="5c7f-77ff-5e66-f47f" name="Dual Heavy Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="0b4d-c0dd-1f62-ecbc" name="0-6 Flamer &amp; Heavy Claw" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="210d-ffe8-f505-8fb4" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="3994-3ac0-13c0-e5e0" name="Heavy Claw" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                            <profile id="361c-12eb-2901-d54c" name="Warpfire Projector" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">12&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Blast(3), Reliable</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="96fb-ad4a-d37b-06aa" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
+                            <infoLink id="e7bf-ee9e-2944-7a0e" name="Reliable" hidden="false" targetId="40b6-ff14-dbfb-09d5" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="1446-af52-c02e-0fd1" name="0-6 Dual Power Claws" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0067-efe1-40f5-878e" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="0a3f-bd15-c2bb-a8c7" name="Dual Power Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">4</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="25.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="ed7c-9808-70e6-dff8" name="0-6 Light Missile Rack &amp; Heavy Claw" hidden="false" collective="false" import="true" type="upgrade">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8449-cc1c-63a4-dd18" type="max"/>
+                          </constraints>
+                          <profiles>
+                            <profile id="1d04-0c31-1132-067c" name="Heavy Claw" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                              </characteristics>
+                            </profile>
+                            <profile id="0afb-13f5-6e67-8ac5" name="Light Missile Rack" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                              <characteristics>
+                                <characteristic name="Range" typeId="9ade-0584-de41-eded">30&quot;</characteristic>
+                                <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                                <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                                <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Blast(3), Indirect</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <infoLinks>
+                            <infoLink id="004c-70e8-3559-c669" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
+                            <infoLink id="e7c3-4462-fc54-a35e" name="Indirect(X)" hidden="false" targetId="1411-52c8-8d71-1b15" type="rule"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="35.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="440.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
