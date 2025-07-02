@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2915-6e83-69af-2e0b" name="Horde of Chaos - Khorne" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2915-6e83-69af-2e0b" name="Horde of Chaos - Khorne" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="dd14-6778-cb20-9fe4" name="Wrathmongers" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -186,7 +186,7 @@
                   </profiles>
                   <rules>
                     <rule id="dfc9-a1c3-9957-1456" name="Butcher&apos;s Chant" hidden="false">
-                      <description>Once per this unit&apos;s activation, before attacking, pick one enemy unit within 12&quot;, which gets -2 to its next morale test roll.</description>
+                      <description>Once per this unit&apos;s activation, before attacking, pick one enemy unit within 12&quot;, which gets -2 to its next morale test roll, and one friendly unit within 12&quot; which gets +1 to its next morale test roll.</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -204,7 +204,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="220.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="225.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4f59-3d32-9580-e086" name="6 Butchered Choristers" hidden="false" collective="false" import="true" type="upgrade">
@@ -237,8 +237,8 @@
                     </profile>
                   </profiles>
                   <rules>
-                    <rule id="641b-15c8-3450-0693" name="Butcher&apos;s Chant" hidden="false">
-                      <description>Once per this unit&apos;s activation, before attacking, pick one enemy unit within 12&quot;, which gets -2 to its next morale test roll.</description>
+                    <rule id="62b9-810f-47f2-a19c" name="Butcher&apos;s Chant" hidden="false">
+                      <description>Once per this unit&apos;s activation, before attacking, pick one enemy unit within 12&quot;, which gets -2 to its next morale test roll, and one friendly unit within 12&quot; which gets +1 to its next morale test roll.</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -256,7 +256,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="440.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="450.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -272,7 +272,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9435-bb16-c12a-f2cd" type="min"/>
       </constraints>
       <entryLinks>
-        <entryLink id="e666-3857-a037-aca7" name="-Strategem Selection" hidden="false" collective="false" import="true" targetId="7600-efaa-7cb0-c9c5" type="selectionEntryGroup"/>
+        <entryLink id="e666-3857-a037-aca7" name="-Doctrine Selection" hidden="false" collective="false" import="true" targetId="7600-efaa-7cb0-c9c5" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1302,7 +1302,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 40x40</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Pierce</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Daemon, Furious, Pierce</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="a48d-1da6-335f-0ff9" name="Heavy Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1318,6 +1318,7 @@
                     <infoLink id="160b-9bcf-751e-3b43" name="Pierce" hidden="false" targetId="dc1e-58e1-5b4d-eed6" type="rule"/>
                     <infoLink id="5d42-cb12-4f0e-c1c5" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="33a0-9496-e40d-755f" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="0afc-80b8-8753-7eb8" name="Daemon" hidden="false" targetId="0b41-6153-109e-a9f6" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1325,7 +1326,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="155.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="175.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9c46-fba3-61f2-e425" name="6 Bloodbeasts" hidden="false" collective="false" import="true" type="upgrade">
@@ -1345,7 +1346,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 40x40</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Pierce</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Daemon, Furious, Pierce</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="d717-fb3f-f497-8d25" name="Heavy Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -1361,6 +1362,7 @@
                     <infoLink id="f5e5-7143-cae7-87cd" name="Pierce" hidden="false" targetId="dc1e-58e1-5b4d-eed6" type="rule"/>
                     <infoLink id="5594-82cc-e1ef-bba7" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="1c2a-df1a-c93d-b7a1" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+                    <infoLink id="c371-a949-9d30-390a" name="Daemon" hidden="false" targetId="0b41-6153-109e-a9f6" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1368,7 +1370,7 @@
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="310.0"/>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="350.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7736,6 +7738,148 @@
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d67-6578-a89b-8318" name="Brass Scorpion" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0441-1c75-e529-21a2" name="Brass Scorpion" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+          <characteristics>
+            <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+            <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
+            <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">6</characteristic>
+            <characteristic name="Size" typeId="30eb-08db-7033-1f87">(5) 105x70</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(1), Fearless</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0275-f648-125e-b6f9" name="Heavy Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+          </characteristics>
+        </profile>
+        <profile id="73d0-5e08-8a93-7da2" name="Light Scorpion Cannon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="9ade-0584-de41-eded">18&quot;</characteristic>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">1</characteristic>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6f7d-8134-cd1c-2aaf" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
+        <infoLink id="64eb-39c0-3fbe-0cc5" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
+        <infoLink id="2882-a27f-4b26-127c" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e35a-21d2-5837-b2b1" name="New CategoryLink" hidden="false" targetId="b17f-cb95-65c6-c703" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ea43-f604-a250-2d43" name="Wound Chart" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="775b-d6a3-01ad-0020" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1403-a135-05b0-554b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="5b4c-e99b-82e5-4698" name="1" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">6</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">None</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="af3b-bfc4-b662-0fc7" name="2" hidden="false" typeId="f25a-1a63-e58f-d19f" typeName="Wounds Chart">
+              <characteristics>
+                <characteristic name="Wounds Remaining" typeId="8fd5-4008-4406-37e1">3</characteristic>
+                <characteristic name="Effects" typeId="6261-c777-9d64-a2c9">-2&quot; Move</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1852-ef37-3b6e-ae2e" name="Army Rule Selection" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a1-8c93-5e63-112a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d56-f096-fbff-48e0" type="min"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b5a3-09cc-74e9-d09a" name="Army Rule" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0983-5028-3454-223a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47b2-dbd1-c11f-a6b7" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="23cc-c773-c789-8acc" name="ARMY RULE - Blood For The Blood God" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="804a-3c8e-23ad-0b15" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="f624-a308-22bc-bc13" name="ARMY RULE - Blood For The Blood God" hidden="false">
+                  <description>Each time a friendly unit destroys an enemy unit in melee, gain 1 Blood Point (BP) — maximum 3 per round.
+At the start of your activation, you may spend any number of Blood Points:
+
+1 BP — Pick a friendly unit: That unit gets +1 to their Furious rule trigger. (i.e. A unit with Furious triggers on a 5-6 instead of a 6.)
+
+2 BP — Pick a friendly unit: +1 AP on all melee attacks this turn.
+
+3 BP — Move a friendly unit up to 6” immediately.
+
+Note: You lose unspent Blood Points at end of round.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="89e0-1aac-4b21-11a1" name="ARMY RULE - Skulls for the Skull Throne" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="860a-d56b-70ef-020b" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="069b-cb11-7496-4713" name="ARMY RULE - Skulls for the Skull Throne" hidden="false">
+                  <description>At the start of each round, roll a D6 for every enemy CHARACTER or Model with 6 Wounds or more:
+
+On a 5+, that unit suffers 1 wound.
+
+In addition, if an enemy CHARACTER or Model with 6 Wounds or more is slain in melee by a friendly unit:
+
+That friendly unit gains Fear(+1) for the rest of the game.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="11d1-8b90-c284-908d" name="ARMY RULE - Wrathful Chargers" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee3c-df16-6a1e-4d80" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="3205-601a-c7ff-475b" name="ARMY RULE - Wrathful Chargers" hidden="false">
+                  <description>Units with the Fast rule in your army gain one of the following.
+
+- They gain Impact(1) if they do not have the Impact rule.
+
+- If they have the Impact rule already, all of their Impact hits gain AP(+1).</description>
+                </rule>
+              </rules>
               <costs>
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
               </costs>

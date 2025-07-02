@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="01a3-c410-1769-c5ab" name="Norsca" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="01a3-c410-1769-c5ab" name="Norsca" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d54d-a6fd-7e0c-7e4b" name="Bondsmen" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -6312,6 +6312,87 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="179f-1832-74cf-7ad4" name="Army Rule Selection" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9940-a354-9fd5-1fd0" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0abe-19e3-3a51-69c5" type="min"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8237-aadb-001b-2249" name="Army Rule" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cf8-2d94-d1be-b0ab" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91ba-7b1b-79dc-ffb4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f4e1-cdda-0a86-5864" name="ARMY RULE - Winter&apos;s Howl" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c578-0440-de69-b3bf" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="45f6-ae64-b493-003f" name="ARMY RULE - Winter&apos;s Howl" hidden="false">
+                  <description>At the start of the battle, choose one of the following Tribal Omens. The effect lasts for the entire game:
+
+Omen of the Hunt: Friendly units gain +2” Movement.
+
+Omen of the Storm: Enemy units within 6” of Norsca CHARACTERS suffer -1 to Hit.
+
+Omen of Blood: Friendly units gain Furious or if they already have Furious, they get +1 to their Furious rule trigger. (i.e. A unit with Furious triggers on a 5-6 instead of a 6.)</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="4544-0def-d8c7-a23c" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="868f-14d9-2487-7036" name="ARMY RULE - Blood and Snow" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e86-9fe1-570e-7066" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="e7d6-3042-7806-281a" name="ARMY RULE - Blood and Snow" hidden="false">
+                  <description>Once per game, at the start of your turn, you may invoke the fury of the north:
+
+Until the end of your turn, all friendly units gain +1 to Hit in melee
+
+If a unit charges this turn, it also gains AP(+1).</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="81c3-1bac-bc78-4f4d" name="ARMY RULE - Might of the War Clans" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8014-2c5e-f544-503a" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="1849-636a-e9d6-4ca4" name="ARMY RULE - Might of the War Clans" hidden="false">
+                  <description>If a friendly unit destroys an enemy unit in melee, it becomes Inspired until the end of your next turn.
+
+While Inspired:
+
+Gains Fear and Putrid.
+
+If the unit is a CHARACTER or model with 6 wounds or more, it also gains +1 Attack</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="2c5e-550b-0b6b-ed8d" name="Putrid" hidden="false" targetId="4146-e32f-ca7d-ec38" type="rule"/>
+                <infoLink id="8591-866c-f887-a870" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

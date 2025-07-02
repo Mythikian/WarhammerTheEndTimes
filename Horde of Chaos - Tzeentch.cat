@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="098a-766b-93ff-7586" name="Horde of Chaos - Tzeentch" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="098a-766b-93ff-7586" name="Horde of Chaos - Tzeentch" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e8af-0448-6440-87b7" name="Doctrine Selection" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -7839,6 +7839,340 @@
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="440.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b1b-bd78-9c9d-a571" name="Firewyrms" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="ab01-fe33-f913-144f" name="New CategoryLink" hidden="false" targetId="b17f-cb95-65c6-c703" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a9ee-c01f-18a3-2694" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="8577-f496-83c3-ab37">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96e1-e2b1-414f-4c21" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c438-5a99-c4d7-1275" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8577-f496-83c3-ab37" name="3 Firewyrms" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8050-03dc-bba5-5c8e" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="690d-d3e5-648e-1477" name="Firewyrm" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4f7-d208-f1c4-2f19" type="max"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28af-457f-8af0-8198" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="3a5a-6831-24db-f632" name="Firewyrm" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(3) 75x46</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Daemon, Stealth</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="98cd-20b9-55e7-2d1d" name="Warpshredder Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">3</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="4ed0-251a-fd40-2ab3" name="Warp Breath" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">12&quot;</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="2f26-1a1b-631c-3e4d" name="Daemon" hidden="false" targetId="0b41-6153-109e-a9f6" type="rule"/>
+                    <infoLink id="3e58-bfd5-5de3-29cb" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+                    <infoLink id="7316-4453-b534-2042" name="Warp" hidden="false" targetId="752c-6b16-ab0f-c6a3" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="60.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c09b-92c1-591b-7edc" name="6 Firewyrms" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a7c-6ed6-3a29-4a31" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="821c-a7c2-297e-1f58" name="Firewyrm" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c96-3b8f-2d0d-bfd5" type="max"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9191-e100-3f19-0de5" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="fc91-f36a-2d6d-0712" name="Firewyrm" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(3) 75x46</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Daemon, Stealth</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="6feb-c9fd-0d30-8727" name="Warpshredder Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">3</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="b474-4ed6-4a51-8787" name="Warp Breath" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">12&quot;</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Warp</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="90bf-69d8-b686-46b2" name="Daemon" hidden="false" targetId="0b41-6153-109e-a9f6" type="rule"/>
+                    <infoLink id="5d0e-516d-598f-7d93" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+                    <infoLink id="474c-40d8-b62f-afbc" name="Warp" hidden="false" targetId="752c-6b16-ab0f-c6a3" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="60.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8289-bf5a-d4f1-6866" name="Changebringers" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="b7f1-c765-c075-ab16" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3343-3171-c425-ada3" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="523f-3b27-ff9b-93ab">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e430-f128-5894-71d6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6df-dc4d-6c47-dda2" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="523f-3b27-ff9b-93ab" name="3 Changebringers" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e75-5115-4d12-876b" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="6f89-11ba-69c2-6ebd" name="Changebringer" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e031-2de6-31ce-a30c" type="max"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ff2-22ab-0d37-6304" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="270a-7310-f78d-a584" name="Changebringer" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 40x40</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Daemon, Fast, Stealth, Strider</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="af40-625f-9cbf-4833" name="Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">3</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                      </characteristics>
+                    </profile>
+                    <profile id="7065-df43-b5fe-cdc5" name="Greater Warpflame" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">12&quot;</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Blast(3), Reliable, Warp</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="8af2-d668-b695-b365" name="Daemon" hidden="false" targetId="0b41-6153-109e-a9f6" type="rule"/>
+                    <infoLink id="2013-9aa2-58ef-a10f" name="Reliable" hidden="false" targetId="40b6-ff14-dbfb-09d5" type="rule"/>
+                    <infoLink id="3639-4104-7b2e-ff21" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
+                    <infoLink id="c86d-c4e3-afa4-531d" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+                    <infoLink id="3756-12e1-dbbf-d84c" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
+                    <infoLink id="f8bf-4fa6-0cfa-bd7b" name="Warp" hidden="false" targetId="752c-6b16-ab0f-c6a3" type="rule"/>
+                    <infoLink id="18f7-81cc-8e72-c607" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="245.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a183-0f00-96ba-24fd" name="6 Changebringers" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f06-a0b8-c3b6-04fd" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="3f99-6511-2836-9b77" name="Changebringer" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3cf-fa97-bb93-1434" type="max"/>
+                    <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a66f-d160-cce8-cc65" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="ac4f-eadb-46c0-a800" name="Changebringer" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
+                      <characteristics>
+                        <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
+                        <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
+                        <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
+                        <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 40x40</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Daemon, Fast, Stealth, Strider</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="4c04-2dce-a15b-e85c" name="Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">3</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                      </characteristics>
+                    </profile>
+                    <profile id="2b2a-6217-d705-1e52" name="Greater Warpflame" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9ade-0584-de41-eded">12&quot;</characteristic>
+                        <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">1</characteristic>
+                        <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Blast(3), Reliable, Warp</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="7ae2-ed0a-dfe6-948b" name="Daemon" hidden="false" targetId="0b41-6153-109e-a9f6" type="rule"/>
+                    <infoLink id="c910-4148-e8a1-9eb0" name="Blast(X)" hidden="false" targetId="8db5-d985-e7c6-11dc" type="rule"/>
+                    <infoLink id="ab4a-3dd0-dfea-f646" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+                    <infoLink id="0645-2a6a-0f4d-1383" name="Reliable" hidden="false" targetId="40b6-ff14-dbfb-09d5" type="rule"/>
+                    <infoLink id="bf5a-ee28-de48-e480" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
+                    <infoLink id="5b16-c53e-73ef-fa45" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+                    <infoLink id="0e74-c63f-352e-4e25" name="Warp" hidden="false" targetId="752c-6b16-ab0f-c6a3" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="490.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c6de-f1ec-feb0-09a1" name="Army Rule Selection" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5057-3ad9-7d2f-20a0" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb0b-60d3-d62e-6a6f" type="min"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5c66-9973-d807-4d37" name="Army Rule" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd60-245f-6b82-ceb7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="834b-6509-2d9e-176d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e5b6-5ddb-de66-3356" name="ARMY RULE - Sorcerous Flux" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ff8-9d66-da2d-5d67" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="f3ca-f4c6-5ef0-6156" name="ARMY RULE - Sorcerous Flux" hidden="false">
+                  <description>At the start of each round, roll a D6:
+
+On 1-2: 0 Flux Points (FP)
+
+On 3-4: 1 FP
+
+On 5-6: 2 FP
+
+At the start of your turn, spend any number of FP:
+
+1 FP — One Wizard gets +1 to Cast this turn.
+
+2 FP — One enemy unit suffers D3 mortal wounds.
+
+3 FP — Reroll all failed casting rolls this turn.
+
+Note: Max 3 FP can be stored between rounds.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bef4-960d-ac66-8fb0" name="ARMY RULE - Warpflame &amp; Mutation" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1331-b144-2b02-c78f" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="a4d5-ec57-35bf-fdeb" name="ARMY RULE - Warpflame &amp; Mutation" hidden="false">
+                  <description>When an enemy unit suffers wounds from friendly spells or shooting, mark it as Warpflame-Touched until end of battle round.
+
+Friendly units that attack a Warpflame-Touched unit in melee gain:
+
++1 to Hit
+
+AP(+1)</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0056-23ad-7079-2c63" name="ARMY RULE - Schemes Within Schemes" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1d0-59b8-bc71-ec36" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="98c1-d146-d502-aac2" name="ARMY RULE - Schemes Within Schemes" hidden="false">
+                  <description>At the start of the game, choose a Scheme:
+
+Scheme of Madness: Enemy units -1 Morale.
+
+Scheme of Change: Models with the Caster(X) rule get +1 to cast.
+
+Scheme of Fate: Friendly units may reroll 1 failed hit roll per round.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

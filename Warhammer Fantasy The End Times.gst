@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="171e-7ef2-7e89-abdf" name="Warhammer Fantasy: The End Times" revision="8" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="171e-7ef2-7e89-abdf" name="Warhammer Fantasy: The End Times" revision="10" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="b8e3-33ff-ba55-d8c1" name="Core Rules"/>
   </publications>
@@ -2483,7 +2483,7 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
       <description>May transport up to X models or Characters with up to 6 Wounds, and non-Characters with up to 3 Wounds which occupy 3 spaces each. Transports may deploy with units inside, and units may enter/exit by using any move action, but must stay fully within 6&quot; of it when exiting. When a transport is destroyed, units inside must take a dangerous terrain test, are Shaken, and must be placed fully within 6” of the transport before removing it.</description>
     </rule>
     <rule id="0887-4225-67ae-f148" name="Surprise Attack" hidden="false">
-      <description>This model counts as having Ambush, and may be deployed up to 1&quot; away from enemy units. Once deployed, roll X dice. For each 2+ one enemy unit within 3” takes 2 hits with AP(1).</description>
+      <description>This model counts as having Ambush, and may be deployed up to 1&quot; away from enemy units. Once deployed, roll X dice. For each 4+ one enemy unit within 3” takes 2 hits with AP(1).</description>
     </rule>
     <rule id="df56-3139-f096-ec00" name="Mutations" hidden="false">
       <description>When in melee, roll one die and apply one bonus to all models with this rule. On a 1-3 attacks get Rending, on a 4-6 attacks get AP(+1).</description>
@@ -2568,6 +2568,15 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
     </rule>
     <rule id="5a13-5cfa-611e-cd0a" name="No Retreat" hidden="false">
       <description>Whenever a unit where most models have this rule fails a morale test that causes it to be Shaken or Routed, the test counts as passed instead. Then, roll as many dice as the number of wounds it would take to fully destroy it, and for each result of 1-3 the unit takes one wound, which can&apos;t be ignored.</description>
+    </rule>
+    <rule id="c509-d4c2-e0ac-74b5" name="Bombing Run" hidden="false">
+      <description>Once per activation, when this model moves over enemy units, pick one of them and roll X dice. For each 2+ it takes 3 hits with AP(1).</description>
+    </rule>
+    <rule id="5116-210c-a5b8-4306" name="Repair" hidden="false">
+      <description>Once per this model&apos;s activation, before attacking, if within 2&quot; of a model with 3 or more starting wounds, roll one die. On a 2+ you may remove D3 wounds from that model.</description>
+    </rule>
+    <rule id="fadf-acce-3231-6984" name="Steadfast" hidden="false">
+      <description>Whenever a unit where most models have this rule fails a morale test, it is passed instead. Once used, this ability can&apos;t be used again for the rest of the game.</description>
     </rule>
   </sharedRules>
 </gameSystem>

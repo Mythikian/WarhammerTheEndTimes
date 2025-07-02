@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c4d9-41ac-d91a-656f" name="Skaven" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c4d9-41ac-d91a-656f" name="Skaven" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c315-03be-57c4-3013" name="Giant Rats" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -4830,21 +4830,22 @@
                         <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
-                    <profile id="220c-e176-20f4-9304" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                    <profile id="4d8e-4152-cb29-98ed" name="Dual Toxin Blades" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                         <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
                         <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Poison</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="08fe-04b4-d4fd-e1f1" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="c860-422d-3278-6ff0" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                    <infoLink id="91da-9113-f268-26ab" name="Poison" hidden="false" targetId="da66-217e-b893-4de9" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="12.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="14.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4872,21 +4873,22 @@
                         <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Scurrying Rats</characteristic>
                       </characteristics>
                     </profile>
-                    <profile id="593c-695f-9358-1d73" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
+                    <profile id="593c-695f-9358-1d73" name="Dual Toxin Blades" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
                         <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">2</characteristic>
                         <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37"/>
-                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+                        <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Poison</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink id="131d-24b7-04ce-ebc8" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="bd75-2e55-5186-248b" name="Scurrying Rats" hidden="false" targetId="2b86-8db4-707f-97df" type="rule"/>
+                    <infoLink id="3e4f-1ee3-415b-9df3" name="Poison" hidden="false" targetId="da66-217e-b893-4de9" type="rule"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="12.0"/>
+                    <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="14.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -7785,6 +7787,7 @@
                     <infoLink id="09f0-302c-42fe-fa5b" name="Mutations" hidden="false" targetId="df56-3139-f096-ec00" type="rule"/>
                     <infoLink id="8b0d-a21d-a41a-249d" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
                     <infoLink id="ae03-48fb-1ab8-c785" name="Mutations" hidden="false" targetId="df56-3139-f096-ec00" type="rule"/>
+                    <infoLink id="df77-814c-6fd9-bb36" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="7.0"/>
@@ -7829,6 +7832,7 @@
                     <infoLink id="9d05-83f4-08f2-89dc" name="Mutations" hidden="false" targetId="df56-3139-f096-ec00" type="rule"/>
                     <infoLink id="cc15-7f8e-a77d-392d" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
                     <infoLink id="43f4-2ce0-440a-2d5e" name="Mutations" hidden="false" targetId="df56-3139-f096-ec00" type="rule"/>
+                    <infoLink id="4dc7-0689-6ec3-d2ea" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="7.0"/>

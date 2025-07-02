@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c102-ef42-da61-7c25" name="Bretonnia" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c102-ef42-da61-7c25" name="Bretonnia" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b6d5-50c9-cc20-e3e4" name="Battle Hounds" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -6254,6 +6254,69 @@
               </selectionEntries>
               <costs>
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="170.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6490-fdd9-c6bd-4e0d" name="Relics" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf8d-4a28-d82c-1ab5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5614-1977-123f-b31d" name="Bone Relic" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1948-881c-4b62-9e05" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ac2b-b6eb-57d1-1e00" name="Bone Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Protected</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="096e-9c21-b5bb-c362" name="Protected" hidden="false" targetId="170e-9393-3079-dd53" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bdca-b6ef-d834-558b" name="Blood Relic" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db6-a6b5-6670-3bfc" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="cf0f-68b4-b0c8-1102" name="Blood Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">Angelic Shield</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="ea80-0877-fad3-ad73" name="Angelic Shield" hidden="false" targetId="f023-b4ea-3ce7-7d18" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0f17-4557-a630-cd16" name="Sword Relic" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb2e-8bcb-e429-a1f8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1296-70dd-41dc-f8ed" name="Sword Relic" hidden="false" typeId="e70f-038d-6689-69f1" typeName="Upgrade">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="cf10-167e-c95d-08ee">AP(+1) in Melee</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="2922-023a-0b13-5628" name="AP(+1) in Melee" hidden="false">
+                  <description>This model&apos;s Melee weapons get AP(+1).</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
