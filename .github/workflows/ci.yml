@@ -1,6 +1,6 @@
 # This action continuously checks all pushes and Pull requests
 # for validity, integrity and bugs in datafiles.
-# For details, visit https://github.com/BSData/check-datafiles
+# For details, visit https://github.com/BSData/check-datafiles@v4
 name: CI
 on: [ push, pull_request ]
 jobs:
