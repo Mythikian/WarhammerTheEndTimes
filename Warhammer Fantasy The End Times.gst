@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="171e-7ef2-7e89-abdf" name="Warhammer Fantasy: The End Times" revision="10" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="171e-7ef2-7e89-abdf" name="Warhammer Fantasy: The End Times" revision="12" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="b8e3-33ff-ba55-d8c1" name="Core Rules"/>
   </publications>
@@ -676,7 +676,7 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
       <profiles>
         <profile id="00e0-e821-0a77-f58a" name="(1) Freezing Winds" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
-            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; move -1&quot; next time they Move, or -2&quot; next time they Advance/Charge.</characteristic>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 18&quot; move -2&quot; next time they Move, or -4&quot; next time they Advance/Charge.</characteristic>
           </characteristics>
         </profile>
         <profile id="3105-bf55-9fb8-1a8d" name="(1) Gust of True Flight" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
@@ -1491,7 +1491,7 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         </profile>
         <profile id="3f6b-a93c-57f1-1fcd" name="(1) Pandemonium" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
-            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; get -1 to their next morale test roll.</characteristic>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 18&quot; gets -2 to their next morale test roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="8c3a-202c-8893-53ed" name="(2) Mutating Miasma" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
@@ -1654,9 +1654,9 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12” takes 8 hits.</characteristic>
           </characteristics>
         </profile>
-        <profile id="17ab-80e9-92de-1b8d" name="(3) Wyrdstone Hurl" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+        <profile id="17ab-80e9-92de-1b8d" name="(3) Wyrdstone Rain" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
-            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 1 hit with AP(4) and Deadly(6).</characteristic>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 2 hits with AP(3) and Deadly(3).</characteristic>
           </characteristics>
         </profile>
         <profile id="b6e0-6c94-c1ad-5f1d" name="(3) Voice of Command" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
@@ -2558,7 +2558,7 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
       <description>This model has +1 to hit in melee against models that are SHAKEN.</description>
     </rule>
     <rule id="be54-6cbe-5140-c5b9" name="Resolute" hidden="false">
-      <description>Whenever a unit where most models have this rule would resolve a melee, they give a -1 penalty to any rules that would give the enemy a bonus in calculating the combat result, such as the Fear special rule. (For Example: A unit with Fear(2) counts as having Fear(1).)</description>
+      <description>Whenever a unit where most models have this rule would resolve a melee, they give a -1 penalty to any rules that would give the enemy a bonus in calculating the combat result, such as the Fear special rule or a rule that reduces the units morale. (For Example: A unit with Fear(2) counts as having Fear(1).)</description>
     </rule>
     <rule id="3ac6-4b19-c690-b07b" name="Elven Grace" hidden="false">
       <description>When taking a wound in melee, if this unit is not fatigued, roll one die. On a 6+ it is ignored.</description>
@@ -2573,7 +2573,7 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
       <description>Once per activation, when this model moves over enemy units, pick one of them and roll X dice. For each 2+ it takes 3 hits with AP(1).</description>
     </rule>
     <rule id="5116-210c-a5b8-4306" name="Repair" hidden="false">
-      <description>Once per this model&apos;s activation, before attacking, if within 2&quot; of a model with 3 or more starting wounds, roll one die. On a 2+ you may remove D3 wounds from that model.</description>
+      <description>Once per this model&apos;s activation, before attacking, if within 2&quot; of a model with 3 or more starting wounds, roll one die. On a 2+ you may restore D3 wounds from that model.</description>
     </rule>
     <rule id="fadf-acce-3231-6984" name="Steadfast" hidden="false">
       <description>Whenever a unit where most models have this rule fails a morale test, it is passed instead. Once used, this ability can&apos;t be used again for the rest of the game.</description>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c102-ef42-da61-7c25" name="Bretonnia" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c102-ef42-da61-7c25" name="Bretonnia" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b6d5-50c9-cc20-e3e4" name="Battle Hounds" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -6537,7 +6537,7 @@
 
 Sanctified Veil – Pick 1 friendly unit within 12&quot;, which gets Regeneration next time it takes wounds.
 
-Judgemental Light – Target enemy unit within 18&quot; must make a morale test or get -1 to defense rolls next time it takes hits.
+Judgemental Light – Target enemy unit within 18&quot; get -1 to defense rolls next time it takes hits.
 
 Echo of Valor – Pick 1 friendly unit within 12&quot;, which get +1 to hit next time it fights in melee.</description>
                     </rule>
@@ -6602,7 +6602,7 @@ Echo of Valor – Pick 1 friendly unit within 12&quot;, which get +1 to hit next
 
 Sanctified Veil – Pick 1 friendly unit within 12&quot;, which gets Regeneration next time it takes wounds.
 
-Judgemental Light – Target enemy unit within 18&quot; must make a morale test or get -1 to defense rolls next time it takes hits.
+Judgemental Light – Target enemy unit within 18&quot; get -1 to defense rolls next time it takes hits.
 
 Echo of Valor – Pick 1 friendly unit within 12&quot;, which get +1 to hit next time it fights in melee.</description>
                     </rule>

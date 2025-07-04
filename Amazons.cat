@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="11db-caa3-7c48-1cf6" name="Amazons" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="11db-caa3-7c48-1cf6" name="Amazons" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="41fe-4e4a-c900-c3ef" name="Amazon Warriors" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>

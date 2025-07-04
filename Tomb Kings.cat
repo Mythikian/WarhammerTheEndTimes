@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="50a8-a340-6c56-2dd2" name="Tomb Kings" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="50a8-a340-6c56-2dd2" name="Tomb Kings" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="91c3-cb7b-4d70-ecec" name="Greater Bastheti" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -5940,7 +5940,6 @@
               <infoLinks>
                 <infoLink id="8090-1d05-a74f-7026" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                 <infoLink id="537b-a5d6-9ad2-73c8" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
-                <infoLink id="a057-90d4-d71c-5773" name="Scout" hidden="false" targetId="6e12-19dd-53c6-38cd" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="5be3-433c-57cf-2e81" name="Wound Chart" hidden="false" collective="false" import="true" type="upgrade">
@@ -6360,6 +6359,78 @@
       <entryLinks>
         <entryLink id="db2d-ba63-fe2d-160a" name="-Strategem Selection" hidden="false" collective="false" import="true" targetId="7600-efaa-7cb0-c9c5" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd06-4526-8064-55c2" name="Army Rule Selection" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7393-42f7-847b-b040" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6525-a132-e4f5-3851" type="min"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="aa36-41c7-56ab-93f8" name="Army Rule" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9461-9900-3640-956d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ef9-2785-f89f-b53f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e13e-112e-db60-3945" name="ARMY RULE - Eternal Legions" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caf4-ec0f-d406-e9ab" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="57b5-155c-7559-15cf" name="ARMY RULE - Eternal Legions" hidden="false">
+                  <description>Whenever you activate a unit, if that unit includes a CHARACTER in a CORE unit, roll one D6. On a 1, that unit suffers D3 wounds; on a 2-5, you can return 1 destroyed model to that unit; on a 6, you can return up to D3+1 destroyed models to that unit.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="29ff-a555-4cbc-948a" name="ARMY RULE - Relentless March of Death" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afd1-75f7-31f5-9a23" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="9062-87d3-8165-221e" name="ARMY RULE - Relentless March of Death" hidden="false">
+                  <description>At the start of each battle round, you may select up to 3 friendly units within 6” of a friendly CHARACTER:
+
+Those units may move 3” immediately if they are not within Engagement Range.
+
+Units that use this movement:
+
+Cannot charge this turn, but may still shoot or cast.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6c34-8bbd-7c95-d2a1" name="ARMY RULE - Curse of the Ancients" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a34b-6416-8407-dea9" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="82dd-8a21-0f9d-8baf" name="ARMY RULE - Curse of the Ancients" hidden="false">
+                  <description>At the start of the game, choose one of the following Royal Curses to afflict your enemies:
+
+Curse of Weakness: Enemy units within 6” of your CHARACTER suffer -1 to Hit
+
+Curse of Frailty: Enemy units cannot Regenerate or restore wounds
+
+Curse of Dust: Enemy units suffer -1” Movement
+
+Effects persist as long as a Tomb Kings CHARACTER is alive on the battlefield.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
       </costs>

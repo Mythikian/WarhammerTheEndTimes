@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="41d8-4d3d-4c41-36d6" name="Araby" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="41d8-4d3d-4c41-36d6" name="Araby" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d8a2-2d10-8be8-e3e9" name="Camel Riders" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
