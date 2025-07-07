@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7cad-3367-0e98-e0bc" name="Albion" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7cad-3367-0e98-e0bc" name="Albion" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="756a-731d-b7f1-d12a" name="Albion Giant" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -5948,7 +5948,7 @@ Friendly units gain Furious the first time they Charge each turn.</description>
                 <rule id="968f-da65-67b9-e278" name="ARMY RULE - Warriors of the Old Ways" hidden="false">
                   <description>At the start of the battle select one of the following paths to follow:
 
-Path of the Beast: All friendly units with 1 Wound and without the Fast special rule gain Impact (1).
+Path of the Beast: All friendly units with 1 Wound and without the Fast rule gain Impact (1).
 
 Path of the Hunt: Friendly units with the Fast rule gain +2” Movement.
 
@@ -5965,9 +5965,9 @@ Path of the Ancestors: All units with Caster(X) gain an additional Spell Die eac
               </constraints>
               <rules>
                 <rule id="f8cf-6b53-a1b7-502b" name="ARMY RULE - Oaths of Stone" hidden="false">
-                  <description>Once per game, at the start of your turn, you may invoke the Spirits of Albion.
+                  <description>Once per game, at the start of the battle round, you may invoke the Spirits of Albion.
 
-Until the start of your next turn, all friendly units within 6” of terrain gain:
+Until the end of the battle round, all friendly units within 6” of terrain gain:
 
 Stealth
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="50a8-a340-6c56-2dd2" name="Tomb Kings" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="50a8-a340-6c56-2dd2" name="Tomb Kings" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="91c3-cb7b-4d70-ecec" name="Greater Bastheti" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -5221,7 +5221,7 @@
               </profiles>
               <rules>
                 <rule id="47d4-100e-eb47-1a82" name="Repair" hidden="false">
-                  <description>Once per this model&apos;s activation, before attacking, if within 2&quot; of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.</description>
+                  <description>Once per this model&apos;s activation, before attacking, if within 2&quot; of a model with 3 or more starting wounds, roll one die. On a 2+ you may restore D3 wounds from that model.</description>
                 </rule>
               </rules>
               <costs>

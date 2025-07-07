@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="171e-7ef2-7e89-abdf" name="Warhammer Fantasy: The End Times" revision="12" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="171e-7ef2-7e89-abdf" name="Warhammer Fantasy: The End Times" revision="14" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="b8e3-33ff-ba55-d8c1" name="Core Rules"/>
   </publications>
@@ -316,7 +316,7 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
       <profiles>
         <profile id="0854-36f2-39ca-266b" name="(1) Fury of the Forest" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
-            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 4 hits.</characteristic>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 4 hits. If that unit is within 6&quot; of a forest, they take an additional 2 hits.</characteristic>
           </characteristics>
         </profile>
         <profile id="ca5b-bc6f-5b42-e046" name="(1) The Twilight Host" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
@@ -342,6 +342,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="da6f-d55c-e414-05ef" name="(3) The Call of the Hunt" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; get AP(+2) next time they fight in melee.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1629-649c-2b22-4111" name="-Lore Attribute: Verdurous Harmony" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Whenever a spell from the Lore of Athel Loren is cast on a friendly unit, that unit immediately recovers 1 Wound worth of models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -384,6 +389,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; get +2 to hit rolls next time they fight in melee.</characteristic>
           </characteristics>
         </profile>
+        <profile id="2111-723d-fa35-b41d" name="-Lore Attribute: Wildheart" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">If a spell from the Lore of Beasts targets one or more friendly units with the Fast rule or that have 3 or more wounds, the caster gets +1 to the casting roll.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -422,6 +432,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="93a6-6286-17d3-b8d8" name="(3) Incantation of Vitality" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 3 friendly units within 12&quot; get Regeneration next time they take wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="caa0-9828-ee3a-4882" name="-Lore Attribute: Bloodletting" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">When casting a spell from the Lore of Blood, the casting model can choose to inflict a Wound on themselves. If they do, they add +1 to their casting roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -464,6 +479,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 12&quot; take 6 hits each.</characteristic>
           </characteristics>
         </profile>
+        <profile id="05dd-cf6e-3b7c-12eb" name="-Lore Attribute: Spiteful Conjuration" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Dark Magic is successfully cast on an enemy unit, roll a D6. If the number rolled is equal to the casting roll used to cast that spell, the enemy unit takes 2 hits with AP(1).</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -502,6 +522,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="93b8-54f5-7aab-c489" name="(3) The Fate of Bjuna" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; get AP(-2) next time they fight in melee, to a min. of AP(0).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c5b1-e869-aa33-b7d4" name="-Lore Attribute: Life Leeching" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">When a Lore of Death spell is resolved, roll a D6 for each unsaved wound caused by the spell. For every two 6&apos;s rolled on these additional dice, the casting model immediately adds a spell token.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -544,6 +569,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; move -3&quot; next time they Move, or -6&quot; next time they Advance/Charge.</characteristic>
           </characteristics>
         </profile>
+        <profile id="2908-ac5c-650c-029e" name="-Lore Attribute: Kindleflame" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">All spells from the Lore of Fire ignore Regeneration. In addition, if a spell from the Lore of Fire deals damage to an enemy unit that has already been hit by another Lore of Fire spell this round (even from a different caster), it deals +D3 hits.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -584,6 +614,13 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 6 hits with AP(2).</characteristic>
           </characteristics>
         </profile>
+        <profile id="6dc9-3ff5-9baa-da41" name="-Lore Attribute: Killing Fire" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Hashut is successfully cast on an enemy unit, that unit gains the Hashut&apos;s Curse rule until the end of the battle round.
+
+Enemy units with Hashut&apos;s Curse take an additional hit from all spells from the Lore of Hashut, as well as from friendly models that have the Rending rule.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -621,7 +658,14 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         </profile>
         <profile id="ea40-5afb-b55a-b46f" name="(3) Comet of Casandora" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
-            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 18” takes 1 hit with Blast(12).</characteristic>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 18” takes 1 hits with Blast(12).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fb8b-28de-eda7-5dd9" name="-Lore Attribute: Fate Manipulation" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Heavens is successfully cast, roll a D6. On a 4+, the caster may re-roll one casting roll for a spell they attempt later this round.
+
+In addition, enemy units targeted by a Lore of Heavens spell suffer -1 to hit with ranged attacks until the start of the next battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -664,6 +708,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; get -2 to defense rolls next time they take hits.</characteristic>
           </characteristics>
         </profile>
+        <profile id="524e-bd12-0f48-bf12" name="-Lore Attribute: Shield of Saphery" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of High Magic is successfully cast, the caster and its unit immediately gain Mystic Warding until the beginning of the caster&apos;s next Magic phase.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -674,9 +723,9 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0e0-5e3b-241b-9b9f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="00e0-e821-0a77-f58a" name="(1) Freezing Winds" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+        <profile id="00e0-e821-0a77-f58a" name="(1) Shardstorm" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
-            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 18&quot; move -2&quot; next time they Move, or -4&quot; next time they Advance/Charge.</characteristic>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 2 hits with AP(2).</characteristic>
           </characteristics>
         </profile>
         <profile id="3105-bf55-9fb8-1a8d" name="(1) Gust of True Flight" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
@@ -699,9 +748,14 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 18” takes 1 hit with Blast(12).</characteristic>
           </characteristics>
         </profile>
-        <profile id="b3a0-95b5-227e-6fb6" name="(3) Blizzard" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+        <profile id="b3a0-95b5-227e-6fb6" name="(3) Swiftwing" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
-            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; get -2 to hit rolls next time they fight in melee.</characteristic>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; move +3&quot; next time they Advance, or +6&quot; next time they Rush/Charge.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1960-5924-43df-c87f" name="-Lore Attribute: Freezing Winds" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of the Tempest is successfully cast, all enemy units within 12&quot; of the caster suffer -1&quot; to their Movement until the end of the battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -744,6 +798,13 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 3 friendly units within 12&quot; get Flying next time they move.</characteristic>
           </characteristics>
         </profile>
+        <profile id="288c-a812-fe9c-9ad6" name="-Lore Attribute: Bloodfuelled Prayers" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Khorne is successfully cast,  pick one friendly unit within 6&quot; of the caster. That unit may re-roll 1 failed hit roll in melee this battle round.
+
+In addition, if the ritual targeted an enemy unit, the caster gains +1 Attack until the end of the battle round.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -782,6 +843,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="a592-23df-2ea6-764e" name="(3) Regrowth" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 3 friendly units within 12&quot; get Regeneration next time they take wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b0aa-7c86-4759-4911" name="-Lore Attribute: Lifebloom" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Whenever a spell from the Lore of Life is cast on a friendly unit, one unit within 12&quot; immediately recovers 1 Wound worth of models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -824,6 +890,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; get +2 to defense rolls next time they take hits.</characteristic>
           </characteristics>
         </profile>
+        <profile id="dfc8-edac-075b-02d9" name="-Lore Attribute: Frost Shield" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Ice is successfully cast, the caster and its unit immediately gain Shield Wall until the end of the battle round.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -862,6 +933,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="2c1f-4885-15d6-6db1" name="(3) Birona&apos;s Timewarp" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; get AP(+3) next time they charge.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="913c-b4ea-db93-dab1" name="-Lore Attribute: Focus of Will" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Before a Caster attempts to cast a spell from the Lore of Light, they may choose to take a Quality test using their own Quality value. If passed, they add +1 to the casting die. If failed, they instead suffer -1 to the casting die.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -904,6 +980,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 18” takes 1 hit with Blast(12).</characteristic>
           </characteristics>
         </profile>
+        <profile id="1fe0-0394-10f6-bcb8" name="-Lore Attribute: Metallic Attraction" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">When casting a spell from the Lore of Metal, add 1 from the spell die if the target unit has Defense 3+ or greater, or 2 if it has Defense 2+.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -942,6 +1023,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="627e-6ae3-bc89-c00f" name="(3) Curse of Years" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; get -2 to hit rolls next time they fight in melee.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5d26-14ed-983f-1649" name="-Lore Attribute: Curse of Undeath" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Necromancy is successfully cast, choose one friendly unit with the Undead within 12&quot; of the caster. That unit regains 1 lost wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -984,6 +1070,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; get -2 to defense rolls next time they take hits.</characteristic>
           </characteristics>
         </profile>
+        <profile id="2662-b5b9-1c43-5d80" name="-Lore Attribute: The Restless Dead" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Nehekhara is successfully cast that targets a friendly unit with the Undead rule, that unit regains 2 lost wounds.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1022,6 +1113,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="8b54-c9a6-81ef-a18a" name="(3) Curse of the Leper" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; move -3&quot; next time they Move, or -6&quot; next time they Advance/Charge.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="512b-5df2-7ed7-d7a4" name="-Lore Attribute: Bloated with Disease" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">When a spell from the Lore of Nurgle is successfully cast, roll a D6 after resolving the spell&apos;s effect(s). On the roll of a 6, the Caster&apos;s Wounds are increased by 1 for the remainder of the game. This does not negate any attached CHARACTERS, regardless of wounds total.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1064,6 +1160,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 3 friendly units within 12&quot; get Regeneration next time they take wounds.</characteristic>
           </characteristics>
         </profile>
+        <profile id="22c3-0128-a4a0-2a69" name="-Lore Attribute: Endless Chittering" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of the Swarm is successfully cast, choose one friendly CORE unit within 12&quot; of the caster. That unit gains Furious until the end of its next activation.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1102,6 +1203,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="c8f3-6e2e-5236-5575" name="(3) Curse of the Horned Rat" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; get -3 to their next morale test roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bc2a-ab72-4da6-c6e6" name="-Lore Attribute: Plague Rash" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Plague is successfully cast, all enemy units within 6&quot; of the caster suffer -1 to their Movement (1&quot;) and Quality rolls until the end of the battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1144,6 +1250,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy model within 12&quot; takes 3 hits with AP(4).</characteristic>
           </characteristics>
         </profile>
+        <profile id="93f5-07df-957b-37ee" name="-Lore Attribute: Spirit Walk" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of the Serpent is successfully cast on a friendly unit, that unit gains +2&quot; to its Move value and ignores terrain penalties when moving until the end of the battle round.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1182,6 +1293,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="159e-5fc9-f8bf-b399" name="(3) Eyes of the Raven" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; get +3 to hit rolls next time they charge.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b9cd-c313-f36e-d16c" name="-Lore Attribute: Foresight" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Whenever a spell from the Lore of the Seidr is successfully cast, the caster may re-roll 1&apos;s when casting their next spell.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1224,6 +1340,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 3 friendly units within 12&quot; get Flying next time they move.</characteristic>
           </characteristics>
         </profile>
+        <profile id="7aa2-a9e9-357f-bebe" name="-Lore Attribute: Stoneforged Resilience" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Rune Magic is successfully cast, choose one friendly unit within 12&quot; of the caster. That unit gains +1 to Defense (to a maximum of 2+ save) until the end of the battle round.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1262,6 +1383,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="7bc4-16fa-b267-ed73" name="(3) Quicksand" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; move +3&quot; next time they Advance, or +6&quot; next time they Rush/Charge.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b1ce-96d6-800d-812f" name="-Lore Attribute: Shifting Sands" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of the Desert is successfully cast on an enemy unit, that unit’s move distance is reduced by 1&quot; until the end of the battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1304,6 +1430,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 6 hits with AP(2).</characteristic>
           </characteristics>
         </profile>
+        <profile id="5c1b-a58b-5a5b-7b16" name="-Lore Attribute: Musk of Fear" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Ruin is successfully cast, all enemy units within 6&quot; of the caster suffer -1 to their Morale tests and cannot benefit from the Fearless rule until the end of the round.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1344,6 +1475,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy model within 12&quot; takes 3 hits with AP(4).</characteristic>
           </characteristics>
         </profile>
+        <profile id="46ae-d0d2-7787-26ee" name="-Lore Attribute: Smoke and Mirrors" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Shadow is successfully cast, the caster and all friendly models in the same unit may immediately make a single Move action up to 3&quot; (cannot be used to charge), ignoring terrain penalties.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1354,7 +1490,7 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b489-2f4e-cb50-1069" type="max"/>
       </constraints>
       <profiles>
-        <profile id="fcba-7a12-567f-da97" name="(1) Pavane of Slanesh" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+        <profile id="fcba-7a12-567f-da97" name="(1) Pavane of Slaanesh" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 1 hit with AP(2) and Deadly(3).</characteristic>
           </characteristics>
@@ -1364,12 +1500,12 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 18&quot; gets -1 to hit rolls next time it shoots.</characteristic>
           </characteristics>
         </profile>
-        <profile id="8757-97bb-91f8-3045" name="(2) Lash of Slanesh" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+        <profile id="8757-97bb-91f8-3045" name="(2) Lash of Slaanesh" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy model within 12&quot; takes 2 hits with AP(4).</characteristic>
           </characteristics>
         </profile>
-        <profile id="57c8-c848-1290-ebfe" name="(2) Bliss in Torment" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+        <profile id="57c8-c848-1290-ebfe" name="(2) Phantasmal Barrier" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; get +1 to defense rolls next time they take hits.</characteristic>
           </characteristics>
@@ -1382,6 +1518,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="5d88-89e1-426b-3421" name="(3) Hysterical Frenzy" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; get +3 to hit rolls next time they charge.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="30dc-c200-3437-ec64" name="-Lore Attribute: Bliss in Torment" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Slaanesh is successfully cast, roll a D6. On a 5+, the caster gains +1 Attack until the start of the end of the battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1399,7 +1540,7 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 1 hit with AP(2) and Deadly(3).</characteristic>
           </characteristics>
         </profile>
-        <profile id="5212-6bdc-8774-05d6" name="(1) Dankhold Might" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+        <profile id="5212-6bdc-8774-05d6" name="(1) Toxic Blades" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; get Poison next time they fight in melee.</characteristic>
           </characteristics>
@@ -1424,12 +1565,17 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 18” takes 1 hit with Blast(12).</characteristic>
           </characteristics>
         </profile>
+        <profile id="85d6-8d47-7215-3837" name="-Lore Attribute: Sneaky Stealin&apos; " hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of the Bad Moon is successfully cast, roll a D6. On a 5+, you may remove one of your opponent’s spell tokens by 1 and add 1 spell token to this caster until the end of the battle round. This spell token can only be spent on dispelling other caster&apos;s spells.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c656-2c2a-2df1-3a0d" name="Lore of the Big Waagh!" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c656-2c2a-2df1-3a0d" name="Lore of the Big Waaagh!" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72e9-b972-c77f-bb6d" type="max"/>
       </constraints>
@@ -1464,6 +1610,13 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; get Rending next time they fight in melee.</characteristic>
           </characteristics>
         </profile>
+        <profile id="2e64-f7a8-5670-2b53" name="-Lore Attribute: Power of da Waaagh!" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">At the start of the casting model&apos;s activation, for each friendly unit with 10+ models within 12&quot; of the caster and FATIGUED, gain +1 to all casting rolls, up to a maximum of +3 until the end of the battle round.
+
+If any such units within 12&quot; are SHAKEN, subtract 1 from your casting rolls until the end of the battle round.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1476,7 +1629,7 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
       <profiles>
         <profile id="6c77-7cb2-4431-00c6" name="(1) Blue Fire of Tzeentch" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
-            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 2 hits with AP(2).</characteristic>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes D3+1 hits with Warp.</characteristic>
           </characteristics>
         </profile>
         <profile id="32e3-7b29-56d1-b72f" name="(3) Soulbound Shields" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
@@ -1484,14 +1637,14 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 3 friendly units within 12&quot; get Regeneration next time they take wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="ce92-34d1-5138-708a" name="(3) Bolt of Change" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+        <profile id="ce92-34d1-5138-708a" name="(2) Bolt of Change" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
-            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 1 hit with AP(4) and Deadly(6).</characteristic>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 1 hit with AP(4) and Deadly(3).</characteristic>
           </characteristics>
         </profile>
-        <profile id="3f6b-a93c-57f1-1fcd" name="(1) Pandemonium" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+        <profile id="3f6b-a93c-57f1-1fcd" name="(1) Treason of Tzeentch" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
-            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 18&quot; gets -2 to their next morale test roll.</characteristic>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; get -1 to their next morale test roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="8c3a-202c-8893-53ed" name="(2) Mutating Miasma" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
@@ -1499,9 +1652,14 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; move -2&quot; next time they Move, or -4&quot; next time they Advance/Charge.</characteristic>
           </characteristics>
         </profile>
-        <profile id="f567-1a25-06f8-e2fb" name="(2) Pink Fire of Tzeentch" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+        <profile id="f567-1a25-06f8-e2fb" name="(3) Infernal Gateway" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
-            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 18” takes 1 hit with Blast(6).</characteristic>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 18” takes 1 hit with Blast(12).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5095-fbee-a5c7-0da8" name="-Lore Attribute: Architects of Fate" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">The first time a spell from the Lore of Tzeentch is successfully cast by this caster, choose one friendly unit within 12&quot;. That unit Re-rolls 1s to hit (melee and ranged) rule until the end of the battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1544,6 +1702,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; get -2 to hit rolls next time they fight in melee.</characteristic>
           </characteristics>
         </profile>
+        <profile id="85bc-2e73-32cc-a08b" name="-Lore Attribute: Primal Onslaught" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">The first time a spell from the Lore of the Wild is successfully cast by this caster, choose one friendly unit within 12&quot;. That unit gains Furious until the end of the battle round. If they already have Furious, they get +1 to their Furious rule trigger. (i.e. A unit with Furious triggers on a 5-6 instead of a 6.)</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1582,6 +1745,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="67f3-4978-bee0-2c28" name="(3) Kraken&apos;s Pull" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 6 hits with AP(2).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="37e6-b873-b6fb-8ab8" name="-Lore Attribute: Kiss of the Deep" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of the Deep is successfully cast on an enemy unit, roll a D6. On a 5+, that unit suffers 1 hit that ignores Defense rolls.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1624,6 +1792,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 3 friendly units within 12&quot; get Flying next time they move.</characteristic>
           </characteristics>
         </profile>
+        <profile id="a40e-8523-1b2d-cf51" name="-Lore Attribute: Tides of the Deep" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Mathlann is successfully cast, roll a D6. On a 4+, choose one friendly unit within 12&quot; of the caster. That unit gains either Stealth or Shield Wall until the end of the battle round.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1654,14 +1827,19 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12” takes 8 hits.</characteristic>
           </characteristics>
         </profile>
-        <profile id="17ab-80e9-92de-1b8d" name="(3) Wyrdstone Rain" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+        <profile id="17ab-80e9-92de-1b8d" name="(3) Wyrdstone Hurl" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
-            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 2 hits with AP(3) and Deadly(3).</characteristic>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 12&quot; takes 2 hits with AP(2) and Deadly(2).</characteristic>
           </characteristics>
         </profile>
         <profile id="b6e0-6c94-c1ad-5f1d" name="(3) Voice of Command" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; move -3&quot; next time they Move, or -6&quot; next time they Advance/Charge.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="68e8-fe4e-7c27-2565" name="-Lore Attribute: Mists of Albion" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Whenever a spell from the Lore of the Truthsayers is cast on a friendly unit, that unit gains Stealth until the end of the battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1704,7 +1882,28 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; get AP(+3) next time they charge.</characteristic>
           </characteristics>
         </profile>
+        <profile id="39ec-94e7-f60f-65a2" name="-Lore Attribute: Unholy Resonance" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of Chaos Undivided is successfully cast, roll a D6. On a 5+, the caster gains a random Chaos Boon for the rest of the battle. Each caster may only benefit from one Chaos Boon at a time (the newest boon replaces the previous one).</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
+      <rules>
+        <rule id="e966-e289-9979-edb6" name="Chaos Boon" hidden="false">
+          <description>D6	Chaos Boon	Effect
+1	Warp-Flesh	Gain Regeneration.
+2	Daemon Strength	+1 Attack in Melee.
+3	Black Aura	Enemies within 3” suffer -1 to hit.
+4	Twisted Form	+1 Wound.
+5	Warped Insight	Gain Stealth and Fear(1).
+6	Touched by the Dark Gods	+1 to casting rolls for the rest of the battle.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2c4e-7622-e746-5f57" name="Regeneration" hidden="false" targetId="0e2a-a0fa-3d80-3b25" type="rule"/>
+        <infoLink id="1315-2dbc-6119-5eac" name="Stealth" hidden="false" targetId="1974-61d2-4182-e83b" type="rule"/>
+        <infoLink id="2b74-bbc7-1fbe-ac87" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
       </costs>
@@ -1742,6 +1941,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="cc50-8780-e923-39be" name="(3) Void of Emptiness" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; move -3&quot; next time they Move, or -6&quot; next time they Advance/Charge.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="39ea-885a-04c5-b531" name="-Lore Attribute: Invocation of the Kami" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Before casting any spells from the Lore of the Kami, the caster can make a Quality test (difficulty 5+). On a success, the caster gains +1 to all casting rolls until the end of the battle round. On a failure the caster instead takes 1 hit which ignores Defense rolls.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1784,6 +1988,13 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 3 friendly units within 12&quot; get Regeneration next time they take wounds.</characteristic>
           </characteristics>
         </profile>
+        <profile id="d41f-0924-72c7-a5ef" name="-Lore Attribute: Bloodgruel" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">The first time a spell from the Lore of the Great Maw is successfully cast by a caster, roll a D6. On a 2-6 the caster immediately recovers 1 lost wound (up to their starting total). Additionally, the caster gains +1 to their next casting roll.
+
+However, on a 1 the caster takes 1 hit that ignores Defense rolls instead.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1824,12 +2035,17 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; get AP(+3) next time they charge.</characteristic>
           </characteristics>
         </profile>
+        <profile id="17b7-f619-0401-9f81" name="-Lore Attribute: Favour of the Lady" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of the Lady is successfully cast on a friendly unit, that unit improves its Defense rolls by 1 (to a maximum of 2+) until the start of your next Magic phase.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c6c4-301b-912f-23e4" name="Lore of the Savage Waagh!" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c6c4-301b-912f-23e4" name="Lore of the Savage Waaagh!" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55d0-fdf3-8b51-37f2" type="max"/>
       </constraints>
@@ -1862,6 +2078,13 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="1309-2b65-a646-b0b9" name="(2) Squiggly Curse" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy model within 12&quot; takes 2 hits with AP(4).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5988-b742-7190-66b3" name="-Lore Attribute: Power of da Waaagh!" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">At the start of the casting model&apos;s activation, for each friendly unit with 10+ models within 12&quot; of the caster and FATIGUED, gain +1 to all casting rolls, up to a maximum of +3 until the end of the battle round.
+
+If any such units within 12&quot; are SHAKEN, subtract 1 from your casting rolls until the end of the battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1904,6 +2127,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 3 friendly units within 12&quot; get Regeneration next time they take wounds.</characteristic>
           </characteristics>
         </profile>
+        <profile id="7ec4-ba24-c71d-4440" name="-Lore Attribute: Wind Spirit&apos;s Guidance" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Each time a spell from the Lore of the Steppes is successfully cast, choose one friendly unit within 12&quot;. That unit may immediately move 3&quot; (this cannot be used to charge.)</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -1944,12 +2172,17 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 friendly units within 12&quot; get AP(+3) next time they charge.</characteristic>
           </characteristics>
         </profile>
+        <profile id="dbf8-91bd-dad3-0dcf" name="-Lore Attribute: Strength of Yang" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Whenever a spell from the Lore of Yang is successfully cast, all friendly units within 6&quot; of the caster gain AP(+1) on melee attacks until the end of the battle round.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <costs>
         <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5296-0c71-1138-2c49" name="Lore of Ying" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5296-0c71-1138-2c49" name="Lore of Yin" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adc9-f0fb-930d-eb79" type="max"/>
       </constraints>
@@ -1961,7 +2194,7 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         </profile>
         <profile id="8edb-c743-d93c-b1c1" name="(1) Storm of Shadows" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
-            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target enemy unit within 18&quot; gets -1 to defense rolls next time it takes hits.</characteristic>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 18&quot; move -1&quot; next time they Move, or -2&quot; next time they Advance/Charge.</characteristic>
           </characteristics>
         </profile>
         <profile id="5738-5945-e038-c044" name="(2) Missile Mirror" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
@@ -1982,6 +2215,11 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
         <profile id="2055-d3c9-52ae-2a23" name="(3) Talons of Night" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
           <characteristics>
             <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Target 2 enemy units within 12&quot; take 6 hits each.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ddf7-4e56-5433-a721" name="-Lore Attribute: Power of Yin" hidden="false" typeId="471f-bd34-b8ef-397d" typeName="Spell">
+          <characteristics>
+            <characteristic name="Spell Effect" typeId="439b-4dab-bcae-d7c0">Whenever a spell from the Lore of Yin is successfully cast, all enemy units within 6&quot; of the caster suffer -1 to defense rolls until the end of the battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2577,6 +2815,9 @@ Note that this limit applies to the basic unit type and isn&apos;t dependent on 
     </rule>
     <rule id="fadf-acce-3231-6984" name="Steadfast" hidden="false">
       <description>Whenever a unit where most models have this rule fails a morale test, it is passed instead. Once used, this ability can&apos;t be used again for the rest of the game.</description>
+    </rule>
+    <rule id="5e70-5d11-656f-047f" name="Savage Countercharge" hidden="false">
+      <description>The first time this unit is charged each round, it gains +1 to hit with melee attacks until the end of the round.</description>
     </rule>
   </sharedRules>
 </gameSystem>

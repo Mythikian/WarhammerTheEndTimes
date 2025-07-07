@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="01a3-c410-1769-c5ab" name="Norsca" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="01a3-c410-1769-c5ab" name="Norsca" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="d54d-a6fd-7e0c-7e4b" name="Bondsmen" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -29,12 +29,12 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="d4a6-25f6-89d0-6590" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="d4a6-25f6-89d0-6590" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="6115-6af6-5a76-2b4b" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5960-b4cd-62c3-75c9">
@@ -61,7 +61,7 @@
                             <infoLink id="05e9-adef-6a35-a4c5" name="Counter" hidden="false" targetId="82d2-e2ba-8def-721c" type="rule"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="3.5"/>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="4.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="5960-b4cd-62c3-75c9" name="Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
@@ -132,12 +132,12 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="baea-cf7a-f1fa-ca39" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="e294-acfc-4914-2651" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                   </infoLinks>
                   <selectionEntryGroups>
                     <selectionEntryGroup id="c0da-0df2-c982-bec6" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="eac9-f106-4f86-3312">
@@ -164,7 +164,7 @@
                             <infoLink id="6bd0-cfbe-d49a-48c9" name="Counter" hidden="false" targetId="82d2-e2ba-8def-721c" type="rule"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="3.5"/>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="4.0"/>
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="eac9-f106-4f86-3312" name="Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
@@ -339,7 +339,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="7c7a-57f7-50e0-6a0f" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -360,7 +360,7 @@
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="c116-c238-9c25-b484" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="c116-c238-9c25-b484" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="937c-c7f3-c878-97b9" name="Scouts" hidden="false" collective="true" import="true" type="upgrade">
@@ -408,7 +408,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="16d2-9bf2-8b10-01cc" name="Hand Weapon" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -429,7 +429,7 @@
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="0721-cf93-7e37-2d15" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="0721-cf93-7e37-2d15" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                   </infoLinks>
                   <selectionEntries>
                     <selectionEntry id="c16e-61cc-d8b7-397f" name="Scouts" hidden="false" collective="true" import="true" type="upgrade">
@@ -495,12 +495,12 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack, Fast, Impact(1)</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="6654-4a08-d2d9-1e0f" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="6654-4a08-d2d9-1e0f" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="9701-9ecb-b6d6-0da8" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="b90e-b793-2c30-3ab1" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                   </infoLinks>
@@ -624,12 +624,12 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack, Fast, Impact(1)</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="337f-5790-1745-2d1b" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="337f-5790-1745-2d1b" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="f1a0-aabd-05e4-b731" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="0130-fc7d-c033-1c12" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                   </infoLinks>
@@ -845,7 +845,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush, Counter-Attack, Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush, Furious, Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="0ca3-8df0-1da6-c27e" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -858,7 +858,7 @@
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="3505-4edb-9959-7728" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="3505-4edb-9959-7728" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="b3e3-93ef-f51f-189e" name="Ambush" hidden="false" targetId="7acc-70b2-480c-f22b" type="rule"/>
                     <infoLink id="8827-45d8-7b7a-6006" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                   </infoLinks>
@@ -911,7 +911,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush, Counter-Attack, Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Ambush, Furious, Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="3cc1-fdc6-fbf7-3985" name="Dual Hand Weapons" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -924,7 +924,7 @@
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="c7ce-8493-819d-74bf" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="c7ce-8493-819d-74bf" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="c25a-addd-b83c-6918" name="Ambush" hidden="false" targetId="7acc-70b2-480c-f22b" type="rule"/>
                     <infoLink id="ba90-3377-afee-d1ef" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                   </infoLinks>
@@ -2015,12 +2015,12 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack, Fearless, Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious, Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="8eb7-4673-dcff-96f7" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="8eb7-4673-dcff-96f7" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="c13d-1e42-4918-f11f" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                     <infoLink id="0969-dbe9-37cb-98f2" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="ecfd-4d51-c5c4-b43a" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
@@ -2144,12 +2144,12 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack, Fearless, Furious</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fearless, Furious, Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="83e0-1998-e86b-0e0b" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="83e0-1998-e86b-0e0b" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="c669-d6b8-2dd1-f962" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                     <infoLink id="a351-5437-6752-8cd3" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                     <infoLink id="14a3-f4e7-2c3a-71fe" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
@@ -2328,12 +2328,12 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack, Fast, Impact(1)</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="a2c9-3942-0f3b-d0ba" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="a2c9-3942-0f3b-d0ba" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="3034-9e60-e2b5-f776" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="abdd-fac9-b589-5ef7" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                     <infoLink id="3189-3deb-6a81-9cdd" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
@@ -2436,12 +2436,12 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(2) 60x35</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack, Fast, Impact(1)</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(1), Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="a9bd-c247-b47f-ce3e" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="a9bd-c247-b47f-ce3e" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="4633-4ce0-42b5-2d03" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
                     <infoLink id="f4b6-7edc-f586-0e2f" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
                     <infoLink id="5931-9474-c9d4-1552" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
@@ -2599,12 +2599,12 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack, Furious, Shield Wall</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Savage Countercharge, Shield Wall</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="fb13-bcf7-4293-bf2e" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="fb13-bcf7-4293-bf2e" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="e5e6-a5ae-8897-d680" name="Shield Wall" hidden="false" targetId="20ae-dbc1-6454-9bb6" type="rule"/>
                     <infoLink id="70e3-1e91-8e8d-e1ff" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                   </infoLinks>
@@ -2656,7 +2656,7 @@
                             <infoLink id="9b73-17d9-a280-c9b0" name="Counter" hidden="false" targetId="82d2-e2ba-8def-721c" type="rule"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="2.0"/>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="3.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -2688,12 +2688,12 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack, Furious, Shield Wall</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Savage Countercharge, Shield Wall</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="ced9-a2e5-d1ff-9850" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="ced9-a2e5-d1ff-9850" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="94d7-b931-24a1-303f" name="Shield Wall" hidden="false" targetId="20ae-dbc1-6454-9bb6" type="rule"/>
                     <infoLink id="d219-f92e-4073-00e3" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
                   </infoLinks>
@@ -2745,7 +2745,7 @@
                             <infoLink id="8879-4a5b-6f7d-964a" name="Counter" hidden="false" targetId="82d2-e2ba-8def-721c" type="rule"/>
                           </infoLinks>
                           <costs>
-                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="2.0"/>
+                            <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="3.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -2920,7 +2920,7 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">6</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack, Fast, Impact(4)</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fast, Impact(4), Savage Countercharge</characteristic>
           </characteristics>
         </profile>
         <profile id="a3b2-9949-047a-ccf2" name="Rending Claws" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -2950,7 +2950,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="2df7-9595-00e4-0cb1" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
-        <infoLink id="73b0-0990-ff21-e4d9" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+        <infoLink id="73b0-0990-ff21-e4d9" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
         <infoLink id="6108-409d-c3ad-ba21" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
         <infoLink id="b4ff-20a1-4ca3-f22b" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
         <infoLink id="943f-b56d-be44-9fd4" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
@@ -4000,10 +4000,10 @@
         <profile id="d05a-166a-7ff9-a2b5" name="Leviathan Longship" hidden="false" typeId="1e3c-1dde-5309-5c21" typeName="Model">
           <characteristics>
             <characteristic name="Quality" typeId="d469-f059-193c-f740">4+</characteristic>
-            <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">2+</characteristic>
+            <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">3+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">12</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(6) 120x92</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(2), Strider</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Fear(2), Strider, Unstable</characteristic>
           </characteristics>
         </profile>
         <profile id="205e-c473-69a3-7b73" name="Javelin Crew" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4025,9 +4025,9 @@
         <profile id="6306-55ca-ca17-8822" name="Leviathan Spirit" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="9ade-0584-de41-eded">Melee</characteristic>
-            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">4</characteristic>
-            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">4</characteristic>
-            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89"/>
+            <characteristic name="Attacks" typeId="e14b-7ebf-f792-78ec">3</characteristic>
+            <characteristic name="AP" typeId="97f3-c8b8-f6b2-2c37">2</characteristic>
+            <characteristic name="Special Rules" typeId="ab94-9fc7-0147-cc89">Reap</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4035,6 +4035,8 @@
         <infoLink id="2090-3877-761c-47ec" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
         <infoLink id="1f55-3afd-da5e-458a" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
         <infoLink id="4f9d-b2f4-0145-e73c" name="Strider" hidden="false" targetId="b15a-8956-6872-9bb6" type="rule"/>
+        <infoLink id="622b-bd48-fdac-747a" name="Unstable" hidden="false" targetId="d4d1-bb98-8943-c841" type="rule"/>
+        <infoLink id="52bb-c15e-d025-d5fb" name="Reap" hidden="false" targetId="b17b-cac9-77af-d150" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3471-950f-3d0d-a40c" name="New CategoryLink" hidden="false" targetId="bc30-bf2c-3913-687d" primary="true"/>
@@ -4077,7 +4079,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="315.0"/>
+        <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="285.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8b74-6043-057b-0c68" name="Snow Trolls" hidden="false" collective="false" import="true" type="unit">
@@ -4324,7 +4326,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(3) 75x46</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Chosen Warrior, Counter-Attack, Fast, Fearless, Impact(2)</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Chosen Warrior, Fast, Fearless, Impact(2), Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="b55c-486c-d54f-2aa6" name="Heavy Hooves" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4338,7 +4340,7 @@
                   </profiles>
                   <infoLinks>
                     <infoLink id="2bb3-ac1a-01fd-784f" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
-                    <infoLink id="03b5-6cff-d8a3-c663" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="03b5-6cff-d8a3-c663" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="6cee-e983-27fd-3a67" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="6c47-d274-56af-4fb3" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                     <infoLink id="bc07-3f26-46e3-e9da" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
@@ -4419,7 +4421,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(3) 75x46</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Chosen Warrior, Counter-Attack, Fast, Fearless, Impact(2)</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Chosen Warrior, Fast, Fearless, Impact(2), Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="7bf6-6e04-11a2-fe57" name="Heavy Hooves" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4433,7 +4435,7 @@
                   </profiles>
                   <infoLinks>
                     <infoLink id="db73-3e79-98f1-816c" name="Fast" hidden="false" targetId="fa7d-9a06-7c92-cbab" type="rule"/>
-                    <infoLink id="dd71-eabf-e9c4-8a40" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="dd71-eabf-e9c4-8a40" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="77a5-e8b7-a586-b3ba" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
                     <infoLink id="9fa1-79ad-1477-788a" name="Fearless" hidden="false" targetId="72b8-6dcc-cb9e-495c" type="rule"/>
                     <infoLink id="968c-dc71-84b7-225c" name="Impact(X)" hidden="false" targetId="d94d-efcf-8524-6fd1" type="rule"/>
@@ -4606,7 +4608,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 32x32</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter Attack, Flying, Master Rejuvenator, Resistance</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Flying, Master Rejuvenator, Resistance, Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="51f5-6aa8-059b-4aaa" name="Heavy Halberd" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4621,7 +4623,7 @@
                   <infoLinks>
                     <infoLink id="af6e-8b0d-1cba-e602" name="Resistance" hidden="false" targetId="7393-5a31-eec7-dbac" type="rule"/>
                     <infoLink id="a521-b588-217a-b65a" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                    <infoLink id="556d-a63a-54bd-587b" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="556d-a63a-54bd-587b" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="76e0-00b1-bf52-4c7f" name="Master Rejuvenator" hidden="false" targetId="da4b-bdaf-3fc1-c895" type="rule"/>
                     <infoLink id="5d98-8979-eaf2-8477" name="Flying" hidden="false" targetId="c9d0-942c-1f23-c6ea" type="rule"/>
                     <infoLink id="eaba-3152-37a4-88f2" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
@@ -4652,7 +4654,7 @@
                         <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
                         <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">1</characteristic>
                         <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 32x32</characteristic>
-                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter Attack, Flying, Master Rejuvenator, Resistance</characteristic>
+                        <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Flying, Master Rejuvenator, Resistance, Savage Countercharge</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="9037-469f-1bca-0cdf" name="Heavy Halberd" hidden="false" typeId="02ef-4c11-6509-2e4e" typeName="Weapon">
@@ -4667,7 +4669,7 @@
                   <infoLinks>
                     <infoLink id="0431-1d5f-e04c-9801" name="Resistance" hidden="false" targetId="7393-5a31-eec7-dbac" type="rule"/>
                     <infoLink id="996d-197d-1d94-75cc" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
-                    <infoLink id="2e1a-3ad5-acdf-c7ba" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+                    <infoLink id="2e1a-3ad5-acdf-c7ba" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
                     <infoLink id="dcd4-e6fc-7541-0d6e" name="Master Rejuvenator" hidden="false" targetId="da4b-bdaf-3fc1-c895" type="rule"/>
                     <infoLink id="85d3-0606-0b56-1e7d" name="Flying" hidden="false" targetId="c9d0-942c-1f23-c6ea" type="rule"/>
                     <infoLink id="d61f-ae1a-5a0e-ff73" name="Rending" hidden="false" targetId="d8e2-5a3c-3274-efbb" type="rule"/>
@@ -5057,12 +5059,12 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">5+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack, Furious, Hero</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Furious, Hero, Savage Countercharge</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3065-0f5b-9f56-c79d" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+        <infoLink id="3065-0f5b-9f56-c79d" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
         <infoLink id="ebc7-cf3d-c179-f784" name="Furious" hidden="false" targetId="0796-2bba-b452-98a1" type="rule"/>
         <infoLink id="3141-afec-6624-9c12" name="Hero" hidden="false" targetId="7f75-81ad-7d84-379b" type="rule"/>
       </infoLinks>
@@ -5612,12 +5614,12 @@
             <characteristic name="Defense" typeId="9bea-55a6-d79f-2fd3">4+</characteristic>
             <characteristic name="Wounds" typeId="f9af-2717-3245-68ad">3</characteristic>
             <characteristic name="Size" typeId="30eb-08db-7033-1f87">(1) 25x25</characteristic>
-            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Counter-Attack, Hero</characteristic>
+            <characteristic name="Special Rules" typeId="1db6-6ac4-68a7-164a">Hero, Savage Countercharge</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1708-8b69-90f7-1a8e" name="Counter-Attack" hidden="false" targetId="109e-4611-cf82-5864" type="rule"/>
+        <infoLink id="1708-8b69-90f7-1a8e" name="Savage Countercharge" hidden="false" targetId="5e70-5d11-656f-047f" type="rule"/>
         <infoLink id="58e9-7cbc-9f9e-3dee" name="Hero" hidden="false" targetId="7f75-81ad-7d84-379b" type="rule"/>
         <infoLink id="cbc4-e8d0-dfa3-3954" name="AP(X)" hidden="false" targetId="f16a-14b6-71fa-3b8f" type="rule"/>
       </infoLinks>
@@ -6354,11 +6356,11 @@ Omen of Blood: Friendly units gain Furious or if they already have Furious, they
               </constraints>
               <rules>
                 <rule id="e7d6-3042-7806-281a" name="ARMY RULE - Blood and Snow" hidden="false">
-                  <description>Once per game, at the start of your turn, you may invoke the fury of the north:
+                  <description>Once per game, at the start of the battle round, you may invoke the fury of the north:
 
-Until the end of your turn, all friendly units gain +1 to Hit in melee
+Until the end of the battle round, all friendly units gain +1 to Hit in melee
 
-If a unit charges this turn, it also gains AP(+1).</description>
+If a unit charges during this time, it also gains AP(+1).</description>
                 </rule>
               </rules>
               <costs>
@@ -6373,16 +6375,16 @@ If a unit charges this turn, it also gains AP(+1).</description>
                 <rule id="1849-636a-e9d6-4ca4" name="ARMY RULE - Might of the War Clans" hidden="false">
                   <description>If a friendly unit destroys an enemy unit in melee, it becomes Inspired until the end of your next turn.
 
-While Inspired:
+While Inspired, a unit gains Norscan Fury and Putrid.
 
-Gains Fear and Putrid.
-
-If the unit is a CHARACTER or model with 6 wounds or more, it also gains +1 Attack</description>
+If the unit includes a CHARACTER or is model with 6 wounds or more, it also gains +1 Attack</description>
+                </rule>
+                <rule id="c1af-1444-5cde-2e52" name="Norscan Fury" hidden="false">
+                  <description>This unit counts as having dealt +1 wounds when checking who won melee.</description>
                 </rule>
               </rules>
               <infoLinks>
                 <infoLink id="2c5e-550b-0b6b-ed8d" name="Putrid" hidden="false" targetId="4146-e32f-ca7d-ec38" type="rule"/>
-                <infoLink id="8591-866c-f887-a870" name="Fear(X)" hidden="false" targetId="519d-b043-711c-6819" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="d7c2-ad10-6a45-e745" value="0.0"/>
@@ -6436,8 +6438,8 @@ If the unit is a CHARACTER or model with 6 wounds or more, it also gains +1 Atta
                     </profile>
                   </profiles>
                   <rules>
-                    <rule id="9e00-ef57-0d47-c9b0" name="Iron Vengeance" hidden="false">
-                      <description>When this model dies, roll one die. On a 6+ the target takes 1 hit with AP(1).</description>
+                    <rule id="c711-1cb0-6031-4453" name="Iron Vengeance" hidden="false">
+                      <description>When this model dies in melee, roll one die. On a 6+ the unit that inflcited the wound takes 1 hit with AP(1).</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -6485,7 +6487,7 @@ If the unit is a CHARACTER or model with 6 wounds or more, it also gains +1 Atta
                   </profiles>
                   <rules>
                     <rule id="8a2d-9e93-f8e1-062e" name="Iron Vengeance" hidden="false">
-                      <description>When this model dies, roll one die. On a 6+ the target takes 1 hit with AP(1).</description>
+                      <description>When this model dies in melee, roll one die. On a 6+ the unit that inflcited the wound takes 1 hit with AP(1).</description>
                     </rule>
                   </rules>
                   <infoLinks>

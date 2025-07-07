@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a60e-da3e-572e-b17d" name="Dwarfs - Mountain Holds" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a60e-da3e-572e-b17d" name="Dwarfs - Mountain Holds" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8194-9679-c2ae-a021" name="Grudgebreaker" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -6170,15 +6170,11 @@
                 <rule id="1cf1-b7fc-94c3-9e28" name="ARMY RULE - Grudgebound Fury" hidden="false">
                   <description>At the start of the battle, after deployment, select two enemy units — these are your Grudge Targets.
 
-While attacking a Grudge Target, friendly units gain:
-
-+1 to Hit
+While attacking a Grudge Target, friendly units gain +1 to Hit.
 
 If the attacking model is a CHARACTER, or is a model with 3 Wounds or more, they also gain AP(+1)
 
-Once a Grudge Target is destroyed:
-
-All friendly units gain +1” Movement  until the end of the round.</description>
+Once a Grudge Target is destroyed, all friendly units gain +1” Movement  until the end of the battle round.</description>
                 </rule>
               </rules>
               <costs>
@@ -6191,7 +6187,7 @@ All friendly units gain +1” Movement  until the end of the round.</description
               </constraints>
               <rules>
                 <rule id="da86-5986-1196-ad8c" name="ARMY RULE - Rune-Forged Might" hidden="false">
-                  <description>At the start of each of your turns, you may activate a Rune. Each Rune can only be used once per battle, and only one Rune may be active at a time:
+                  <description>At the start of each battle round, you may activate a Rune. Each Rune can only be used once per battle, and only one Rune may be active at a time:
 
 - Rune of Iron: Friendly units gain +1 to Defense rolls this turn
 

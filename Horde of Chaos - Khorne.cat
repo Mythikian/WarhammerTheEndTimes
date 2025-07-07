@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2915-6e83-69af-2e0b" name="Horde of Chaos - Khorne" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2915-6e83-69af-2e0b" name="Horde of Chaos - Khorne" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="171e-7ef2-7e89-abdf" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="dd14-6778-cb20-9fe4" name="Wrathmongers" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -4431,7 +4431,7 @@
       </profiles>
       <rules>
         <rule id="26aa-c952-3204-3047" name="Blood Call" hidden="false">
-          <description>Once per this model&apos;s activation, before attacking, if within 2&quot; of a model with 3 or more starting wounds, roll one die. On a 2+ you may remove D3 wounds from that model.</description>
+          <description>Once per this model&apos;s activation, before attacking, if within 2&quot; of a model with 3 or more starting wounds, roll one die. On a 2+ you may restore D3 wounds from that model.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5136,7 +5136,7 @@
               </profiles>
               <rules>
                 <rule id="d69e-386f-66e5-9e92" name="Blood Call" hidden="false">
-                  <description>Once per this model&apos;s activation, before attacking, if within 2&quot; of a model with 3 or more starting wounds, roll one die. On a 2+ you may remove D3 wounds from that model.</description>
+                  <description>Once per this model&apos;s activation, before attacking, if within 2&quot; of a model with 3 or more starting wounds, roll one die. On a 2+ you may restore D3 wounds from that model.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -7832,7 +7832,7 @@
               </constraints>
               <rules>
                 <rule id="f624-a308-22bc-bc13" name="ARMY RULE - Blood For The Blood God" hidden="false">
-                  <description>Each time a friendly unit destroys an enemy unit in melee, gain 1 Blood Point (BP) — maximum 3 per round.
+                  <description>Each time a friendly unit destroys an enemy unit in melee, gain 1 Blood Point (BP).
 At the start of your activation, you may spend any number of Blood Points:
 
 1 BP — Pick a friendly unit: That unit gets +1 to their Furious rule trigger. (i.e. A unit with Furious triggers on a 5-6 instead of a 6.)
@@ -7841,7 +7841,7 @@ At the start of your activation, you may spend any number of Blood Points:
 
 3 BP — Move a friendly unit up to 6” immediately.
 
-Note: You lose unspent Blood Points at end of round.</description>
+You can carry a maximum of 3 Blood Points turn over turn.</description>
                 </rule>
               </rules>
               <costs>
@@ -7854,13 +7854,9 @@ Note: You lose unspent Blood Points at end of round.</description>
               </constraints>
               <rules>
                 <rule id="069b-cb11-7496-4713" name="ARMY RULE - Skulls for the Skull Throne" hidden="false">
-                  <description>At the start of each round, roll a D6 for every enemy CHARACTER or Model with 6 Wounds or more:
+                  <description>All friendly CHARACTERS have AP(+1).
 
-On a 5+, that unit suffers 1 wound.
-
-In addition, if an enemy CHARACTER or Model with 6 Wounds or more is slain in melee by a friendly unit:
-
-That friendly unit gains Fear(+1) for the rest of the game.</description>
+Whenever a friendly CHARACTER attacks a unit that has an enemy CHARACTER in it, the friendly CHARACTER gains +1 to hit.</description>
                 </rule>
               </rules>
               <costs>
